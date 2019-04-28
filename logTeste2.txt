@@ -1,0 +1,2121 @@
+
+\n##############################################
+#### Tamanho Datagrama: 128B Largura de banda: 11B #### 11B
+**************************************
+Teste 1 -> Tamanho Datagrama: 128B Largura de banda: 11B
+Comando: ./iperf3.exe -b -l -c 192.168.0.19 -t 30s >>logTeste2.txt
+Connecting to host 192.168.0.19, port 5201
+[  4] local 192.168.0.13 port 49910 connected to 192.168.0.19 port 5201
+[ ID] Interval           Transfer     Bandwidth
+[  4]   0.00-1.00   sec  2.38 KBytes  19.4 Kbits/sec                  
+[  4]   1.00-2.00   sec  2.00 KBytes  16.4 Kbits/sec                  
+[  4]   2.00-3.00   sec  2.00 KBytes  16.4 Kbits/sec                  
+[  4]   3.00-4.00   sec  1.50 KBytes  12.3 Kbits/sec                  
+[  4]   4.00-5.00   sec  1.75 KBytes  14.4 Kbits/sec                  
+[  4]   5.00-6.00   sec  1.88 KBytes  15.4 Kbits/sec                  
+[  4]   6.00-7.00   sec  1.75 KBytes  14.3 Kbits/sec                  
+[  4]   7.00-8.00   sec  1.75 KBytes  14.3 Kbits/sec                  
+[  4]   8.00-9.00   sec  2.00 KBytes  16.4 Kbits/sec                  
+[  4]   9.00-10.00  sec  2.00 KBytes  16.4 Kbits/sec                  
+[  4]  10.00-11.00  sec  2.00 KBytes  16.4 Kbits/sec                  
+[  4]  11.00-12.00  sec  1.75 KBytes  14.3 Kbits/sec                  
+[  4]  12.00-13.00  sec  1.88 KBytes  15.3 Kbits/sec                  
+[  4]  13.00-14.00  sec  1.88 KBytes  15.4 Kbits/sec                  
+[  4]  14.00-15.00  sec  2.00 KBytes  16.4 Kbits/sec                  
+[  4]  15.00-16.00  sec  1.75 KBytes  14.3 Kbits/sec                  
+[  4]  16.00-17.00  sec  1.88 KBytes  15.4 Kbits/sec                  
+[  4]  17.00-18.00  sec  1.88 KBytes  15.4 Kbits/sec                  
+[  4]  18.00-19.00  sec  1.88 KBytes  15.4 Kbits/sec                  
+[  4]  19.00-20.00  sec  1.88 KBytes  15.4 Kbits/sec                  
+[  4]  20.00-21.00  sec  1.75 KBytes  14.3 Kbits/sec                  
+[  4]  21.00-22.00  sec  1.62 KBytes  13.3 Kbits/sec                  
+[  4]  22.00-23.00  sec  2.25 KBytes  18.4 Kbits/sec                  
+[  4]  23.00-24.00  sec  1.75 KBytes  14.3 Kbits/sec                  
+[  4]  24.00-25.00  sec  2.00 KBytes  16.4 Kbits/sec                  
+[  4]  25.00-26.00  sec  1.88 KBytes  15.4 Kbits/sec                  
+[  4]  26.00-27.00  sec  2.12 KBytes  17.4 Kbits/sec                  
+[  4]  27.00-28.00  sec  2.12 KBytes  17.4 Kbits/sec                  
+[  4]  28.00-29.00  sec  1.75 KBytes  14.3 Kbits/sec                  
+[  4]  29.00-30.00  sec  2.00 KBytes  16.4 Kbits/sec                  
+- - - - - - - - - - - - - - - - - - - - - - - - -
+[ ID] Interval           Transfer     Bandwidth
+[  4]   0.00-30.00  sec  57.0 KBytes  15.6 Kbits/sec                  sender
+[  4]   0.00-30.00  sec  56.9 KBytes  15.5 Kbits/sec                  receiver
+
+iperf Done.
+**************************************
+Teste 2 -> Tamanho Datagrama: 128B Largura de banda: 11B
+Comando: ./iperf3.exe -b -l -c 192.168.0.19 -t 30s >>logTeste2.txt
+Connecting to host 192.168.0.19, port 5201
+[  4] local 192.168.0.13 port 49948 connected to 192.168.0.19 port 5201
+[ ID] Interval           Transfer     Bandwidth
+[  4]   0.00-1.00   sec  1.88 KBytes  15.3 Kbits/sec                  
+[  4]   1.00-2.00   sec  2.12 KBytes  17.4 Kbits/sec                  
+[  4]   2.00-3.00   sec  1.88 KBytes  15.4 Kbits/sec                  
+[  4]   3.00-4.00   sec  1.75 KBytes  14.3 Kbits/sec                  
+[  4]   4.00-5.00   sec  1.62 KBytes  13.3 Kbits/sec                  
+[  4]   5.00-6.00   sec  1.88 KBytes  15.3 Kbits/sec                  
+[  4]   6.00-7.00   sec  2.12 KBytes  17.4 Kbits/sec                  
+[  4]   7.00-8.00   sec  2.25 KBytes  18.4 Kbits/sec                  
+[  4]   8.00-9.00   sec  2.00 KBytes  16.4 Kbits/sec                  
+[  4]   9.00-10.00  sec  2.00 KBytes  16.4 Kbits/sec                  
+[  4]  10.00-11.00  sec  1.75 KBytes  14.3 Kbits/sec                  
+[  4]  11.00-12.00  sec  1.88 KBytes  15.4 Kbits/sec                  
+[  4]  12.00-13.00  sec  1.75 KBytes  14.3 Kbits/sec                  
+[  4]  13.00-14.00  sec  1.75 KBytes  14.3 Kbits/sec                  
+[  4]  14.00-15.00  sec  2.00 KBytes  16.4 Kbits/sec                  
+[  4]  15.00-16.00  sec  1.88 KBytes  15.4 Kbits/sec                  
+[  4]  16.00-17.00  sec  1.88 KBytes  15.4 Kbits/sec                  
+[  4]  17.00-18.00  sec  1.75 KBytes  14.3 Kbits/sec                  
+[  4]  18.00-19.00  sec  1.75 KBytes  14.3 Kbits/sec                  
+[  4]  19.00-20.00  sec  1.75 KBytes  14.3 Kbits/sec                  
+[  4]  20.00-21.00  sec  1.75 KBytes  14.3 Kbits/sec                  
+[  4]  21.00-22.00  sec  1.62 KBytes  13.3 Kbits/sec                  
+[  4]  22.00-23.00  sec  1.88 KBytes  15.3 Kbits/sec                  
+[  4]  23.00-24.00  sec  2.00 KBytes  16.4 Kbits/sec                  
+[  4]  24.00-25.00  sec  1.75 KBytes  14.3 Kbits/sec                  
+[  4]  25.00-26.00  sec  2.25 KBytes  18.4 Kbits/sec                  
+[  4]  26.00-27.00  sec  1.75 KBytes  14.3 Kbits/sec                  
+[  4]  27.00-28.00  sec  1.75 KBytes  14.3 Kbits/sec                  
+[  4]  28.00-29.00  sec  1.75 KBytes  14.3 Kbits/sec                  
+[  4]  29.00-30.00  sec  1.75 KBytes  14.3 Kbits/sec                  
+- - - - - - - - - - - - - - - - - - - - - - - - -
+[ ID] Interval           Transfer     Bandwidth
+[  4]   0.00-30.00  sec  55.9 KBytes  15.3 Kbits/sec                  sender
+[  4]   0.00-30.00  sec  55.9 KBytes  15.3 Kbits/sec                  receiver
+
+iperf Done.
+**************************************
+Teste 3 -> Tamanho Datagrama: 128B Largura de banda: 11B
+Comando: ./iperf3.exe -b -l -c 192.168.0.19 -t 30s >>logTeste2.txt
+Connecting to host 192.168.0.19, port 5201
+[  4] local 192.168.0.13 port 49984 connected to 192.168.0.19 port 5201
+[ ID] Interval           Transfer     Bandwidth
+[  4]   0.00-1.00   sec  2.25 KBytes  18.4 Kbits/sec                  
+[  4]   1.00-2.00   sec  1.75 KBytes  14.3 Kbits/sec                  
+[  4]   2.00-3.00   sec  1.88 KBytes  15.4 Kbits/sec                  
+[  4]   3.00-4.00   sec  2.00 KBytes  16.4 Kbits/sec                  
+[  4]   4.00-5.00   sec  1.62 KBytes  13.3 Kbits/sec                  
+[  4]   5.00-6.00   sec  2.12 KBytes  17.4 Kbits/sec                  
+[  4]   6.00-7.00   sec  1.62 KBytes  13.3 Kbits/sec                  
+[  4]   7.00-8.00   sec  2.25 KBytes  18.4 Kbits/sec                  
+[  4]   8.00-9.00   sec  2.00 KBytes  16.4 Kbits/sec                  
+[  4]   9.00-10.00  sec  1.75 KBytes  14.4 Kbits/sec                  
+[  4]  10.00-11.00  sec  1.75 KBytes  14.3 Kbits/sec                  
+[  4]  11.00-12.00  sec  2.00 KBytes  16.4 Kbits/sec                  
+[  4]  12.00-13.00  sec  1.88 KBytes  15.4 Kbits/sec                  
+[  4]  13.00-14.00  sec  2.12 KBytes  17.4 Kbits/sec                  
+[  4]  14.00-15.00  sec  1.75 KBytes  14.3 Kbits/sec                  
+[  4]  15.00-16.00  sec  1.75 KBytes  14.3 Kbits/sec                  
+[  4]  16.00-17.00  sec  2.12 KBytes  17.4 Kbits/sec                  
+[  4]  17.00-18.00  sec  1.75 KBytes  14.3 Kbits/sec                  
+[  4]  18.00-19.00  sec  2.00 KBytes  16.4 Kbits/sec                  
+[  4]  19.00-20.00  sec  1.88 KBytes  15.4 Kbits/sec                  
+[  4]  20.00-21.00  sec  2.25 KBytes  18.4 Kbits/sec                  
+[  4]  21.00-22.00  sec  1.88 KBytes  15.4 Kbits/sec                  
+[  4]  22.00-23.00  sec  1.75 KBytes  14.3 Kbits/sec                  
+[  4]  23.00-24.00  sec  1.88 KBytes  15.3 Kbits/sec                  
+[  4]  24.00-25.00  sec  1.88 KBytes  15.4 Kbits/sec                  
+[  4]  25.00-26.00  sec  1.88 KBytes  15.3 Kbits/sec                  
+[  4]  26.00-27.00  sec  2.00 KBytes  16.4 Kbits/sec                  
+[  4]  27.00-28.00  sec  1.62 KBytes  13.3 Kbits/sec                  
+[  4]  28.00-29.00  sec  1.88 KBytes  15.4 Kbits/sec                  
+[  4]  29.00-30.00  sec  1.88 KBytes  15.4 Kbits/sec                  
+- - - - - - - - - - - - - - - - - - - - - - - - -
+[ ID] Interval           Transfer     Bandwidth
+[  4]   0.00-30.00  sec  57.1 KBytes  15.6 Kbits/sec                  sender
+[  4]   0.00-30.00  sec  57.0 KBytes  15.6 Kbits/sec                  receiver
+
+iperf Done.
+**************************************
+Teste 4 -> Tamanho Datagrama: 128B Largura de banda: 11B
+Comando: ./iperf3.exe -b -l -c 192.168.0.19 -t 30s >>logTeste2.txt
+Connecting to host 192.168.0.19, port 5201
+[  4] local 192.168.0.13 port 50020 connected to 192.168.0.19 port 5201
+[ ID] Interval           Transfer     Bandwidth
+[  4]   0.00-1.00   sec  1.88 KBytes  15.3 Kbits/sec                  
+[  4]   1.00-2.00   sec  2.00 KBytes  16.4 Kbits/sec                  
+[  4]   2.00-3.00   sec  1.88 KBytes  15.4 Kbits/sec                  
+[  4]   3.00-4.00   sec  2.25 KBytes  18.4 Kbits/sec                  
+[  4]   4.00-5.00   sec  1.88 KBytes  15.4 Kbits/sec                  
+[  4]   5.00-6.00   sec  2.12 KBytes  17.4 Kbits/sec                  
+[  4]   6.00-7.00   sec  1.88 KBytes  15.3 Kbits/sec                  
+[  4]   7.00-8.00   sec  1.88 KBytes  15.4 Kbits/sec                  
+[  4]   8.00-9.00   sec  1.75 KBytes  14.3 Kbits/sec                  
+[  4]   9.00-10.00  sec  1.88 KBytes  15.4 Kbits/sec                  
+[  4]  10.00-11.02  sec  1.75 KBytes  14.0 Kbits/sec                  
+[  4]  11.02-12.00  sec  2.00 KBytes  16.8 Kbits/sec                  
+[  4]  12.00-13.00  sec  2.00 KBytes  16.4 Kbits/sec                  
+[  4]  13.00-14.00  sec  1.75 KBytes  14.3 Kbits/sec                  
+[  4]  14.00-15.00  sec  1.88 KBytes  15.4 Kbits/sec                  
+[  4]  15.00-16.00  sec  1.88 KBytes  15.4 Kbits/sec                  
+[  4]  16.00-17.00  sec  1.88 KBytes  15.4 Kbits/sec                  
+[  4]  17.00-18.00  sec  1.75 KBytes  14.3 Kbits/sec                  
+[  4]  18.00-19.00  sec  2.00 KBytes  16.4 Kbits/sec                  
+[  4]  19.00-20.02  sec  1.50 KBytes  12.1 Kbits/sec                  
+[  4]  20.02-21.00  sec  2.00 KBytes  16.7 Kbits/sec                  
+[  4]  21.00-22.00  sec  1.62 KBytes  13.3 Kbits/sec                  
+[  4]  22.00-23.00  sec  1.88 KBytes  15.4 Kbits/sec                  
+[  4]  23.00-24.00  sec  1.75 KBytes  14.3 Kbits/sec                  
+[  4]  24.00-25.00  sec  1.88 KBytes  15.4 Kbits/sec                  
+[  4]  25.00-26.00  sec  1.75 KBytes  14.3 Kbits/sec                  
+[  4]  26.00-27.00  sec  1.88 KBytes  15.4 Kbits/sec                  
+[  4]  27.00-28.00  sec  2.25 KBytes  18.4 Kbits/sec                  
+[  4]  28.00-29.00  sec  1.75 KBytes  14.3 Kbits/sec                  
+[  4]  29.00-30.00  sec  2.00 KBytes  16.4 Kbits/sec                  
+- - - - - - - - - - - - - - - - - - - - - - - - -
+[ ID] Interval           Transfer     Bandwidth
+[  4]   0.00-30.00  sec  56.5 KBytes  15.4 Kbits/sec                  sender
+[  4]   0.00-30.00  sec  56.2 KBytes  15.4 Kbits/sec                  receiver
+
+iperf Done.
+**************************************
+Teste 5 -> Tamanho Datagrama: 128B Largura de banda: 11B
+Comando: ./iperf3.exe -b -l -c 192.168.0.19 -t 30s >>logTeste2.txt
+Connecting to host 192.168.0.19, port 5201
+[  4] local 192.168.0.13 port 50048 connected to 192.168.0.19 port 5201
+[ ID] Interval           Transfer     Bandwidth
+[  4]   0.00-1.00   sec  2.12 KBytes  17.4 Kbits/sec                  
+[  4]   1.00-2.01   sec  1.75 KBytes  14.2 Kbits/sec                  
+[  4]   2.01-3.00   sec  1.75 KBytes  14.5 Kbits/sec                  
+[  4]   3.00-4.00   sec  1.88 KBytes  15.4 Kbits/sec                  
+[  4]   4.00-5.00   sec  2.00 KBytes  16.4 Kbits/sec                  
+[  4]   5.00-6.00   sec  2.12 KBytes  17.4 Kbits/sec                  
+[  4]   6.00-7.00   sec  2.12 KBytes  17.4 Kbits/sec                  
+[  4]   7.00-8.00   sec  1.50 KBytes  12.3 Kbits/sec                  
+[  4]   8.00-9.00   sec  1.62 KBytes  13.3 Kbits/sec                  
+[  4]   9.00-10.00  sec  1.75 KBytes  14.3 Kbits/sec                  
+[  4]  10.00-11.00  sec  2.12 KBytes  17.4 Kbits/sec                  
+[  4]  11.00-12.00  sec  1.75 KBytes  14.4 Kbits/sec                  
+[  4]  12.00-13.00  sec  1.88 KBytes  15.4 Kbits/sec                  
+[  4]  13.00-14.00  sec  1.88 KBytes  15.4 Kbits/sec                  
+[  4]  14.00-15.00  sec  1.88 KBytes  15.4 Kbits/sec                  
+[  4]  15.00-16.00  sec  1.75 KBytes  14.3 Kbits/sec                  
+[  4]  16.00-17.00  sec  2.00 KBytes  16.4 Kbits/sec                  
+[  4]  17.00-18.00  sec  1.88 KBytes  15.3 Kbits/sec                  
+[  4]  18.00-19.00  sec  1.88 KBytes  15.4 Kbits/sec                  
+[  4]  19.00-20.00  sec  1.75 KBytes  14.3 Kbits/sec                  
+[  4]  20.00-21.00  sec  1.75 KBytes  14.3 Kbits/sec                  
+[  4]  21.00-22.00  sec  1.88 KBytes  15.4 Kbits/sec                  
+[  4]  22.00-23.00  sec  1.50 KBytes  12.3 Kbits/sec                  
+[  4]  23.00-24.00  sec  1.88 KBytes  15.3 Kbits/sec                  
+[  4]  24.00-25.00  sec  1.62 KBytes  13.3 Kbits/sec                  
+[  4]  25.00-26.00  sec  2.00 KBytes  16.4 Kbits/sec                  
+[  4]  26.00-27.00  sec  2.12 KBytes  17.4 Kbits/sec                  
+[  4]  27.00-28.00  sec  2.00 KBytes  16.4 Kbits/sec                  
+[  4]  28.00-29.00  sec  1.50 KBytes  12.3 Kbits/sec                  
+[  4]  29.00-30.00  sec  1.88 KBytes  15.4 Kbits/sec                  
+- - - - - - - - - - - - - - - - - - - - - - - - -
+[ ID] Interval           Transfer     Bandwidth
+[  4]   0.00-30.00  sec  55.5 KBytes  15.2 Kbits/sec                  sender
+[  4]   0.00-30.00  sec  55.4 KBytes  15.1 Kbits/sec                  receiver
+
+iperf Done.
+\n##############################################
+#### Tamanho Datagrama: 256B Largura de banda: 11B #### 11B
+**************************************
+Teste 1 -> Tamanho Datagrama: 256B Largura de banda: 11B
+Comando: ./iperf3.exe -b -l -c 192.168.0.19 -t 30s >>logTeste2.txt
+Connecting to host 192.168.0.19, port 5201
+[  4] local 192.168.0.13 port 50083 connected to 192.168.0.19 port 5201
+[ ID] Interval           Transfer     Bandwidth
+[  4]   0.00-1.00   sec  3.75 KBytes  30.7 Kbits/sec                  
+[  4]   1.00-2.00   sec  4.25 KBytes  34.8 Kbits/sec                  
+[  4]   2.00-3.00   sec  3.50 KBytes  28.7 Kbits/sec                  
+[  4]   3.00-4.00   sec  3.75 KBytes  30.7 Kbits/sec                  
+[  4]   4.00-5.00   sec  4.25 KBytes  34.8 Kbits/sec                  
+[  4]   5.00-6.00   sec  3.75 KBytes  30.8 Kbits/sec                  
+[  4]   6.00-7.00   sec  4.00 KBytes  32.8 Kbits/sec                  
+[  4]   7.00-8.00   sec  4.25 KBytes  34.8 Kbits/sec                  
+[  4]   8.00-9.00   sec  4.25 KBytes  34.8 Kbits/sec                  
+[  4]   9.00-10.00  sec  4.25 KBytes  34.8 Kbits/sec                  
+[  4]  10.00-11.00  sec  3.75 KBytes  30.8 Kbits/sec                  
+[  4]  11.00-12.00  sec  3.75 KBytes  30.7 Kbits/sec                  
+[  4]  12.00-13.00  sec  4.00 KBytes  32.7 Kbits/sec                  
+[  4]  13.00-14.00  sec  4.50 KBytes  36.9 Kbits/sec                  
+[  4]  14.00-15.00  sec  3.50 KBytes  28.7 Kbits/sec                  
+[  4]  15.00-16.00  sec  3.50 KBytes  28.7 Kbits/sec                  
+[  4]  16.00-17.00  sec  3.25 KBytes  26.7 Kbits/sec                  
+[  4]  17.00-18.00  sec  3.25 KBytes  26.6 Kbits/sec                  
+[  4]  18.00-19.00  sec  3.50 KBytes  28.7 Kbits/sec                  
+[  4]  19.00-20.00  sec  4.50 KBytes  36.9 Kbits/sec                  
+[  4]  20.00-21.00  sec  2.75 KBytes  22.5 Kbits/sec                  
+[  4]  21.00-22.00  sec  4.25 KBytes  34.8 Kbits/sec                  
+[  4]  22.00-23.00  sec  3.50 KBytes  28.7 Kbits/sec                  
+[  4]  23.00-24.00  sec  3.75 KBytes  30.7 Kbits/sec                  
+[  4]  24.00-25.00  sec  4.25 KBytes  34.8 Kbits/sec                  
+[  4]  25.00-26.00  sec  4.00 KBytes  32.8 Kbits/sec                  
+[  4]  26.00-27.00  sec  4.25 KBytes  34.7 Kbits/sec                  
+[  4]  27.00-28.00  sec  4.50 KBytes  36.9 Kbits/sec                  
+[  4]  28.00-29.00  sec  4.00 KBytes  32.8 Kbits/sec                  
+[  4]  29.00-30.00  sec  3.50 KBytes  28.7 Kbits/sec                  
+- - - - - - - - - - - - - - - - - - - - - - - - -
+[ ID] Interval           Transfer     Bandwidth
+[  4]   0.00-30.00  sec   116 KBytes  31.7 Kbits/sec                  sender
+[  4]   0.00-30.00  sec   116 KBytes  31.6 Kbits/sec                  receiver
+
+iperf Done.
+**************************************
+Teste 2 -> Tamanho Datagrama: 256B Largura de banda: 11B
+Comando: ./iperf3.exe -b -l -c 192.168.0.19 -t 30s >>logTeste2.txt
+Connecting to host 192.168.0.19, port 5201
+[  4] local 192.168.0.13 port 50130 connected to 192.168.0.19 port 5201
+[ ID] Interval           Transfer     Bandwidth
+[  4]   0.00-1.00   sec  4.50 KBytes  36.8 Kbits/sec                  
+[  4]   1.00-2.00   sec  3.50 KBytes  28.7 Kbits/sec                  
+[  4]   2.00-3.00   sec  3.25 KBytes  26.6 Kbits/sec                  
+[  4]   3.00-4.00   sec  3.50 KBytes  28.7 Kbits/sec                  
+[  4]   4.00-5.00   sec  3.25 KBytes  26.6 Kbits/sec                  
+[  4]   5.00-6.00   sec  4.00 KBytes  32.8 Kbits/sec                  
+[  4]   6.00-7.01   sec  4.25 KBytes  34.5 Kbits/sec                  
+[  4]   7.01-8.00   sec  3.75 KBytes  31.0 Kbits/sec                  
+[  4]   8.00-9.00   sec  3.50 KBytes  28.7 Kbits/sec                  
+[  4]   9.00-10.00  sec  3.25 KBytes  26.6 Kbits/sec                  
+[  4]  10.00-11.00  sec  4.25 KBytes  34.8 Kbits/sec                  
+[  4]  11.00-12.00  sec  3.25 KBytes  26.6 Kbits/sec                  
+[  4]  12.00-13.00  sec  3.75 KBytes  30.7 Kbits/sec                  
+[  4]  13.00-14.00  sec  3.75 KBytes  30.7 Kbits/sec                  
+[  4]  14.00-15.00  sec  3.50 KBytes  28.7 Kbits/sec                  
+[  4]  15.00-16.00  sec  3.75 KBytes  30.7 Kbits/sec                  
+[  4]  16.00-17.00  sec  4.25 KBytes  34.8 Kbits/sec                  
+[  4]  17.00-18.00  sec  4.25 KBytes  34.8 Kbits/sec                  
+[  4]  18.00-19.00  sec  3.75 KBytes  30.7 Kbits/sec                  
+[  4]  19.00-20.00  sec  3.75 KBytes  30.7 Kbits/sec                  
+[  4]  20.00-21.00  sec  4.00 KBytes  32.8 Kbits/sec                  
+[  4]  21.00-22.00  sec  3.50 KBytes  28.7 Kbits/sec                  
+[  4]  22.00-23.01  sec  3.50 KBytes  28.4 Kbits/sec                  
+[  4]  23.01-24.00  sec  3.00 KBytes  24.8 Kbits/sec                  
+[  4]  24.00-25.01  sec  3.50 KBytes  28.5 Kbits/sec                  
+[  4]  25.01-26.00  sec  4.50 KBytes  37.1 Kbits/sec                  
+[  4]  26.00-27.00  sec  3.50 KBytes  28.7 Kbits/sec                  
+[  4]  27.00-28.00  sec  4.00 KBytes  32.8 Kbits/sec                  
+[  4]  28.00-29.00  sec  4.25 KBytes  34.8 Kbits/sec                  
+[  4]  29.00-30.00  sec  4.25 KBytes  34.8 Kbits/sec                  
+- - - - - - - - - - - - - - - - - - - - - - - - -
+[ ID] Interval           Transfer     Bandwidth
+[  4]   0.00-30.00  sec   113 KBytes  30.9 Kbits/sec                  sender
+[  4]   0.00-30.00  sec   112 KBytes  30.6 Kbits/sec                  receiver
+
+iperf Done.
+**************************************
+Teste 3 -> Tamanho Datagrama: 256B Largura de banda: 11B
+Comando: ./iperf3.exe -b -l -c 192.168.0.19 -t 30s >>logTeste2.txt
+Connecting to host 192.168.0.19, port 5201
+[  4] local 192.168.0.13 port 50168 connected to 192.168.0.19 port 5201
+[ ID] Interval           Transfer     Bandwidth
+[  4]   0.00-1.00   sec  3.75 KBytes  30.7 Kbits/sec                  
+[  4]   1.00-2.00   sec  3.75 KBytes  30.7 Kbits/sec                  
+[  4]   2.00-3.01   sec  3.50 KBytes  28.5 Kbits/sec                  
+[  4]   3.01-4.02   sec  3.75 KBytes  30.2 Kbits/sec                  
+[  4]   4.02-5.00   sec  4.00 KBytes  33.6 Kbits/sec                  
+[  4]   5.00-6.00   sec  3.50 KBytes  28.7 Kbits/sec                  
+[  4]   6.00-7.00   sec  4.25 KBytes  34.8 Kbits/sec                  
+[  4]   7.00-8.00   sec  3.50 KBytes  28.7 Kbits/sec                  
+[  4]   8.00-9.00   sec  3.75 KBytes  30.7 Kbits/sec                  
+[  4]   9.00-10.00  sec  3.50 KBytes  28.7 Kbits/sec                  
+[  4]  10.00-11.00  sec  3.75 KBytes  30.7 Kbits/sec                  
+[  4]  11.00-12.00  sec  3.50 KBytes  28.7 Kbits/sec                  
+[  4]  12.00-13.00  sec  4.00 KBytes  32.7 Kbits/sec                  
+[  4]  13.00-14.00  sec  3.75 KBytes  30.7 Kbits/sec                  
+[  4]  14.00-15.00  sec  3.50 KBytes  28.7 Kbits/sec                  
+[  4]  15.00-16.00  sec  3.50 KBytes  28.7 Kbits/sec                  
+[  4]  16.00-17.00  sec  4.25 KBytes  34.8 Kbits/sec                  
+[  4]  17.00-18.00  sec  3.25 KBytes  26.6 Kbits/sec                  
+[  4]  18.00-19.00  sec  3.75 KBytes  30.7 Kbits/sec                  
+[  4]  19.00-20.00  sec  3.75 KBytes  30.7 Kbits/sec                  
+[  4]  20.00-21.00  sec  4.00 KBytes  32.8 Kbits/sec                  
+[  4]  21.00-22.00  sec  3.75 KBytes  30.7 Kbits/sec                  
+[  4]  22.00-23.00  sec  3.25 KBytes  26.6 Kbits/sec                  
+[  4]  23.00-24.00  sec  3.75 KBytes  30.7 Kbits/sec                  
+[  4]  24.00-25.00  sec  3.75 KBytes  30.7 Kbits/sec                  
+[  4]  25.00-26.00  sec  3.75 KBytes  30.7 Kbits/sec                  
+[  4]  26.00-27.00  sec  3.50 KBytes  28.7 Kbits/sec                  
+[  4]  27.00-28.00  sec  3.50 KBytes  28.7 Kbits/sec                  
+[  4]  28.00-29.00  sec  4.00 KBytes  32.8 Kbits/sec                  
+[  4]  29.00-30.00  sec  3.75 KBytes  30.7 Kbits/sec                  
+- - - - - - - - - - - - - - - - - - - - - - - - -
+[ ID] Interval           Transfer     Bandwidth
+[  4]   0.00-30.00  sec   111 KBytes  30.4 Kbits/sec                  sender
+[  4]   0.00-30.00  sec   111 KBytes  30.3 Kbits/sec                  receiver
+
+iperf Done.
+**************************************
+Teste 4 -> Tamanho Datagrama: 256B Largura de banda: 11B
+Comando: ./iperf3.exe -b -l -c 192.168.0.19 -t 30s >>logTeste2.txt
+Connecting to host 192.168.0.19, port 5201
+[  4] local 192.168.0.13 port 50210 connected to 192.168.0.19 port 5201
+[ ID] Interval           Transfer     Bandwidth
+[  4]   0.00-1.00   sec  3.50 KBytes  28.7 Kbits/sec                  
+[  4]   1.00-2.00   sec  4.00 KBytes  32.8 Kbits/sec                  
+[  4]   2.00-3.00   sec  4.00 KBytes  32.8 Kbits/sec                  
+[  4]   3.00-4.00   sec  3.75 KBytes  30.7 Kbits/sec                  
+[  4]   4.00-5.00   sec  3.75 KBytes  30.7 Kbits/sec                  
+[  4]   5.00-6.00   sec  3.75 KBytes  30.7 Kbits/sec                  
+[  4]   6.00-7.00   sec  4.00 KBytes  32.8 Kbits/sec                  
+[  4]   7.00-8.00   sec  4.25 KBytes  34.8 Kbits/sec                  
+[  4]   8.00-9.00   sec  3.75 KBytes  30.7 Kbits/sec                  
+[  4]   9.00-10.00  sec  3.50 KBytes  28.7 Kbits/sec                  
+[  4]  10.00-11.00  sec  3.75 KBytes  30.7 Kbits/sec                  
+[  4]  11.00-12.00  sec  3.25 KBytes  26.6 Kbits/sec                  
+[  4]  12.00-13.00  sec  3.50 KBytes  28.7 Kbits/sec                  
+[  4]  13.00-14.00  sec  4.00 KBytes  32.7 Kbits/sec                  
+[  4]  14.00-15.00  sec  4.00 KBytes  32.8 Kbits/sec                  
+[  4]  15.00-16.00  sec  3.00 KBytes  24.6 Kbits/sec                  
+[  4]  16.00-17.00  sec  4.25 KBytes  34.8 Kbits/sec                  
+[  4]  17.00-18.00  sec  4.00 KBytes  32.8 Kbits/sec                  
+[  4]  18.00-19.00  sec  3.75 KBytes  30.7 Kbits/sec                  
+[  4]  19.00-20.00  sec  3.75 KBytes  30.7 Kbits/sec                  
+[  4]  20.00-21.00  sec  4.25 KBytes  34.7 Kbits/sec                  
+[  4]  21.00-22.00  sec  4.00 KBytes  32.8 Kbits/sec                  
+[  4]  22.00-23.00  sec  4.00 KBytes  32.7 Kbits/sec                  
+[  4]  23.00-24.00  sec  4.00 KBytes  32.8 Kbits/sec                  
+[  4]  24.00-25.00  sec  3.75 KBytes  30.7 Kbits/sec                  
+[  4]  25.00-26.00  sec  3.75 KBytes  30.8 Kbits/sec                  
+[  4]  26.00-27.00  sec  4.25 KBytes  34.8 Kbits/sec                  
+[  4]  27.00-28.00  sec  3.50 KBytes  28.7 Kbits/sec                  
+[  4]  28.00-29.00  sec  3.75 KBytes  30.7 Kbits/sec                  
+[  4]  29.00-30.00  sec  3.75 KBytes  30.7 Kbits/sec                  
+- - - - - - - - - - - - - - - - - - - - - - - - -
+[ ID] Interval           Transfer     Bandwidth
+[  4]   0.00-30.00  sec   114 KBytes  31.3 Kbits/sec                  sender
+[  4]   0.00-30.00  sec   114 KBytes  31.1 Kbits/sec                  receiver
+
+iperf Done.
+**************************************
+Teste 5 -> Tamanho Datagrama: 256B Largura de banda: 11B
+Comando: ./iperf3.exe -b -l -c 192.168.0.19 -t 30s >>logTeste2.txt
+Connecting to host 192.168.0.19, port 5201
+[  4] local 192.168.0.13 port 50252 connected to 192.168.0.19 port 5201
+[ ID] Interval           Transfer     Bandwidth
+[  4]   0.00-1.00   sec  3.50 KBytes  28.7 Kbits/sec                  
+[  4]   1.00-2.00   sec  3.50 KBytes  28.6 Kbits/sec                  
+[  4]   2.00-3.00   sec  3.75 KBytes  30.7 Kbits/sec                  
+[  4]   3.00-4.00   sec  4.25 KBytes  34.8 Kbits/sec                  
+[  4]   4.00-5.00   sec  3.75 KBytes  30.7 Kbits/sec                  
+[  4]   5.00-6.00   sec  3.25 KBytes  26.6 Kbits/sec                  
+[  4]   6.00-7.00   sec  3.00 KBytes  24.6 Kbits/sec                  
+[  4]   7.00-8.00   sec  4.00 KBytes  32.8 Kbits/sec                  
+[  4]   8.00-9.00   sec  4.25 KBytes  34.8 Kbits/sec                  
+[  4]   9.00-10.00  sec  4.25 KBytes  34.8 Kbits/sec                  
+[  4]  10.00-11.00  sec  4.00 KBytes  32.8 Kbits/sec                  
+[  4]  11.00-12.00  sec  3.50 KBytes  28.7 Kbits/sec                  
+[  4]  12.00-13.00  sec  4.75 KBytes  38.9 Kbits/sec                  
+[  4]  13.00-14.00  sec  3.75 KBytes  30.7 Kbits/sec                  
+[  4]  14.00-15.00  sec  3.75 KBytes  30.8 Kbits/sec                  
+[  4]  15.00-16.00  sec  3.50 KBytes  28.7 Kbits/sec                  
+[  4]  16.00-17.00  sec  3.50 KBytes  28.7 Kbits/sec                  
+[  4]  17.00-18.00  sec  4.00 KBytes  32.7 Kbits/sec                  
+[  4]  18.00-19.00  sec  3.75 KBytes  30.8 Kbits/sec                  
+[  4]  19.00-20.00  sec  4.00 KBytes  32.8 Kbits/sec                  
+[  4]  20.00-21.00  sec  3.25 KBytes  26.6 Kbits/sec                  
+[  4]  21.00-22.00  sec  4.00 KBytes  32.8 Kbits/sec                  
+[  4]  22.00-23.00  sec  3.50 KBytes  28.7 Kbits/sec                  
+[  4]  23.00-24.00  sec  3.50 KBytes  28.7 Kbits/sec                  
+[  4]  24.00-25.00  sec  4.00 KBytes  32.8 Kbits/sec                  
+[  4]  25.00-26.00  sec  3.75 KBytes  30.7 Kbits/sec                  
+[  4]  26.00-27.00  sec  3.75 KBytes  30.7 Kbits/sec                  
+[  4]  27.00-28.00  sec  4.00 KBytes  32.7 Kbits/sec                  
+[  4]  28.00-29.00  sec  4.00 KBytes  32.8 Kbits/sec                  
+[  4]  29.00-30.00  sec  3.50 KBytes  28.7 Kbits/sec                  
+- - - - - - - - - - - - - - - - - - - - - - - - -
+[ ID] Interval           Transfer     Bandwidth
+[  4]   0.00-30.00  sec   113 KBytes  30.9 Kbits/sec                  sender
+[  4]   0.00-30.00  sec   112 KBytes  30.7 Kbits/sec                  receiver
+
+iperf Done.
+\n##############################################
+#### Tamanho Datagrama: 512B Largura de banda: 11B #### 11B
+**************************************
+Teste 1 -> Tamanho Datagrama: 512B Largura de banda: 11B
+Comando: ./iperf3.exe -b -l -c 192.168.0.19 -t 30s >>logTeste2.txt
+Connecting to host 192.168.0.19, port 5201
+[  4] local 192.168.0.13 port 50290 connected to 192.168.0.19 port 5201
+[ ID] Interval           Transfer     Bandwidth
+[  4]   0.00-1.00   sec  9.00 KBytes  73.6 Kbits/sec                  
+[  4]   1.00-2.00   sec  6.00 KBytes  49.2 Kbits/sec                  
+[  4]   2.00-3.00   sec  8.00 KBytes  65.5 Kbits/sec                  
+[  4]   3.00-4.00   sec  8.50 KBytes  69.6 Kbits/sec                  
+[  4]   4.00-5.00   sec  7.50 KBytes  61.5 Kbits/sec                  
+[  4]   5.00-6.00   sec  7.00 KBytes  57.3 Kbits/sec                  
+[  4]   6.00-7.00   sec  8.00 KBytes  65.5 Kbits/sec                  
+[  4]   7.00-8.00   sec  5.50 KBytes  45.1 Kbits/sec                  
+[  4]   8.00-9.00   sec  7.50 KBytes  61.4 Kbits/sec                  
+[  4]   9.00-10.00  sec  7.50 KBytes  61.4 Kbits/sec                  
+[  4]  10.00-11.00  sec  8.00 KBytes  65.5 Kbits/sec                  
+[  4]  11.00-12.00  sec  7.50 KBytes  61.4 Kbits/sec                  
+[  4]  12.00-13.00  sec  8.00 KBytes  65.5 Kbits/sec                  
+[  4]  13.00-14.00  sec  8.00 KBytes  65.6 Kbits/sec                  
+[  4]  14.00-15.00  sec  8.00 KBytes  65.6 Kbits/sec                  
+[  4]  15.00-16.00  sec  7.00 KBytes  57.3 Kbits/sec                  
+[  4]  16.00-17.00  sec  8.00 KBytes  65.6 Kbits/sec                  
+[  4]  17.00-18.00  sec  8.00 KBytes  65.5 Kbits/sec                  
+[  4]  18.00-19.00  sec  7.00 KBytes  57.4 Kbits/sec                  
+[  4]  19.00-20.00  sec  8.50 KBytes  69.6 Kbits/sec                  
+[  4]  20.00-21.00  sec  7.50 KBytes  61.4 Kbits/sec                  
+[  4]  21.00-22.00  sec  8.00 KBytes  65.6 Kbits/sec                  
+[  4]  22.00-23.00  sec  7.00 KBytes  57.3 Kbits/sec                  
+[  4]  23.00-24.00  sec  6.50 KBytes  53.3 Kbits/sec                  
+[  4]  24.00-25.00  sec  7.50 KBytes  61.4 Kbits/sec                  
+[  4]  25.00-26.00  sec  8.00 KBytes  65.6 Kbits/sec                  
+[  4]  26.00-27.00  sec  7.00 KBytes  57.3 Kbits/sec                  
+[  4]  27.00-28.00  sec  7.50 KBytes  61.4 Kbits/sec                  
+[  4]  28.00-29.00  sec  7.50 KBytes  61.5 Kbits/sec                  
+[  4]  29.00-30.00  sec  8.00 KBytes  65.5 Kbits/sec                  
+- - - - - - - - - - - - - - - - - - - - - - - - -
+[ ID] Interval           Transfer     Bandwidth
+[  4]   0.00-30.00  sec   227 KBytes  62.0 Kbits/sec                  sender
+[  4]   0.00-30.00  sec   226 KBytes  61.8 Kbits/sec                  receiver
+
+iperf Done.
+**************************************
+Teste 2 -> Tamanho Datagrama: 512B Largura de banda: 11B
+Comando: ./iperf3.exe -b -l -c 192.168.0.19 -t 30s >>logTeste2.txt
+Connecting to host 192.168.0.19, port 5201
+[  4] local 192.168.0.13 port 50328 connected to 192.168.0.19 port 5201
+[ ID] Interval           Transfer     Bandwidth
+[  4]   0.00-1.00   sec  8.50 KBytes  69.6 Kbits/sec                  
+[  4]   1.00-2.00   sec  7.50 KBytes  61.4 Kbits/sec                  
+[  4]   2.00-3.00   sec  6.50 KBytes  53.2 Kbits/sec                  
+[  4]   3.00-4.00   sec  8.00 KBytes  65.6 Kbits/sec                  
+[  4]   4.00-5.00   sec  8.00 KBytes  65.6 Kbits/sec                  
+[  4]   5.00-6.00   sec  7.50 KBytes  61.4 Kbits/sec                  
+[  4]   6.00-7.00   sec  7.50 KBytes  61.4 Kbits/sec                  
+[  4]   7.00-8.00   sec  8.00 KBytes  65.6 Kbits/sec                  
+[  4]   8.00-9.00   sec  7.50 KBytes  61.4 Kbits/sec                  
+[  4]   9.00-10.00  sec  8.50 KBytes  69.6 Kbits/sec                  
+[  4]  10.00-11.00  sec  8.00 KBytes  65.5 Kbits/sec                  
+[  4]  11.00-12.00  sec  7.00 KBytes  57.4 Kbits/sec                  
+[  4]  12.00-13.00  sec  6.50 KBytes  53.2 Kbits/sec                  
+[  4]  13.00-14.00  sec  7.50 KBytes  61.5 Kbits/sec                  
+[  4]  14.00-15.00  sec  7.50 KBytes  61.5 Kbits/sec                  
+[  4]  15.00-16.00  sec  8.00 KBytes  65.4 Kbits/sec                  
+[  4]  16.00-17.00  sec  8.50 KBytes  69.6 Kbits/sec                  
+[  4]  17.00-18.00  sec  8.50 KBytes  69.7 Kbits/sec                  
+[  4]  18.00-19.00  sec  7.50 KBytes  61.4 Kbits/sec                  
+[  4]  19.00-20.00  sec  7.50 KBytes  61.5 Kbits/sec                  
+[  4]  20.00-21.00  sec  7.50 KBytes  61.4 Kbits/sec                  
+[  4]  21.00-22.00  sec  7.50 KBytes  61.4 Kbits/sec                  
+[  4]  22.00-23.00  sec  8.00 KBytes  65.6 Kbits/sec                  
+[  4]  23.00-24.00  sec  8.00 KBytes  65.4 Kbits/sec                  
+[  4]  24.00-25.00  sec  7.00 KBytes  57.5 Kbits/sec                  
+[  4]  25.00-26.00  sec  8.00 KBytes  65.5 Kbits/sec                  
+[  4]  26.00-27.00  sec  8.50 KBytes  69.6 Kbits/sec                  
+[  4]  27.00-28.00  sec  9.50 KBytes  77.7 Kbits/sec                  
+[  4]  28.00-29.00  sec  7.50 KBytes  61.6 Kbits/sec                  
+[  4]  29.00-30.00  sec  7.00 KBytes  57.3 Kbits/sec                  
+- - - - - - - - - - - - - - - - - - - - - - - - -
+[ ID] Interval           Transfer     Bandwidth
+[  4]   0.00-30.00  sec   232 KBytes  63.5 Kbits/sec                  sender
+[  4]   0.00-30.00  sec   232 KBytes  63.5 Kbits/sec                  receiver
+
+iperf Done.
+**************************************
+Teste 3 -> Tamanho Datagrama: 512B Largura de banda: 11B
+Comando: ./iperf3.exe -b -l -c 192.168.0.19 -t 30s >>logTeste2.txt
+Connecting to host 192.168.0.19, port 5201
+[  4] local 192.168.0.13 port 50364 connected to 192.168.0.19 port 5201
+[ ID] Interval           Transfer     Bandwidth
+[  4]   0.00-1.00   sec  9.50 KBytes  77.7 Kbits/sec                  
+[  4]   1.00-2.00   sec  7.50 KBytes  61.4 Kbits/sec                  
+[  4]   2.00-3.00   sec  8.50 KBytes  69.7 Kbits/sec                  
+[  4]   3.00-4.00   sec  7.50 KBytes  61.5 Kbits/sec                  
+[  4]   4.00-5.00   sec  7.50 KBytes  61.4 Kbits/sec                  
+[  4]   5.00-6.00   sec  7.50 KBytes  61.4 Kbits/sec                  
+[  4]   6.00-7.00   sec  7.50 KBytes  61.4 Kbits/sec                  
+[  4]   7.00-8.00   sec  6.50 KBytes  53.3 Kbits/sec                  
+[  4]   8.00-9.00   sec  8.00 KBytes  65.5 Kbits/sec                  
+[  4]   9.00-10.00  sec  8.00 KBytes  65.5 Kbits/sec                  
+[  4]  10.00-11.00  sec  9.00 KBytes  73.7 Kbits/sec                  
+[  4]  11.00-12.00  sec  7.50 KBytes  61.4 Kbits/sec                  
+[  4]  12.00-13.00  sec  7.50 KBytes  61.5 Kbits/sec                  
+[  4]  13.00-14.00  sec  8.00 KBytes  65.5 Kbits/sec                  
+[  4]  14.00-15.00  sec  7.00 KBytes  57.4 Kbits/sec                  
+[  4]  15.00-16.00  sec  7.00 KBytes  57.4 Kbits/sec                  
+[  4]  16.00-17.00  sec  8.00 KBytes  65.5 Kbits/sec                  
+[  4]  17.00-18.00  sec  7.50 KBytes  61.4 Kbits/sec                  
+[  4]  18.00-19.00  sec  8.00 KBytes  65.5 Kbits/sec                  
+[  4]  19.00-20.00  sec  8.00 KBytes  65.6 Kbits/sec                  
+[  4]  20.00-21.00  sec  8.00 KBytes  65.5 Kbits/sec                  
+[  4]  21.00-22.00  sec  8.00 KBytes  65.5 Kbits/sec                  
+[  4]  22.00-23.00  sec  7.50 KBytes  61.5 Kbits/sec                  
+[  4]  23.00-24.00  sec  8.00 KBytes  65.6 Kbits/sec                  
+[  4]  24.00-25.00  sec  7.50 KBytes  61.4 Kbits/sec                  
+[  4]  25.00-26.00  sec  7.50 KBytes  61.4 Kbits/sec                  
+[  4]  26.00-27.00  sec  7.00 KBytes  57.3 Kbits/sec                  
+[  4]  27.00-28.00  sec  8.50 KBytes  69.6 Kbits/sec                  
+[  4]  28.00-29.00  sec  6.50 KBytes  53.3 Kbits/sec                  
+[  4]  29.00-30.00  sec  7.00 KBytes  57.4 Kbits/sec                  
+- - - - - - - - - - - - - - - - - - - - - - - - -
+[ ID] Interval           Transfer     Bandwidth
+[  4]   0.00-30.00  sec   231 KBytes  63.1 Kbits/sec                  sender
+[  4]   0.00-30.00  sec   231 KBytes  63.1 Kbits/sec                  receiver
+
+iperf Done.
+**************************************
+Teste 4 -> Tamanho Datagrama: 512B Largura de banda: 11B
+Comando: ./iperf3.exe -b -l -c 192.168.0.19 -t 30s >>logTeste2.txt
+Connecting to host 192.168.0.19, port 5201
+[  4] local 192.168.0.13 port 50402 connected to 192.168.0.19 port 5201
+[ ID] Interval           Transfer     Bandwidth
+[  4]   0.00-1.00   sec  8.00 KBytes  65.4 Kbits/sec                  
+[  4]   1.00-2.00   sec  7.50 KBytes  61.4 Kbits/sec                  
+[  4]   2.00-3.00   sec  7.50 KBytes  61.5 Kbits/sec                  
+[  4]   3.00-4.00   sec  7.50 KBytes  61.5 Kbits/sec                  
+[  4]   4.00-5.00   sec  8.00 KBytes  65.5 Kbits/sec                  
+[  4]   5.00-6.00   sec  7.00 KBytes  57.4 Kbits/sec                  
+[  4]   6.00-7.00   sec  8.00 KBytes  65.5 Kbits/sec                  
+[  4]   7.00-8.00   sec  8.00 KBytes  65.5 Kbits/sec                  
+[  4]   8.00-9.00   sec  8.00 KBytes  65.6 Kbits/sec                  
+[  4]   9.00-10.00  sec  7.50 KBytes  61.4 Kbits/sec                  
+[  4]  10.00-11.00  sec  7.50 KBytes  61.5 Kbits/sec                  
+[  4]  11.00-12.00  sec  7.50 KBytes  61.5 Kbits/sec                  
+[  4]  12.00-13.00  sec  8.50 KBytes  69.6 Kbits/sec                  
+[  4]  13.00-14.00  sec  7.00 KBytes  57.4 Kbits/sec                  
+[  4]  14.00-15.00  sec  9.00 KBytes  73.7 Kbits/sec                  
+[  4]  15.00-16.00  sec  8.50 KBytes  69.6 Kbits/sec                  
+[  4]  16.00-17.00  sec  7.00 KBytes  57.3 Kbits/sec                  
+[  4]  17.00-18.00  sec  7.50 KBytes  61.5 Kbits/sec                  
+[  4]  18.00-19.00  sec  8.00 KBytes  65.5 Kbits/sec                  
+[  4]  19.00-20.00  sec  7.00 KBytes  57.3 Kbits/sec                  
+[  4]  20.00-21.00  sec  8.00 KBytes  65.5 Kbits/sec                  
+[  4]  21.00-22.00  sec  7.50 KBytes  61.5 Kbits/sec                  
+[  4]  22.00-23.00  sec  8.00 KBytes  65.5 Kbits/sec                  
+[  4]  23.00-24.00  sec  7.50 KBytes  61.5 Kbits/sec                  
+[  4]  24.00-25.00  sec  8.50 KBytes  69.6 Kbits/sec                  
+[  4]  25.00-26.00  sec  8.00 KBytes  65.6 Kbits/sec                  
+[  4]  26.00-27.00  sec  7.50 KBytes  61.4 Kbits/sec                  
+[  4]  27.00-28.00  sec  8.00 KBytes  65.6 Kbits/sec                  
+[  4]  28.00-29.00  sec  8.00 KBytes  65.6 Kbits/sec                  
+[  4]  29.00-30.00  sec  8.00 KBytes  65.5 Kbits/sec                  
+- - - - - - - - - - - - - - - - - - - - - - - - -
+[ ID] Interval           Transfer     Bandwidth
+[  4]   0.00-30.00  sec   234 KBytes  63.8 Kbits/sec                  sender
+[  4]   0.00-30.00  sec   233 KBytes  63.7 Kbits/sec                  receiver
+
+iperf Done.
+**************************************
+Teste 5 -> Tamanho Datagrama: 512B Largura de banda: 11B
+Comando: ./iperf3.exe -b -l -c 192.168.0.19 -t 30s >>logTeste2.txt
+Connecting to host 192.168.0.19, port 5201
+[  4] local 192.168.0.13 port 50441 connected to 192.168.0.19 port 5201
+[ ID] Interval           Transfer     Bandwidth
+[  4]   0.00-1.00   sec  8.00 KBytes  65.4 Kbits/sec                  
+[  4]   1.00-2.00   sec  7.00 KBytes  57.4 Kbits/sec                  
+[  4]   2.00-3.00   sec  8.00 KBytes  65.6 Kbits/sec                  
+[  4]   3.00-4.00   sec  8.00 KBytes  65.5 Kbits/sec                  
+[  4]   4.00-5.00   sec  6.50 KBytes  53.3 Kbits/sec                  
+[  4]   5.00-6.00   sec  8.00 KBytes  65.6 Kbits/sec                  
+[  4]   6.00-7.00   sec  7.50 KBytes  61.4 Kbits/sec                  
+[  4]   7.00-8.00   sec  8.00 KBytes  65.6 Kbits/sec                  
+[  4]   8.00-9.00   sec  7.00 KBytes  57.4 Kbits/sec                  
+[  4]   9.00-10.00  sec  8.00 KBytes  65.5 Kbits/sec                  
+[  4]  10.00-11.00  sec  9.00 KBytes  73.8 Kbits/sec                  
+[  4]  11.00-12.00  sec  7.00 KBytes  57.3 Kbits/sec                  
+[  4]  12.00-13.00  sec  7.00 KBytes  57.4 Kbits/sec                  
+[  4]  13.00-14.00  sec  7.50 KBytes  61.4 Kbits/sec                  
+[  4]  14.00-15.00  sec  8.00 KBytes  65.5 Kbits/sec                  
+[  4]  15.00-16.00  sec  6.50 KBytes  53.3 Kbits/sec                  
+[  4]  16.00-17.00  sec  8.00 KBytes  65.4 Kbits/sec                  
+[  4]  17.00-18.00  sec  7.50 KBytes  61.5 Kbits/sec                  
+[  4]  18.00-19.00  sec  8.00 KBytes  65.6 Kbits/sec                  
+[  4]  19.00-20.00  sec  9.00 KBytes  73.8 Kbits/sec                  
+[  4]  20.00-21.00  sec  8.00 KBytes  65.5 Kbits/sec                  
+[  4]  21.00-22.00  sec  9.00 KBytes  73.7 Kbits/sec                  
+[  4]  22.00-23.00  sec  7.50 KBytes  61.4 Kbits/sec                  
+[  4]  23.00-24.00  sec  7.00 KBytes  57.4 Kbits/sec                  
+[  4]  24.00-25.00  sec  7.00 KBytes  57.4 Kbits/sec                  
+[  4]  25.00-26.00  sec  8.00 KBytes  65.5 Kbits/sec                  
+[  4]  26.00-27.00  sec  7.00 KBytes  57.4 Kbits/sec                  
+[  4]  27.00-28.00  sec  8.50 KBytes  69.5 Kbits/sec                  
+[  4]  28.00-29.00  sec  8.00 KBytes  65.6 Kbits/sec                  
+[  4]  29.00-30.00  sec  7.00 KBytes  57.3 Kbits/sec                  
+- - - - - - - - - - - - - - - - - - - - - - - - -
+[ ID] Interval           Transfer     Bandwidth
+[  4]   0.00-30.00  sec   230 KBytes  62.9 Kbits/sec                  sender
+[  4]   0.00-30.00  sec   230 KBytes  62.9 Kbits/sec                  receiver
+
+iperf Done.
+\n##############################################
+#### Tamanho Datagrama: 1024B Largura de banda: 11B #### 11B
+**************************************
+Teste 1 -> Tamanho Datagrama: 1024B Largura de banda: 11B
+Comando: ./iperf3.exe -b -l -c 192.168.0.19 -t 30s >>logTeste2.txt
+Connecting to host 192.168.0.19, port 5201
+[  4] local 192.168.0.13 port 50474 connected to 192.168.0.19 port 5201
+[ ID] Interval           Transfer     Bandwidth
+[  4]   0.00-1.00   sec  16.0 KBytes   131 Kbits/sec                  
+[  4]   1.00-2.00   sec  15.0 KBytes   123 Kbits/sec                  
+[  4]   2.00-3.00   sec  14.0 KBytes   115 Kbits/sec                  
+[  4]   3.00-4.00   sec  15.0 KBytes   123 Kbits/sec                  
+[  4]   4.00-5.00   sec  16.0 KBytes   131 Kbits/sec                  
+[  4]   5.00-6.00   sec  15.0 KBytes   123 Kbits/sec                  
+[  4]   6.00-7.00   sec  17.0 KBytes   139 Kbits/sec                  
+[  4]   7.00-8.00   sec  14.0 KBytes   115 Kbits/sec                  
+[  4]   8.00-9.00   sec  15.0 KBytes   123 Kbits/sec                  
+[  4]   9.00-10.00  sec  18.0 KBytes   147 Kbits/sec                  
+[  4]  10.00-11.00  sec  16.0 KBytes   131 Kbits/sec                  
+[  4]  11.00-12.00  sec  15.0 KBytes   123 Kbits/sec                  
+[  4]  12.00-13.00  sec  14.0 KBytes   115 Kbits/sec                  
+[  4]  13.00-14.00  sec  15.0 KBytes   123 Kbits/sec                  
+[  4]  14.00-15.00  sec  16.0 KBytes   131 Kbits/sec                  
+[  4]  15.00-16.00  sec  14.0 KBytes   115 Kbits/sec                  
+[  4]  16.00-17.00  sec  15.0 KBytes   123 Kbits/sec                  
+[  4]  17.00-18.00  sec  14.0 KBytes   115 Kbits/sec                  
+[  4]  18.00-19.00  sec  15.0 KBytes   123 Kbits/sec                  
+[  4]  19.00-20.00  sec  16.0 KBytes   131 Kbits/sec                  
+[  4]  20.00-21.00  sec  17.0 KBytes   139 Kbits/sec                  
+[  4]  21.00-22.00  sec  16.0 KBytes   131 Kbits/sec                  
+[  4]  22.00-23.00  sec  15.0 KBytes   123 Kbits/sec                  
+[  4]  23.00-24.00  sec  14.0 KBytes   115 Kbits/sec                  
+[  4]  24.00-25.00  sec  14.0 KBytes   115 Kbits/sec                  
+[  4]  25.00-26.00  sec  13.0 KBytes   107 Kbits/sec                  
+[  4]  26.00-27.00  sec  15.0 KBytes   123 Kbits/sec                  
+[  4]  27.00-28.00  sec  16.0 KBytes   131 Kbits/sec                  
+[  4]  28.00-29.00  sec  16.0 KBytes   131 Kbits/sec                  
+[  4]  29.00-30.00  sec  15.0 KBytes   123 Kbits/sec                  
+- - - - - - - - - - - - - - - - - - - - - - - - -
+[ ID] Interval           Transfer     Bandwidth
+[  4]   0.00-30.00  sec   456 KBytes   125 Kbits/sec                  sender
+[  4]   0.00-30.00  sec   454 KBytes   124 Kbits/sec                  receiver
+
+iperf Done.
+**************************************
+Teste 2 -> Tamanho Datagrama: 1024B Largura de banda: 11B
+Comando: ./iperf3.exe -b -l -c 192.168.0.19 -t 30s >>logTeste2.txt
+Connecting to host 192.168.0.19, port 5201
+[  4] local 192.168.0.13 port 49545 connected to 192.168.0.19 port 5201
+[ ID] Interval           Transfer     Bandwidth
+[  4]   0.00-1.00   sec  18.0 KBytes   147 Kbits/sec                  
+[  4]   1.00-2.00   sec  13.0 KBytes   106 Kbits/sec                  
+[  4]   2.00-3.00   sec  17.0 KBytes   139 Kbits/sec                  
+[  4]   3.00-4.00   sec  14.0 KBytes   115 Kbits/sec                  
+[  4]   4.00-5.00   sec  15.0 KBytes   123 Kbits/sec                  
+[  4]   5.00-6.00   sec  14.0 KBytes   115 Kbits/sec                  
+[  4]   6.00-7.00   sec  16.0 KBytes   131 Kbits/sec                  
+[  4]   7.00-8.00   sec  16.0 KBytes   131 Kbits/sec                  
+[  4]   8.00-9.00   sec  16.0 KBytes   131 Kbits/sec                  
+[  4]   9.00-10.00  sec  16.0 KBytes   131 Kbits/sec                  
+[  4]  10.00-11.00  sec  16.0 KBytes   131 Kbits/sec                  
+[  4]  11.00-12.00  sec  15.0 KBytes   123 Kbits/sec                  
+[  4]  12.00-13.00  sec  15.0 KBytes   123 Kbits/sec                  
+[  4]  13.00-14.00  sec  14.0 KBytes   115 Kbits/sec                  
+[  4]  14.00-15.00  sec  15.0 KBytes   123 Kbits/sec                  
+[  4]  15.00-16.00  sec  14.0 KBytes   115 Kbits/sec                  
+[  4]  16.00-17.00  sec  14.0 KBytes   115 Kbits/sec                  
+[  4]  17.00-18.00  sec  15.0 KBytes   123 Kbits/sec                  
+[  4]  18.00-19.00  sec  15.0 KBytes   123 Kbits/sec                  
+[  4]  19.00-20.00  sec  18.0 KBytes   147 Kbits/sec                  
+[  4]  20.00-21.00  sec  14.0 KBytes   115 Kbits/sec                  
+[  4]  21.00-22.00  sec  15.0 KBytes   123 Kbits/sec                  
+[  4]  22.00-23.00  sec  14.0 KBytes   115 Kbits/sec                  
+[  4]  23.00-24.00  sec  16.0 KBytes   131 Kbits/sec                  
+[  4]  24.00-25.00  sec  14.0 KBytes   115 Kbits/sec                  
+[  4]  25.00-26.00  sec  16.0 KBytes   131 Kbits/sec                  
+[  4]  26.00-27.00  sec  15.0 KBytes   123 Kbits/sec                  
+[  4]  27.00-28.00  sec  16.0 KBytes   131 Kbits/sec                  
+[  4]  28.00-29.00  sec  15.0 KBytes   123 Kbits/sec                  
+[  4]  29.00-30.00  sec  17.0 KBytes   139 Kbits/sec                  
+- - - - - - - - - - - - - - - - - - - - - - - - -
+[ ID] Interval           Transfer     Bandwidth
+[  4]   0.00-30.00  sec   458 KBytes   125 Kbits/sec                  sender
+[  4]   0.00-30.00  sec   457 KBytes   125 Kbits/sec                  receiver
+
+iperf Done.
+**************************************
+Teste 3 -> Tamanho Datagrama: 1024B Largura de banda: 11B
+Comando: ./iperf3.exe -b -l -c 192.168.0.19 -t 30s >>logTeste2.txt
+Connecting to host 192.168.0.19, port 5201
+[  4] local 192.168.0.13 port 49582 connected to 192.168.0.19 port 5201
+[ ID] Interval           Transfer     Bandwidth
+[  4]   0.00-1.00   sec  14.0 KBytes   115 Kbits/sec                  
+[  4]   1.00-2.00   sec  18.0 KBytes   147 Kbits/sec                  
+[  4]   2.00-3.00   sec  17.0 KBytes   139 Kbits/sec                  
+[  4]   3.00-4.00   sec  15.0 KBytes   123 Kbits/sec                  
+[  4]   4.00-5.00   sec  13.0 KBytes   107 Kbits/sec                  
+[  4]   5.00-6.00   sec  16.0 KBytes   131 Kbits/sec                  
+[  4]   6.00-7.00   sec  16.0 KBytes   131 Kbits/sec                  
+[  4]   7.00-8.00   sec  16.0 KBytes   131 Kbits/sec                  
+[  4]   8.00-9.00   sec  16.0 KBytes   131 Kbits/sec                  
+[  4]   9.00-10.00  sec  18.0 KBytes   147 Kbits/sec                  
+[  4]  10.00-11.00  sec  16.0 KBytes   131 Kbits/sec                  
+[  4]  11.00-12.00  sec  16.0 KBytes   131 Kbits/sec                  
+[  4]  12.00-13.00  sec  15.0 KBytes   123 Kbits/sec                  
+[  4]  13.00-14.00  sec  15.0 KBytes   123 Kbits/sec                  
+[  4]  14.00-15.00  sec  17.0 KBytes   139 Kbits/sec                  
+[  4]  15.00-16.00  sec  15.0 KBytes   123 Kbits/sec                  
+[  4]  16.00-17.00  sec  14.0 KBytes   115 Kbits/sec                  
+[  4]  17.00-18.00  sec  16.0 KBytes   131 Kbits/sec                  
+[  4]  18.00-19.00  sec  16.0 KBytes   131 Kbits/sec                  
+[  4]  19.00-20.00  sec  15.0 KBytes   123 Kbits/sec                  
+[  4]  20.00-21.01  sec  11.0 KBytes  89.2 Kbits/sec                  
+[  4]  21.01-22.00  sec  16.0 KBytes   132 Kbits/sec                  
+[  4]  22.00-23.00  sec  14.0 KBytes   115 Kbits/sec                  
+[  4]  23.00-24.00  sec  13.0 KBytes   107 Kbits/sec                  
+[  4]  24.00-25.00  sec  15.0 KBytes   123 Kbits/sec                  
+[  4]  25.00-26.00  sec  16.0 KBytes   131 Kbits/sec                  
+[  4]  26.00-27.00  sec  15.0 KBytes   123 Kbits/sec                  
+[  4]  27.00-28.00  sec  15.0 KBytes   123 Kbits/sec                  
+[  4]  28.00-29.00  sec  16.0 KBytes   131 Kbits/sec                  
+[  4]  29.00-30.00  sec  15.0 KBytes   123 Kbits/sec                  
+- - - - - - - - - - - - - - - - - - - - - - - - -
+[ ID] Interval           Transfer     Bandwidth
+[  4]   0.00-30.00  sec   460 KBytes   126 Kbits/sec                  sender
+[  4]   0.00-30.00  sec   459 KBytes   125 Kbits/sec                  receiver
+
+iperf Done.
+**************************************
+Teste 4 -> Tamanho Datagrama: 1024B Largura de banda: 11B
+Comando: ./iperf3.exe -b -l -c 192.168.0.19 -t 30s >>logTeste2.txt
+Connecting to host 192.168.0.19, port 5201
+[  4] local 192.168.0.13 port 49614 connected to 192.168.0.19 port 5201
+[ ID] Interval           Transfer     Bandwidth
+[  4]   0.00-1.00   sec  18.0 KBytes   147 Kbits/sec                  
+[  4]   1.00-2.00   sec  15.0 KBytes   123 Kbits/sec                  
+[  4]   2.00-3.00   sec  18.0 KBytes   147 Kbits/sec                  
+[  4]   3.00-4.00   sec  17.0 KBytes   139 Kbits/sec                  
+[  4]   4.00-5.00   sec  15.0 KBytes   123 Kbits/sec                  
+[  4]   5.00-6.00   sec  14.0 KBytes   115 Kbits/sec                  
+[  4]   6.00-7.00   sec  16.0 KBytes   131 Kbits/sec                  
+[  4]   7.00-8.00   sec  16.0 KBytes   131 Kbits/sec                  
+[  4]   8.00-9.00   sec  19.0 KBytes   156 Kbits/sec                  
+[  4]   9.00-10.00  sec  14.0 KBytes   115 Kbits/sec                  
+[  4]  10.00-11.00  sec  16.0 KBytes   131 Kbits/sec                  
+[  4]  11.00-12.00  sec  17.0 KBytes   139 Kbits/sec                  
+[  4]  12.00-13.01  sec  17.0 KBytes   138 Kbits/sec                  
+[  4]  13.01-14.00  sec  15.0 KBytes   124 Kbits/sec                  
+[  4]  14.00-15.00  sec  16.0 KBytes   131 Kbits/sec                  
+[  4]  15.00-16.00  sec  15.0 KBytes   123 Kbits/sec                  
+[  4]  16.00-17.00  sec  14.0 KBytes   115 Kbits/sec                  
+[  4]  17.00-18.00  sec  16.0 KBytes   131 Kbits/sec                  
+[  4]  18.00-19.00  sec  15.0 KBytes   123 Kbits/sec                  
+[  4]  19.00-20.00  sec  13.0 KBytes   106 Kbits/sec                  
+[  4]  20.00-21.00  sec  19.0 KBytes   156 Kbits/sec                  
+[  4]  21.00-22.00  sec  14.0 KBytes   115 Kbits/sec                  
+[  4]  22.00-23.00  sec  13.0 KBytes   107 Kbits/sec                  
+[  4]  23.00-24.01  sec  10.0 KBytes  81.4 Kbits/sec                  
+[  4]  24.01-25.00  sec  14.0 KBytes   115 Kbits/sec                  
+[  4]  25.00-26.00  sec  13.0 KBytes   106 Kbits/sec                  
+[  4]  26.00-27.00  sec  15.0 KBytes   123 Kbits/sec                  
+[  4]  27.00-28.00  sec  13.0 KBytes   107 Kbits/sec                  
+[  4]  28.00-29.00  sec  15.0 KBytes   123 Kbits/sec                  
+[  4]  29.00-30.00  sec  14.0 KBytes   115 Kbits/sec                  
+- - - - - - - - - - - - - - - - - - - - - - - - -
+[ ID] Interval           Transfer     Bandwidth
+[  4]   0.00-30.00  sec   456 KBytes   125 Kbits/sec                  sender
+[  4]   0.00-30.00  sec   455 KBytes   124 Kbits/sec                  receiver
+
+iperf Done.
+**************************************
+Teste 5 -> Tamanho Datagrama: 1024B Largura de banda: 11B
+Comando: ./iperf3.exe -b -l -c 192.168.0.19 -t 30s >>logTeste2.txt
+Connecting to host 192.168.0.19, port 5201
+[  4] local 192.168.0.13 port 49654 connected to 192.168.0.19 port 5201
+[ ID] Interval           Transfer     Bandwidth
+[  4]   0.00-1.00   sec  18.0 KBytes   147 Kbits/sec                  
+[  4]   1.00-2.00   sec  15.0 KBytes   123 Kbits/sec                  
+[  4]   2.00-3.00   sec  16.0 KBytes   131 Kbits/sec                  
+[  4]   3.00-4.00   sec  17.0 KBytes   139 Kbits/sec                  
+[  4]   4.00-5.00   sec  15.0 KBytes   123 Kbits/sec                  
+[  4]   5.00-6.00   sec  16.0 KBytes   131 Kbits/sec                  
+[  4]   6.00-7.00   sec  15.0 KBytes   123 Kbits/sec                  
+[  4]   7.00-8.00   sec  14.0 KBytes   115 Kbits/sec                  
+[  4]   8.00-9.00   sec  15.0 KBytes   123 Kbits/sec                  
+[  4]   9.00-10.00  sec  17.0 KBytes   139 Kbits/sec                  
+[  4]  10.00-11.00  sec  18.0 KBytes   147 Kbits/sec                  
+[  4]  11.00-12.00  sec  17.0 KBytes   139 Kbits/sec                  
+[  4]  12.00-13.00  sec  16.0 KBytes   131 Kbits/sec                  
+[  4]  13.00-14.00  sec  15.0 KBytes   123 Kbits/sec                  
+[  4]  14.00-15.00  sec  17.0 KBytes   139 Kbits/sec                  
+[  4]  15.00-16.00  sec  14.0 KBytes   115 Kbits/sec                  
+[  4]  16.00-17.00  sec  16.0 KBytes   131 Kbits/sec                  
+[  4]  17.00-18.00  sec  16.0 KBytes   131 Kbits/sec                  
+[  4]  18.00-19.00  sec  16.0 KBytes   131 Kbits/sec                  
+[  4]  19.00-20.00  sec  16.0 KBytes   131 Kbits/sec                  
+[  4]  20.00-21.00  sec  17.0 KBytes   139 Kbits/sec                  
+[  4]  21.00-22.00  sec  18.0 KBytes   148 Kbits/sec                  
+[  4]  22.00-23.00  sec  16.0 KBytes   131 Kbits/sec                  
+[  4]  23.00-24.00  sec  16.0 KBytes   131 Kbits/sec                  
+[  4]  24.00-25.00  sec  14.0 KBytes   115 Kbits/sec                  
+[  4]  25.00-26.00  sec  16.0 KBytes   131 Kbits/sec                  
+[  4]  26.00-27.00  sec  13.0 KBytes   107 Kbits/sec                  
+[  4]  27.00-28.00  sec  15.0 KBytes   123 Kbits/sec                  
+[  4]  28.00-29.00  sec  16.0 KBytes   131 Kbits/sec                  
+[  4]  29.00-30.00  sec  15.0 KBytes   123 Kbits/sec                  
+- - - - - - - - - - - - - - - - - - - - - - - - -
+[ ID] Interval           Transfer     Bandwidth
+[  4]   0.00-30.00  sec   475 KBytes   130 Kbits/sec                  sender
+[  4]   0.00-30.00  sec   474 KBytes   129 Kbits/sec                  receiver
+
+iperf Done.
+\n##############################################
+#### Tamanho Datagrama: 1280B Largura de banda: 11B #### 11B
+**************************************
+Teste 1 -> Tamanho Datagrama: 1280B Largura de banda: 11B
+Comando: ./iperf3.exe -b -l -c 192.168.0.19 -t 30s >>logTeste2.txt
+Connecting to host 192.168.0.19, port 5201
+[  4] local 192.168.0.13 port 49760 connected to 192.168.0.19 port 5201
+[ ID] Interval           Transfer     Bandwidth
+[  4]   0.00-1.00   sec  22.5 KBytes   184 Kbits/sec                  
+[  4]   1.00-2.00   sec  18.8 KBytes   154 Kbits/sec                  
+[  4]   2.00-3.00   sec  18.8 KBytes   154 Kbits/sec                  
+[  4]   3.00-4.00   sec  20.0 KBytes   164 Kbits/sec                  
+[  4]   4.00-5.00   sec  20.0 KBytes   164 Kbits/sec                  
+[  4]   5.00-6.00   sec  22.5 KBytes   184 Kbits/sec                  
+[  4]   6.00-7.00   sec  18.8 KBytes   154 Kbits/sec                  
+[  4]   7.00-8.00   sec  21.2 KBytes   174 Kbits/sec                  
+[  4]   8.00-9.00   sec  17.5 KBytes   144 Kbits/sec                  
+[  4]   9.00-10.00  sec  18.8 KBytes   154 Kbits/sec                  
+[  4]  10.00-11.00  sec  21.2 KBytes   174 Kbits/sec                  
+[  4]  11.00-12.00  sec  18.8 KBytes   154 Kbits/sec                  
+[  4]  12.00-13.00  sec  18.8 KBytes   154 Kbits/sec                  
+[  4]  13.00-14.00  sec  21.2 KBytes   174 Kbits/sec                  
+[  4]  14.00-15.00  sec  18.8 KBytes   154 Kbits/sec                  
+[  4]  15.00-16.00  sec  20.0 KBytes   164 Kbits/sec                  
+[  4]  16.00-17.00  sec  18.8 KBytes   153 Kbits/sec                  
+[  4]  17.00-18.00  sec  18.8 KBytes   154 Kbits/sec                  
+[  4]  18.00-19.00  sec  18.8 KBytes   154 Kbits/sec                  
+[  4]  19.00-20.00  sec  21.2 KBytes   174 Kbits/sec                  
+[  4]  20.00-21.00  sec  20.0 KBytes   164 Kbits/sec                  
+[  4]  21.00-22.00  sec  20.0 KBytes   164 Kbits/sec                  
+[  4]  22.00-23.00  sec  18.8 KBytes   154 Kbits/sec                  
+[  4]  23.00-24.00  sec  17.5 KBytes   143 Kbits/sec                  
+[  4]  24.00-25.00  sec  18.8 KBytes   154 Kbits/sec                  
+[  4]  25.00-26.00  sec  20.0 KBytes   164 Kbits/sec                  
+[  4]  26.00-27.00  sec  17.5 KBytes   143 Kbits/sec                  
+[  4]  27.00-28.00  sec  21.2 KBytes   174 Kbits/sec                  
+[  4]  28.00-29.00  sec  18.8 KBytes   154 Kbits/sec                  
+[  4]  29.00-30.00  sec  22.5 KBytes   184 Kbits/sec                  
+- - - - - - - - - - - - - - - - - - - - - - - - -
+[ ID] Interval           Transfer     Bandwidth
+[  4]   0.00-30.00  sec   590 KBytes   161 Kbits/sec                  sender
+[  4]   0.00-30.00  sec   588 KBytes   160 Kbits/sec                  receiver
+
+iperf Done.
+**************************************
+Teste 2 -> Tamanho Datagrama: 1280B Largura de banda: 11B
+Comando: ./iperf3.exe -b -l -c 192.168.0.19 -t 30s >>logTeste2.txt
+Connecting to host 192.168.0.19, port 5201
+[  4] local 192.168.0.13 port 61153 connected to 192.168.0.19 port 5201
+[ ID] Interval           Transfer     Bandwidth
+[  4]   0.00-1.00   sec  21.2 KBytes   174 Kbits/sec                  
+[  4]   1.00-2.00   sec  17.5 KBytes   143 Kbits/sec                  
+[  4]   2.00-3.00   sec  20.0 KBytes   164 Kbits/sec                  
+[  4]   3.00-4.00   sec  17.5 KBytes   143 Kbits/sec                  
+[  4]   4.00-5.00   sec  18.8 KBytes   153 Kbits/sec                  
+[  4]   5.00-6.00   sec  20.0 KBytes   164 Kbits/sec                  
+[  4]   6.00-7.00   sec  16.2 KBytes   133 Kbits/sec                  
+[  4]   7.00-8.00   sec  20.0 KBytes   164 Kbits/sec                  
+[  4]   8.00-9.00   sec  20.0 KBytes   164 Kbits/sec                  
+[  4]   9.00-10.00  sec  18.8 KBytes   154 Kbits/sec                  
+[  4]  10.00-11.00  sec  17.5 KBytes   143 Kbits/sec                  
+[  4]  11.00-12.00  sec  20.0 KBytes   164 Kbits/sec                  
+[  4]  12.00-13.00  sec  18.8 KBytes   154 Kbits/sec                  
+[  4]  13.00-14.00  sec  18.8 KBytes   154 Kbits/sec                  
+[  4]  14.00-15.00  sec  21.2 KBytes   174 Kbits/sec                  
+[  4]  15.00-16.00  sec  21.2 KBytes   174 Kbits/sec                  
+[  4]  16.00-17.00  sec  18.8 KBytes   154 Kbits/sec                  
+[  4]  17.00-18.00  sec  20.0 KBytes   164 Kbits/sec                  
+[  4]  18.00-19.00  sec  18.8 KBytes   154 Kbits/sec                  
+[  4]  19.00-20.00  sec  17.5 KBytes   143 Kbits/sec                  
+[  4]  20.00-21.00  sec  21.2 KBytes   174 Kbits/sec                  
+[  4]  21.00-22.00  sec  18.8 KBytes   154 Kbits/sec                  
+[  4]  22.00-23.00  sec  18.8 KBytes   153 Kbits/sec                  
+[  4]  23.00-24.00  sec  20.0 KBytes   164 Kbits/sec                  
+[  4]  24.00-25.00  sec  17.5 KBytes   143 Kbits/sec                  
+[  4]  25.00-26.00  sec  18.8 KBytes   154 Kbits/sec                  
+[  4]  26.00-27.00  sec  17.5 KBytes   143 Kbits/sec                  
+[  4]  27.00-28.00  sec  18.8 KBytes   153 Kbits/sec                  
+[  4]  28.00-29.00  sec  21.2 KBytes   174 Kbits/sec                  
+[  4]  29.00-30.00  sec  16.2 KBytes   133 Kbits/sec                  
+- - - - - - - - - - - - - - - - - - - - - - - - -
+[ ID] Interval           Transfer     Bandwidth
+[  4]   0.00-30.00  sec   571 KBytes   156 Kbits/sec                  sender
+[  4]   0.00-30.00  sec   570 KBytes   156 Kbits/sec                  receiver
+
+iperf Done.
+**************************************
+Teste 3 -> Tamanho Datagrama: 1280B Largura de banda: 11B
+Comando: ./iperf3.exe -b -l -c 192.168.0.19 -t 30s >>logTeste2.txt
+Connecting to host 192.168.0.19, port 5201
+[  4] local 192.168.0.13 port 61196 connected to 192.168.0.19 port 5201
+[ ID] Interval           Transfer     Bandwidth
+[  4]   0.00-1.00   sec  16.2 KBytes   133 Kbits/sec                  
+[  4]   1.00-2.00   sec  18.8 KBytes   154 Kbits/sec                  
+[  4]   2.00-3.00   sec  16.2 KBytes   133 Kbits/sec                  
+[  4]   3.00-4.00   sec  18.8 KBytes   153 Kbits/sec                  
+[  4]   4.00-5.00   sec  18.8 KBytes   154 Kbits/sec                  
+[  4]   5.00-6.00   sec  17.5 KBytes   143 Kbits/sec                  
+[  4]   6.00-7.00   sec  15.0 KBytes   123 Kbits/sec                  
+[  4]   7.00-8.00   sec  20.0 KBytes   164 Kbits/sec                  
+[  4]   8.00-9.00   sec  21.2 KBytes   174 Kbits/sec                  
+[  4]   9.00-10.00  sec  18.8 KBytes   154 Kbits/sec                  
+[  4]  10.00-11.00  sec  18.8 KBytes   154 Kbits/sec                  
+[  4]  11.00-12.00  sec  16.2 KBytes   133 Kbits/sec                  
+[  4]  12.00-13.00  sec  18.8 KBytes   153 Kbits/sec                  
+[  4]  13.00-14.00  sec  17.5 KBytes   144 Kbits/sec                  
+[  4]  14.00-15.00  sec  20.0 KBytes   164 Kbits/sec                  
+[  4]  15.00-16.00  sec  22.5 KBytes   184 Kbits/sec                  
+[  4]  16.00-17.00  sec  20.0 KBytes   164 Kbits/sec                  
+[  4]  17.00-18.00  sec  20.0 KBytes   164 Kbits/sec                  
+[  4]  18.00-19.00  sec  16.2 KBytes   133 Kbits/sec                  
+[  4]  19.00-20.00  sec  18.8 KBytes   154 Kbits/sec                  
+[  4]  20.00-21.00  sec  15.0 KBytes   123 Kbits/sec                  
+[  4]  21.00-22.00  sec  20.0 KBytes   164 Kbits/sec                  
+[  4]  22.00-23.00  sec  18.8 KBytes   154 Kbits/sec                  
+[  4]  23.00-24.00  sec  17.5 KBytes   143 Kbits/sec                  
+[  4]  24.00-25.00  sec  17.5 KBytes   143 Kbits/sec                  
+[  4]  25.00-26.00  sec  21.2 KBytes   174 Kbits/sec                  
+[  4]  26.00-27.00  sec  18.8 KBytes   154 Kbits/sec                  
+[  4]  27.00-28.00  sec  17.5 KBytes   143 Kbits/sec                  
+[  4]  28.00-29.00  sec  20.0 KBytes   164 Kbits/sec                  
+[  4]  29.00-30.00  sec  15.0 KBytes   123 Kbits/sec                  
+- - - - - - - - - - - - - - - - - - - - - - - - -
+[ ID] Interval           Transfer     Bandwidth
+[  4]   0.00-30.00  sec   551 KBytes   151 Kbits/sec                  sender
+[  4]   0.00-30.00  sec   550 KBytes   150 Kbits/sec                  receiver
+
+iperf Done.
+**************************************
+Teste 4 -> Tamanho Datagrama: 1280B Largura de banda: 11B
+Comando: ./iperf3.exe -b -l -c 192.168.0.19 -t 30s >>logTeste2.txt
+Connecting to host 192.168.0.19, port 5201
+[  4] local 192.168.0.13 port 61234 connected to 192.168.0.19 port 5201
+[ ID] Interval           Transfer     Bandwidth
+[  4]   0.00-1.00   sec  21.2 KBytes   174 Kbits/sec                  
+[  4]   1.00-2.00   sec  18.8 KBytes   154 Kbits/sec                  
+[  4]   2.00-3.00   sec  16.2 KBytes   133 Kbits/sec                  
+[  4]   3.00-4.00   sec  21.2 KBytes   174 Kbits/sec                  
+[  4]   4.00-5.00   sec  20.0 KBytes   164 Kbits/sec                  
+[  4]   5.00-6.00   sec  17.5 KBytes   143 Kbits/sec                  
+[  4]   6.00-7.00   sec  18.8 KBytes   154 Kbits/sec                  
+[  4]   7.00-8.00   sec  18.8 KBytes   154 Kbits/sec                  
+[  4]   8.00-9.00   sec  20.0 KBytes   164 Kbits/sec                  
+[  4]   9.00-10.00  sec  18.8 KBytes   154 Kbits/sec                  
+[  4]  10.00-11.00  sec  18.8 KBytes   154 Kbits/sec                  
+[  4]  11.00-12.00  sec  17.5 KBytes   143 Kbits/sec                  
+[  4]  12.00-13.00  sec  20.0 KBytes   164 Kbits/sec                  
+[  4]  13.00-14.00  sec  21.2 KBytes   174 Kbits/sec                  
+[  4]  14.00-15.00  sec  17.5 KBytes   143 Kbits/sec                  
+[  4]  15.00-16.00  sec  18.8 KBytes   153 Kbits/sec                  
+[  4]  16.00-17.00  sec  20.0 KBytes   164 Kbits/sec                  
+[  4]  17.00-18.00  sec  18.8 KBytes   154 Kbits/sec                  
+[  4]  18.00-19.00  sec  20.0 KBytes   164 Kbits/sec                  
+[  4]  19.00-20.00  sec  16.2 KBytes   133 Kbits/sec                  
+[  4]  20.00-21.00  sec  17.5 KBytes   143 Kbits/sec                  
+[  4]  21.00-22.00  sec  17.5 KBytes   143 Kbits/sec                  
+[  4]  22.00-23.00  sec  17.5 KBytes   143 Kbits/sec                  
+[  4]  23.00-24.00  sec  18.8 KBytes   154 Kbits/sec                  
+[  4]  24.00-25.00  sec  20.0 KBytes   164 Kbits/sec                  
+[  4]  25.00-26.00  sec  20.0 KBytes   164 Kbits/sec                  
+[  4]  26.00-27.00  sec  18.8 KBytes   154 Kbits/sec                  
+[  4]  27.00-28.00  sec  22.5 KBytes   184 Kbits/sec                  
+[  4]  28.00-29.00  sec  20.0 KBytes   164 Kbits/sec                  
+[  4]  29.00-30.00  sec  21.2 KBytes   174 Kbits/sec                  
+- - - - - - - - - - - - - - - - - - - - - - - - -
+[ ID] Interval           Transfer     Bandwidth
+[  4]   0.00-30.00  sec   574 KBytes   157 Kbits/sec                  sender
+[  4]   0.00-30.00  sec   572 KBytes   156 Kbits/sec                  receiver
+
+iperf Done.
+**************************************
+Teste 5 -> Tamanho Datagrama: 1280B Largura de banda: 11B
+Comando: ./iperf3.exe -b -l -c 192.168.0.19 -t 30s >>logTeste2.txt
+Connecting to host 192.168.0.19, port 5201
+[  4] local 192.168.0.13 port 61270 connected to 192.168.0.19 port 5201
+[ ID] Interval           Transfer     Bandwidth
+[  4]   0.00-1.00   sec  20.0 KBytes   164 Kbits/sec                  
+[  4]   1.00-2.00   sec  22.5 KBytes   184 Kbits/sec                  
+[  4]   2.00-3.00   sec  18.8 KBytes   154 Kbits/sec                  
+[  4]   3.00-4.00   sec  18.8 KBytes   154 Kbits/sec                  
+[  4]   4.00-5.00   sec  18.8 KBytes   153 Kbits/sec                  
+[  4]   5.00-6.00   sec  20.0 KBytes   164 Kbits/sec                  
+[  4]   6.00-7.00   sec  18.8 KBytes   154 Kbits/sec                  
+[  4]   7.00-8.00   sec  21.2 KBytes   174 Kbits/sec                  
+[  4]   8.00-9.00   sec  18.8 KBytes   154 Kbits/sec                  
+[  4]   9.00-10.00  sec  18.8 KBytes   153 Kbits/sec                  
+[  4]  10.00-11.00  sec  16.2 KBytes   133 Kbits/sec                  
+[  4]  11.00-12.00  sec  18.8 KBytes   153 Kbits/sec                  
+[  4]  12.00-13.00  sec  20.0 KBytes   164 Kbits/sec                  
+[  4]  13.00-14.00  sec  17.5 KBytes   143 Kbits/sec                  
+[  4]  14.00-15.00  sec  20.0 KBytes   164 Kbits/sec                  
+[  4]  15.00-16.00  sec  18.8 KBytes   154 Kbits/sec                  
+[  4]  16.00-17.00  sec  20.0 KBytes   164 Kbits/sec                  
+[  4]  17.00-18.00  sec  18.8 KBytes   154 Kbits/sec                  
+[  4]  18.00-19.00  sec  17.5 KBytes   143 Kbits/sec                  
+[  4]  19.00-20.00  sec  20.0 KBytes   164 Kbits/sec                  
+[  4]  20.00-21.00  sec  20.0 KBytes   164 Kbits/sec                  
+[  4]  21.00-22.00  sec  17.5 KBytes   143 Kbits/sec                  
+[  4]  22.00-23.00  sec  18.8 KBytes   154 Kbits/sec                  
+[  4]  23.00-24.00  sec  20.0 KBytes   164 Kbits/sec                  
+[  4]  24.00-25.00  sec  18.8 KBytes   154 Kbits/sec                  
+[  4]  25.00-26.00  sec  21.2 KBytes   174 Kbits/sec                  
+[  4]  26.00-27.00  sec  22.5 KBytes   184 Kbits/sec                  
+[  4]  27.00-28.00  sec  17.5 KBytes   143 Kbits/sec                  
+[  4]  28.00-29.00  sec  21.2 KBytes   174 Kbits/sec                  
+[  4]  29.00-30.00  sec  20.0 KBytes   164 Kbits/sec                  
+- - - - - - - - - - - - - - - - - - - - - - - - -
+[ ID] Interval           Transfer     Bandwidth
+[  4]   0.00-30.00  sec   581 KBytes   159 Kbits/sec                  sender
+[  4]   0.00-30.00  sec   579 KBytes   158 Kbits/sec                  receiver
+
+iperf Done.
+\n##############################################
+#### Tamanho Datagrama: 128B Largura de banda: 8.8B #### 8.8B
+**************************************
+Teste 1 -> Tamanho Datagrama: 128B Largura de banda: 8.8B
+Comando: ./iperf3.exe -b -l -c 192.168.0.19 -t 30s >>logTeste2.txt
+Connecting to host 192.168.0.19, port 5201
+[  4] local 192.168.0.13 port 61320 connected to 192.168.0.19 port 5201
+[ ID] Interval           Transfer     Bandwidth
+[  4]   0.00-1.00   sec  2.12 KBytes  17.4 Kbits/sec                  
+[  4]   1.00-2.00   sec  1.75 KBytes  14.3 Kbits/sec                  
+[  4]   2.00-3.00   sec  2.00 KBytes  16.4 Kbits/sec                  
+[  4]   3.00-4.00   sec  1.75 KBytes  14.3 Kbits/sec                  
+[  4]   4.00-5.00   sec  2.00 KBytes  16.4 Kbits/sec                  
+[  4]   5.00-6.00   sec  2.00 KBytes  16.4 Kbits/sec                  
+[  4]   6.00-7.00   sec  2.00 KBytes  16.4 Kbits/sec                  
+[  4]   7.00-8.00   sec  1.75 KBytes  14.3 Kbits/sec                  
+[  4]   8.00-9.00   sec  2.12 KBytes  17.4 Kbits/sec                  
+[  4]   9.00-10.00  sec  1.88 KBytes  15.4 Kbits/sec                  
+[  4]  10.00-11.00  sec  1.88 KBytes  15.4 Kbits/sec                  
+[  4]  11.00-12.00  sec  1.75 KBytes  14.3 Kbits/sec                  
+[  4]  12.00-13.00  sec  2.25 KBytes  18.4 Kbits/sec                  
+[  4]  13.00-14.00  sec  2.00 KBytes  16.4 Kbits/sec                  
+[  4]  14.00-15.00  sec  1.62 KBytes  13.3 Kbits/sec                  
+[  4]  15.00-16.00  sec  1.75 KBytes  14.3 Kbits/sec                  
+[  4]  16.00-17.00  sec  1.62 KBytes  13.3 Kbits/sec                  
+[  4]  17.00-18.00  sec  1.88 KBytes  15.4 Kbits/sec                  
+[  4]  18.00-19.00  sec  1.88 KBytes  15.4 Kbits/sec                  
+[  4]  19.00-20.00  sec  2.12 KBytes  17.4 Kbits/sec                  
+[  4]  20.00-21.00  sec  1.88 KBytes  15.4 Kbits/sec                  
+[  4]  21.00-22.00  sec  1.88 KBytes  15.4 Kbits/sec                  
+[  4]  22.00-23.00  sec  1.88 KBytes  15.4 Kbits/sec                  
+[  4]  23.00-24.00  sec  1.88 KBytes  15.4 Kbits/sec                  
+[  4]  24.00-25.00  sec  1.62 KBytes  13.3 Kbits/sec                  
+[  4]  25.00-26.00  sec  2.00 KBytes  16.4 Kbits/sec                  
+[  4]  26.00-27.00  sec  1.88 KBytes  15.4 Kbits/sec                  
+[  4]  27.00-28.00  sec  1.88 KBytes  15.3 Kbits/sec                  
+[  4]  28.00-29.00  sec  2.00 KBytes  16.4 Kbits/sec                  
+[  4]  29.00-30.00  sec  2.12 KBytes  17.4 Kbits/sec                  
+- - - - - - - - - - - - - - - - - - - - - - - - -
+[ ID] Interval           Transfer     Bandwidth
+[  4]   0.00-30.00  sec  57.1 KBytes  15.6 Kbits/sec                  sender
+[  4]   0.00-30.00  sec  56.6 KBytes  15.5 Kbits/sec                  receiver
+
+iperf Done.
+**************************************
+Teste 2 -> Tamanho Datagrama: 128B Largura de banda: 8.8B
+Comando: ./iperf3.exe -b -l -c 192.168.0.19 -t 30s >>logTeste2.txt
+Connecting to host 192.168.0.19, port 5201
+[  4] local 192.168.0.13 port 61357 connected to 192.168.0.19 port 5201
+[ ID] Interval           Transfer     Bandwidth
+[  4]   0.00-1.00   sec  2.12 KBytes  17.4 Kbits/sec                  
+[  4]   1.00-2.00   sec  2.00 KBytes  16.4 Kbits/sec                  
+[  4]   2.00-3.00   sec  2.00 KBytes  16.4 Kbits/sec                  
+[  4]   3.00-4.00   sec  1.88 KBytes  15.4 Kbits/sec                  
+[  4]   4.00-5.00   sec  2.25 KBytes  18.4 Kbits/sec                  
+[  4]   5.00-6.00   sec  2.12 KBytes  17.4 Kbits/sec                  
+[  4]   6.00-7.00   sec  2.12 KBytes  17.4 Kbits/sec                  
+[  4]   7.00-8.00   sec  2.00 KBytes  16.4 Kbits/sec                  
+[  4]   8.00-9.00   sec  1.88 KBytes  15.4 Kbits/sec                  
+[  4]   9.00-10.00  sec  2.00 KBytes  16.4 Kbits/sec                  
+[  4]  10.00-11.00  sec  1.88 KBytes  15.4 Kbits/sec                  
+[  4]  11.00-12.00  sec  2.00 KBytes  16.4 Kbits/sec                  
+[  4]  12.00-13.00  sec  1.88 KBytes  15.3 Kbits/sec                  
+[  4]  13.00-14.00  sec  2.12 KBytes  17.4 Kbits/sec                  
+[  4]  14.00-15.00  sec  2.00 KBytes  16.4 Kbits/sec                  
+[  4]  15.00-16.00  sec  2.12 KBytes  17.4 Kbits/sec                  
+[  4]  16.00-17.00  sec  2.00 KBytes  16.4 Kbits/sec                  
+[  4]  17.00-18.00  sec  1.75 KBytes  14.3 Kbits/sec                  
+[  4]  18.00-19.00  sec  2.12 KBytes  17.4 Kbits/sec                  
+[  4]  19.00-20.00  sec  2.25 KBytes  18.4 Kbits/sec                  
+[  4]  20.00-21.00  sec  2.00 KBytes  16.4 Kbits/sec                  
+[  4]  21.00-22.00  sec  1.75 KBytes  14.3 Kbits/sec                  
+[  4]  22.00-23.00  sec  2.12 KBytes  17.4 Kbits/sec                  
+[  4]  23.00-24.00  sec  2.12 KBytes  17.4 Kbits/sec                  
+[  4]  24.00-25.00  sec  2.00 KBytes  16.4 Kbits/sec                  
+[  4]  25.00-26.00  sec  1.88 KBytes  15.4 Kbits/sec                  
+[  4]  26.00-27.00  sec  2.12 KBytes  17.4 Kbits/sec                  
+[  4]  27.00-28.00  sec  2.12 KBytes  17.4 Kbits/sec                  
+[  4]  28.00-29.00  sec  2.25 KBytes  18.4 Kbits/sec                  
+[  4]  29.00-30.00  sec  2.00 KBytes  16.4 Kbits/sec                  
+- - - - - - - - - - - - - - - - - - - - - - - - -
+[ ID] Interval           Transfer     Bandwidth
+[  4]   0.00-30.00  sec  60.9 KBytes  16.6 Kbits/sec                  sender
+[  4]   0.00-30.00  sec  60.8 KBytes  16.6 Kbits/sec                  receiver
+
+iperf Done.
+**************************************
+Teste 3 -> Tamanho Datagrama: 128B Largura de banda: 8.8B
+Comando: ./iperf3.exe -b -l -c 192.168.0.19 -t 30s >>logTeste2.txt
+Connecting to host 192.168.0.19, port 5201
+[  4] local 192.168.0.13 port 61395 connected to 192.168.0.19 port 5201
+[ ID] Interval           Transfer     Bandwidth
+[  4]   0.00-1.00   sec  2.00 KBytes  16.4 Kbits/sec                  
+[  4]   1.00-2.00   sec  1.88 KBytes  15.4 Kbits/sec                  
+[  4]   2.00-3.00   sec  1.88 KBytes  15.4 Kbits/sec                  
+[  4]   3.00-4.00   sec  1.88 KBytes  15.3 Kbits/sec                  
+[  4]   4.00-5.00   sec  1.75 KBytes  14.3 Kbits/sec                  
+[  4]   5.00-6.00   sec  1.50 KBytes  12.3 Kbits/sec                  
+[  4]   6.00-7.00   sec  1.75 KBytes  14.3 Kbits/sec                  
+[  4]   7.00-8.00   sec  1.88 KBytes  15.3 Kbits/sec                  
+[  4]   8.00-9.00   sec  1.75 KBytes  14.4 Kbits/sec                  
+[  4]   9.00-10.00  sec  2.00 KBytes  16.4 Kbits/sec                  
+[  4]  10.00-11.00  sec  1.88 KBytes  15.4 Kbits/sec                  
+[  4]  11.00-12.00  sec  1.88 KBytes  15.4 Kbits/sec                  
+[  4]  12.00-13.00  sec  1.88 KBytes  15.4 Kbits/sec                  
+[  4]  13.00-14.00  sec  1.75 KBytes  14.3 Kbits/sec                  
+[  4]  14.00-15.00  sec  1.88 KBytes  15.4 Kbits/sec                  
+[  4]  15.00-16.00  sec  1.88 KBytes  15.3 Kbits/sec                  
+[  4]  16.00-17.00  sec  2.00 KBytes  16.4 Kbits/sec                  
+[  4]  17.00-18.00  sec  1.88 KBytes  15.4 Kbits/sec                  
+[  4]  18.00-19.00  sec  2.00 KBytes  16.4 Kbits/sec                  
+[  4]  19.00-20.00  sec  1.75 KBytes  14.3 Kbits/sec                  
+[  4]  20.00-21.00  sec  1.75 KBytes  14.3 Kbits/sec                  
+[  4]  21.00-22.00  sec  2.00 KBytes  16.4 Kbits/sec                  
+[  4]  22.00-23.00  sec  1.88 KBytes  15.4 Kbits/sec                  
+[  4]  23.00-24.00  sec  1.75 KBytes  14.3 Kbits/sec                  
+[  4]  24.00-25.00  sec  1.88 KBytes  15.4 Kbits/sec                  
+[  4]  25.00-26.00  sec  2.12 KBytes  17.4 Kbits/sec                  
+[  4]  26.00-27.00  sec  1.75 KBytes  14.3 Kbits/sec                  
+[  4]  27.00-28.00  sec  1.75 KBytes  14.3 Kbits/sec                  
+[  4]  28.00-29.00  sec  2.25 KBytes  18.4 Kbits/sec                  
+[  4]  29.00-30.00  sec  2.00 KBytes  16.4 Kbits/sec                  
+- - - - - - - - - - - - - - - - - - - - - - - - -
+[ ID] Interval           Transfer     Bandwidth
+[  4]   0.00-30.00  sec  56.1 KBytes  15.3 Kbits/sec                  sender
+[  4]   0.00-30.00  sec  55.8 KBytes  15.2 Kbits/sec                  receiver
+
+iperf Done.
+**************************************
+Teste 4 -> Tamanho Datagrama: 128B Largura de banda: 8.8B
+Comando: ./iperf3.exe -b -l -c 192.168.0.19 -t 30s >>logTeste2.txt
+Connecting to host 192.168.0.19, port 5201
+[  4] local 192.168.0.13 port 61428 connected to 192.168.0.19 port 5201
+[ ID] Interval           Transfer     Bandwidth
+[  4]   0.00-1.00   sec  1.75 KBytes  14.3 Kbits/sec                  
+[  4]   1.00-2.00   sec  1.62 KBytes  13.3 Kbits/sec                  
+[  4]   2.00-3.00   sec  1.88 KBytes  15.3 Kbits/sec                  
+[  4]   3.00-4.00   sec  1.62 KBytes  13.3 Kbits/sec                  
+[  4]   4.00-5.00   sec  2.00 KBytes  16.4 Kbits/sec                  
+[  4]   5.00-6.00   sec  1.88 KBytes  15.3 Kbits/sec                  
+[  4]   6.00-7.00   sec  1.75 KBytes  14.4 Kbits/sec                  
+[  4]   7.00-8.00   sec  1.62 KBytes  13.3 Kbits/sec                  
+[  4]   8.00-9.00   sec  2.00 KBytes  16.4 Kbits/sec                  
+[  4]   9.00-10.00  sec  1.38 KBytes  11.3 Kbits/sec                  
+[  4]  10.00-11.00  sec  1.50 KBytes  12.3 Kbits/sec                  
+[  4]  11.00-12.00  sec  1.75 KBytes  14.3 Kbits/sec                  
+[  4]  12.00-13.00  sec  1.62 KBytes  13.3 Kbits/sec                  
+[  4]  13.00-14.00  sec  2.00 KBytes  16.4 Kbits/sec                  
+[  4]  14.00-15.00  sec  1.50 KBytes  12.3 Kbits/sec                  
+[  4]  15.00-16.00  sec  1.75 KBytes  14.3 Kbits/sec                  
+[  4]  16.00-17.00  sec  1.62 KBytes  13.3 Kbits/sec                  
+[  4]  17.00-18.00  sec  2.00 KBytes  16.4 Kbits/sec                  
+[  4]  18.00-19.00  sec  2.00 KBytes  16.4 Kbits/sec                  
+[  4]  19.00-20.00  sec  1.62 KBytes  13.3 Kbits/sec                  
+[  4]  20.00-21.06  sec  1.62 KBytes  12.5 Kbits/sec                  
+[  4]  21.06-22.01  sec  1.25 KBytes  10.8 Kbits/sec                  
+[  4]  22.01-23.02  sec  1.75 KBytes  14.2 Kbits/sec                  
+[  4]  23.02-24.00  sec  2.12 KBytes  17.7 Kbits/sec                  
+[  4]  24.00-25.00  sec  1.75 KBytes  14.4 Kbits/sec                  
+[  4]  25.00-26.00  sec  2.00 KBytes  16.4 Kbits/sec                  
+[  4]  26.00-27.00  sec  2.12 KBytes  17.4 Kbits/sec                  
+[  4]  27.00-28.00  sec  2.00 KBytes  16.4 Kbits/sec                  
+[  4]  28.00-29.00  sec  2.12 KBytes  17.4 Kbits/sec                  
+[  4]  29.00-30.00  sec  2.25 KBytes  18.4 Kbits/sec                  
+- - - - - - - - - - - - - - - - - - - - - - - - -
+[ ID] Interval           Transfer     Bandwidth
+[  4]   0.00-30.00  sec  53.9 KBytes  14.7 Kbits/sec                  sender
+[  4]   0.00-30.00  sec  53.6 KBytes  14.6 Kbits/sec                  receiver
+
+iperf Done.
+**************************************
+Teste 5 -> Tamanho Datagrama: 128B Largura de banda: 8.8B
+Comando: ./iperf3.exe -b -l -c 192.168.0.19 -t 30s >>logTeste2.txt
+Connecting to host 192.168.0.19, port 5201
+[  4] local 192.168.0.13 port 61479 connected to 192.168.0.19 port 5201
+[ ID] Interval           Transfer     Bandwidth
+[  4]   0.00-1.00   sec  2.00 KBytes  16.4 Kbits/sec                  
+[  4]   1.00-2.00   sec  2.12 KBytes  17.4 Kbits/sec                  
+[  4]   2.00-3.00   sec  1.88 KBytes  15.4 Kbits/sec                  
+[  4]   3.00-4.00   sec  1.88 KBytes  15.4 Kbits/sec                  
+[  4]   4.00-5.00   sec  2.12 KBytes  17.4 Kbits/sec                  
+[  4]   5.00-6.00   sec  1.75 KBytes  14.3 Kbits/sec                  
+[  4]   6.00-7.00   sec  1.75 KBytes  14.4 Kbits/sec                  
+[  4]   7.00-8.00   sec  2.00 KBytes  16.4 Kbits/sec                  
+[  4]   8.00-9.00   sec  2.00 KBytes  16.4 Kbits/sec                  
+[  4]   9.00-10.00  sec  1.88 KBytes  15.4 Kbits/sec                  
+[  4]  10.00-11.00  sec  1.88 KBytes  15.4 Kbits/sec                  
+[  4]  11.00-12.00  sec  2.00 KBytes  16.4 Kbits/sec                  
+[  4]  12.00-13.00  sec  2.12 KBytes  17.4 Kbits/sec                  
+[  4]  13.00-14.00  sec  1.88 KBytes  15.4 Kbits/sec                  
+[  4]  14.00-15.00  sec  2.12 KBytes  17.4 Kbits/sec                  
+[  4]  15.00-16.00  sec  2.00 KBytes  16.4 Kbits/sec                  
+[  4]  16.00-17.00  sec  2.12 KBytes  17.4 Kbits/sec                  
+[  4]  17.00-18.00  sec  1.75 KBytes  14.3 Kbits/sec                  
+[  4]  18.00-19.00  sec  1.75 KBytes  14.3 Kbits/sec                  
+[  4]  19.00-20.00  sec  1.75 KBytes  14.3 Kbits/sec                  
+[  4]  20.00-21.00  sec  2.00 KBytes  16.4 Kbits/sec                  
+[  4]  21.00-22.00  sec  2.00 KBytes  16.4 Kbits/sec                  
+[  4]  22.00-23.00  sec  1.88 KBytes  15.4 Kbits/sec                  
+[  4]  23.00-24.00  sec  2.12 KBytes  17.4 Kbits/sec                  
+[  4]  24.00-25.00  sec  1.62 KBytes  13.3 Kbits/sec                  
+[  4]  25.00-26.00  sec  1.75 KBytes  14.3 Kbits/sec                  
+[  4]  26.00-27.00  sec  2.12 KBytes  17.4 Kbits/sec                  
+[  4]  27.00-28.00  sec  1.88 KBytes  15.4 Kbits/sec                  
+[  4]  28.00-29.00  sec  2.00 KBytes  16.4 Kbits/sec                  
+[  4]  29.00-30.00  sec  2.00 KBytes  16.4 Kbits/sec                  
+- - - - - - - - - - - - - - - - - - - - - - - - -
+[ ID] Interval           Transfer     Bandwidth
+[  4]   0.00-30.00  sec  58.1 KBytes  15.9 Kbits/sec                  sender
+[  4]   0.00-30.00  sec  57.9 KBytes  15.8 Kbits/sec                  receiver
+
+iperf Done.
+\n##############################################
+#### Tamanho Datagrama: 256B Largura de banda: 8.8B #### 8.8B
+**************************************
+Teste 1 -> Tamanho Datagrama: 256B Largura de banda: 8.8B
+Comando: ./iperf3.exe -b -l -c 192.168.0.19 -t 30s >>logTeste2.txt
+Connecting to host 192.168.0.19, port 5201
+[  4] local 192.168.0.13 port 61521 connected to 192.168.0.19 port 5201
+[ ID] Interval           Transfer     Bandwidth
+[  4]   0.00-1.00   sec  4.75 KBytes  38.9 Kbits/sec                  
+[  4]   1.00-2.00   sec  3.75 KBytes  30.7 Kbits/sec                  
+[  4]   2.00-3.00   sec  3.25 KBytes  26.7 Kbits/sec                  
+[  4]   3.00-4.00   sec  4.00 KBytes  32.8 Kbits/sec                  
+[  4]   4.00-5.00   sec  3.50 KBytes  28.7 Kbits/sec                  
+[  4]   5.00-6.00   sec  4.00 KBytes  32.7 Kbits/sec                  
+[  4]   6.00-7.00   sec  3.75 KBytes  30.7 Kbits/sec                  
+[  4]   7.00-8.00   sec  4.25 KBytes  34.8 Kbits/sec                  
+[  4]   8.00-9.00   sec  3.25 KBytes  26.6 Kbits/sec                  
+[  4]   9.00-10.00  sec  4.00 KBytes  32.8 Kbits/sec                  
+[  4]  10.00-11.00  sec  3.75 KBytes  30.7 Kbits/sec                  
+[  4]  11.00-12.00  sec  3.50 KBytes  28.6 Kbits/sec                  
+[  4]  12.00-13.00  sec  3.75 KBytes  30.8 Kbits/sec                  
+[  4]  13.00-14.00  sec  4.00 KBytes  32.7 Kbits/sec                  
+[  4]  14.00-15.00  sec  3.75 KBytes  30.7 Kbits/sec                  
+[  4]  15.00-16.00  sec  4.50 KBytes  36.9 Kbits/sec                  
+[  4]  16.00-17.00  sec  4.25 KBytes  34.8 Kbits/sec                  
+[  4]  17.00-18.00  sec  4.00 KBytes  32.8 Kbits/sec                  
+[  4]  18.00-19.00  sec  3.75 KBytes  30.7 Kbits/sec                  
+[  4]  19.00-20.00  sec  3.50 KBytes  28.7 Kbits/sec                  
+[  4]  20.00-21.00  sec  3.75 KBytes  30.7 Kbits/sec                  
+[  4]  21.00-22.00  sec  3.75 KBytes  30.8 Kbits/sec                  
+[  4]  22.00-23.00  sec  4.00 KBytes  32.7 Kbits/sec                  
+[  4]  23.00-24.00  sec  4.25 KBytes  34.8 Kbits/sec                  
+[  4]  24.00-25.00  sec  3.25 KBytes  26.6 Kbits/sec                  
+[  4]  25.00-26.00  sec  3.75 KBytes  30.7 Kbits/sec                  
+[  4]  26.00-27.00  sec  4.00 KBytes  32.8 Kbits/sec                  
+[  4]  27.00-28.00  sec  4.25 KBytes  34.8 Kbits/sec                  
+[  4]  28.00-29.00  sec  4.00 KBytes  32.7 Kbits/sec                  
+[  4]  29.00-30.00  sec  4.25 KBytes  34.9 Kbits/sec                  
+- - - - - - - - - - - - - - - - - - - - - - - - -
+[ ID] Interval           Transfer     Bandwidth
+[  4]   0.00-30.00  sec   116 KBytes  31.8 Kbits/sec                  sender
+[  4]   0.00-30.00  sec   116 KBytes  31.7 Kbits/sec                  receiver
+
+iperf Done.
+**************************************
+Teste 2 -> Tamanho Datagrama: 256B Largura de banda: 8.8B
+Comando: ./iperf3.exe -b -l -c 192.168.0.19 -t 30s >>logTeste2.txt
+Connecting to host 192.168.0.19, port 5201
+[  4] local 192.168.0.13 port 61564 connected to 192.168.0.19 port 5201
+[ ID] Interval           Transfer     Bandwidth
+[  4]   0.00-1.00   sec  4.25 KBytes  34.8 Kbits/sec                  
+[  4]   1.00-2.00   sec  4.25 KBytes  34.8 Kbits/sec                  
+[  4]   2.00-3.00   sec  3.75 KBytes  30.7 Kbits/sec                  
+[  4]   3.00-4.00   sec  4.25 KBytes  34.8 Kbits/sec                  
+[  4]   4.00-5.00   sec  3.75 KBytes  30.7 Kbits/sec                  
+[  4]   5.00-6.00   sec  4.50 KBytes  36.9 Kbits/sec                  
+[  4]   6.00-7.00   sec  3.50 KBytes  28.7 Kbits/sec                  
+[  4]   7.00-8.00   sec  3.50 KBytes  28.6 Kbits/sec                  
+[  4]   8.00-9.00   sec  4.75 KBytes  38.9 Kbits/sec                  
+[  4]   9.00-10.00  sec  3.50 KBytes  28.7 Kbits/sec                  
+[  4]  10.00-11.00  sec  4.00 KBytes  32.8 Kbits/sec                  
+[  4]  11.00-12.00  sec  3.75 KBytes  30.7 Kbits/sec                  
+[  4]  12.00-13.00  sec  3.50 KBytes  28.7 Kbits/sec                  
+[  4]  13.00-14.00  sec  4.00 KBytes  32.8 Kbits/sec                  
+[  4]  14.00-15.00  sec  4.25 KBytes  34.8 Kbits/sec                  
+[  4]  15.00-16.00  sec  4.50 KBytes  36.9 Kbits/sec                  
+[  4]  16.00-17.00  sec  3.75 KBytes  30.7 Kbits/sec                  
+[  4]  17.00-18.00  sec  4.25 KBytes  34.8 Kbits/sec                  
+[  4]  18.00-19.00  sec  3.50 KBytes  28.7 Kbits/sec                  
+[  4]  19.00-20.00  sec  4.00 KBytes  32.7 Kbits/sec                  
+[  4]  20.00-21.00  sec  3.50 KBytes  28.7 Kbits/sec                  
+[  4]  21.00-22.00  sec  4.00 KBytes  32.7 Kbits/sec                  
+[  4]  22.00-23.00  sec  3.75 KBytes  30.8 Kbits/sec                  
+[  4]  23.00-24.00  sec  4.50 KBytes  36.9 Kbits/sec                  
+[  4]  24.00-25.00  sec  4.00 KBytes  32.8 Kbits/sec                  
+[  4]  25.00-26.00  sec  3.75 KBytes  30.7 Kbits/sec                  
+[  4]  26.00-27.00  sec  3.75 KBytes  30.7 Kbits/sec                  
+[  4]  27.00-28.00  sec  3.50 KBytes  28.7 Kbits/sec                  
+[  4]  28.00-29.00  sec  4.00 KBytes  32.8 Kbits/sec                  
+[  4]  29.00-30.00  sec  4.25 KBytes  34.8 Kbits/sec                  
+- - - - - - - - - - - - - - - - - - - - - - - - -
+[ ID] Interval           Transfer     Bandwidth
+[  4]   0.00-30.00  sec   118 KBytes  32.4 Kbits/sec                  sender
+[  4]   0.00-30.00  sec   118 KBytes  32.3 Kbits/sec                  receiver
+
+iperf Done.
+**************************************
+Teste 3 -> Tamanho Datagrama: 256B Largura de banda: 8.8B
+Comando: ./iperf3.exe -b -l -c 192.168.0.19 -t 30s >>logTeste2.txt
+Connecting to host 192.168.0.19, port 5201
+[  4] local 192.168.0.13 port 61597 connected to 192.168.0.19 port 5201
+[ ID] Interval           Transfer     Bandwidth
+[  4]   0.00-1.00   sec  4.00 KBytes  32.7 Kbits/sec                  
+[  4]   1.00-2.00   sec  4.25 KBytes  34.8 Kbits/sec                  
+[  4]   2.00-3.00   sec  4.25 KBytes  34.8 Kbits/sec                  
+[  4]   3.00-4.00   sec  3.75 KBytes  30.7 Kbits/sec                  
+[  4]   4.00-5.00   sec  4.00 KBytes  32.8 Kbits/sec                  
+[  4]   5.00-6.00   sec  4.50 KBytes  36.8 Kbits/sec                  
+[  4]   6.00-7.00   sec  3.75 KBytes  30.7 Kbits/sec                  
+[  4]   7.00-8.00   sec  3.50 KBytes  28.7 Kbits/sec                  
+[  4]   8.00-9.00   sec  3.75 KBytes  30.7 Kbits/sec                  
+[  4]   9.00-10.00  sec  4.00 KBytes  32.8 Kbits/sec                  
+[  4]  10.00-11.00  sec  4.75 KBytes  38.9 Kbits/sec                  
+[  4]  11.00-12.00  sec  3.25 KBytes  26.6 Kbits/sec                  
+[  4]  12.00-13.00  sec  4.25 KBytes  34.8 Kbits/sec                  
+[  4]  13.00-14.00  sec  3.75 KBytes  30.7 Kbits/sec                  
+[  4]  14.00-15.00  sec  3.75 KBytes  30.7 Kbits/sec                  
+[  4]  15.00-16.00  sec  4.25 KBytes  34.8 Kbits/sec                  
+[  4]  16.00-17.00  sec  3.25 KBytes  26.6 Kbits/sec                  
+[  4]  17.00-18.00  sec  3.50 KBytes  28.7 Kbits/sec                  
+[  4]  18.00-19.00  sec  4.00 KBytes  32.7 Kbits/sec                  
+[  4]  19.00-20.00  sec  3.50 KBytes  28.7 Kbits/sec                  
+[  4]  20.00-21.00  sec  3.50 KBytes  28.7 Kbits/sec                  
+[  4]  21.00-22.00  sec  4.25 KBytes  34.8 Kbits/sec                  
+[  4]  22.00-23.00  sec  4.00 KBytes  32.7 Kbits/sec                  
+[  4]  23.00-24.00  sec  3.50 KBytes  28.7 Kbits/sec                  
+[  4]  24.00-25.00  sec  3.50 KBytes  28.7 Kbits/sec                  
+[  4]  25.00-26.00  sec  4.25 KBytes  34.8 Kbits/sec                  
+[  4]  26.00-27.00  sec  3.25 KBytes  26.7 Kbits/sec                  
+[  4]  27.00-28.00  sec  3.50 KBytes  28.7 Kbits/sec                  
+[  4]  28.00-29.00  sec  3.25 KBytes  26.6 Kbits/sec                  
+[  4]  29.00-30.00  sec  4.25 KBytes  34.8 Kbits/sec                  
+- - - - - - - - - - - - - - - - - - - - - - - - -
+[ ID] Interval           Transfer     Bandwidth
+[  4]   0.00-30.00  sec   115 KBytes  31.5 Kbits/sec                  sender
+[  4]   0.00-30.00  sec   114 KBytes  31.1 Kbits/sec                  receiver
+
+iperf Done.
+**************************************
+Teste 4 -> Tamanho Datagrama: 256B Largura de banda: 8.8B
+Comando: ./iperf3.exe -b -l -c 192.168.0.19 -t 30s >>logTeste2.txt
+Connecting to host 192.168.0.19, port 5201
+[  4] local 192.168.0.13 port 61632 connected to 192.168.0.19 port 5201
+[ ID] Interval           Transfer     Bandwidth
+[  4]   0.00-1.00   sec  4.00 KBytes  32.7 Kbits/sec                  
+[  4]   1.00-2.00   sec  4.25 KBytes  34.8 Kbits/sec                  
+[  4]   2.00-3.00   sec  3.25 KBytes  26.6 Kbits/sec                  
+[  4]   3.00-4.00   sec  3.50 KBytes  28.7 Kbits/sec                  
+[  4]   4.00-5.00   sec  3.75 KBytes  30.7 Kbits/sec                  
+[  4]   5.00-6.00   sec  3.50 KBytes  28.7 Kbits/sec                  
+[  4]   6.00-7.00   sec  3.50 KBytes  28.7 Kbits/sec                  
+[  4]   7.00-8.00   sec  3.25 KBytes  26.6 Kbits/sec                  
+[  4]   8.00-9.00   sec  3.50 KBytes  28.7 Kbits/sec                  
+[  4]   9.00-10.00  sec  3.50 KBytes  28.7 Kbits/sec                  
+[  4]  10.00-11.00  sec  3.50 KBytes  28.7 Kbits/sec                  
+[  4]  11.00-12.00  sec  3.50 KBytes  28.7 Kbits/sec                  
+[  4]  12.00-13.00  sec  4.00 KBytes  32.8 Kbits/sec                  
+[  4]  13.00-14.00  sec  4.00 KBytes  32.8 Kbits/sec                  
+[  4]  14.00-15.00  sec  3.75 KBytes  30.7 Kbits/sec                  
+[  4]  15.00-16.00  sec  3.75 KBytes  30.7 Kbits/sec                  
+[  4]  16.00-17.00  sec  4.00 KBytes  32.8 Kbits/sec                  
+[  4]  17.00-18.00  sec  4.00 KBytes  32.7 Kbits/sec                  
+[  4]  18.00-19.00  sec  3.75 KBytes  30.8 Kbits/sec                  
+[  4]  19.00-20.00  sec  3.75 KBytes  30.7 Kbits/sec                  
+[  4]  20.00-21.00  sec  3.75 KBytes  30.7 Kbits/sec                  
+[  4]  21.00-22.00  sec  3.75 KBytes  30.7 Kbits/sec                  
+[  4]  22.00-23.00  sec  3.50 KBytes  28.7 Kbits/sec                  
+[  4]  23.00-24.00  sec  4.25 KBytes  34.8 Kbits/sec                  
+[  4]  24.00-25.00  sec  3.25 KBytes  26.6 Kbits/sec                  
+[  4]  25.00-26.00  sec  4.00 KBytes  32.7 Kbits/sec                  
+[  4]  26.00-27.00  sec  3.50 KBytes  28.7 Kbits/sec                  
+[  4]  27.00-28.00  sec  3.25 KBytes  26.6 Kbits/sec                  
+[  4]  28.00-29.00  sec  4.00 KBytes  32.8 Kbits/sec                  
+[  4]  29.00-30.00  sec  4.50 KBytes  36.8 Kbits/sec                  
+- - - - - - - - - - - - - - - - - - - - - - - - -
+[ ID] Interval           Transfer     Bandwidth
+[  4]   0.00-30.00  sec   112 KBytes  30.5 Kbits/sec                  sender
+[  4]   0.00-30.00  sec   111 KBytes  30.4 Kbits/sec                  receiver
+
+iperf Done.
+**************************************
+Teste 5 -> Tamanho Datagrama: 256B Largura de banda: 8.8B
+Comando: ./iperf3.exe -b -l -c 192.168.0.19 -t 30s >>logTeste2.txt
+Connecting to host 192.168.0.19, port 5201
+[  4] local 192.168.0.13 port 61662 connected to 192.168.0.19 port 5201
+[ ID] Interval           Transfer     Bandwidth
+[  4]   0.00-1.00   sec  4.25 KBytes  34.8 Kbits/sec                  
+[  4]   1.00-2.00   sec  3.25 KBytes  26.6 Kbits/sec                  
+[  4]   2.00-3.00   sec  3.50 KBytes  28.7 Kbits/sec                  
+[  4]   3.00-4.00   sec  3.25 KBytes  26.6 Kbits/sec                  
+[  4]   4.00-5.00   sec  4.00 KBytes  32.7 Kbits/sec                  
+[  4]   5.00-6.00   sec  4.00 KBytes  32.8 Kbits/sec                  
+[  4]   6.00-7.00   sec  4.00 KBytes  32.8 Kbits/sec                  
+[  4]   7.00-8.00   sec  3.50 KBytes  28.7 Kbits/sec                  
+[  4]   8.00-9.00   sec  4.00 KBytes  32.8 Kbits/sec                  
+[  4]   9.00-10.00  sec  4.00 KBytes  32.7 Kbits/sec                  
+[  4]  10.00-11.00  sec  4.25 KBytes  34.9 Kbits/sec                  
+[  4]  11.00-12.00  sec  4.00 KBytes  32.8 Kbits/sec                  
+[  4]  12.00-13.00  sec  4.50 KBytes  36.8 Kbits/sec                  
+[  4]  13.00-14.00  sec  4.25 KBytes  34.8 Kbits/sec                  
+[  4]  14.00-15.00  sec  4.00 KBytes  32.8 Kbits/sec                  
+[  4]  15.00-16.00  sec  3.75 KBytes  30.7 Kbits/sec                  
+[  4]  16.00-17.00  sec  4.00 KBytes  32.8 Kbits/sec                  
+[  4]  17.00-18.00  sec  4.00 KBytes  32.7 Kbits/sec                  
+[  4]  18.00-19.00  sec  3.75 KBytes  30.7 Kbits/sec                  
+[  4]  19.00-20.00  sec  3.75 KBytes  30.7 Kbits/sec                  
+[  4]  20.00-21.00  sec  3.50 KBytes  28.7 Kbits/sec                  
+[  4]  21.00-22.00  sec  3.50 KBytes  28.7 Kbits/sec                  
+[  4]  22.00-23.00  sec  3.50 KBytes  28.7 Kbits/sec                  
+[  4]  23.00-24.00  sec  4.00 KBytes  32.8 Kbits/sec                  
+[  4]  24.00-25.00  sec  4.00 KBytes  32.8 Kbits/sec                  
+[  4]  25.00-26.00  sec  3.75 KBytes  30.7 Kbits/sec                  
+[  4]  26.00-27.00  sec  4.00 KBytes  32.7 Kbits/sec                  
+[  4]  27.00-28.00  sec  3.75 KBytes  30.7 Kbits/sec                  
+[  4]  28.00-29.00  sec  4.00 KBytes  32.8 Kbits/sec                  
+[  4]  29.00-30.00  sec  3.50 KBytes  28.6 Kbits/sec                  
+- - - - - - - - - - - - - - - - - - - - - - - - -
+[ ID] Interval           Transfer     Bandwidth
+[  4]   0.00-30.00  sec   116 KBytes  31.5 Kbits/sec                  sender
+[  4]   0.00-30.00  sec   115 KBytes  31.5 Kbits/sec                  receiver
+
+iperf Done.
+\n##############################################
+#### Tamanho Datagrama: 512B Largura de banda: 8.8B #### 8.8B
+**************************************
+Teste 1 -> Tamanho Datagrama: 512B Largura de banda: 8.8B
+Comando: ./iperf3.exe -b -l -c 192.168.0.19 -t 30s >>logTeste2.txt
+Connecting to host 192.168.0.19, port 5201
+[  4] local 192.168.0.13 port 60413 connected to 192.168.0.19 port 5201
+[ ID] Interval           Transfer     Bandwidth
+[  4]   0.00-1.00   sec  8.00 KBytes  65.5 Kbits/sec                  
+[  4]   1.00-2.00   sec  8.50 KBytes  69.7 Kbits/sec                  
+[  4]   2.00-3.00   sec  7.50 KBytes  61.4 Kbits/sec                  
+[  4]   3.00-4.00   sec  8.00 KBytes  65.5 Kbits/sec                  
+[  4]   4.00-5.00   sec  8.00 KBytes  65.6 Kbits/sec                  
+[  4]   5.00-6.00   sec  7.00 KBytes  57.4 Kbits/sec                  
+[  4]   6.00-7.00   sec  7.00 KBytes  57.3 Kbits/sec                  
+[  4]   7.00-8.00   sec  7.50 KBytes  61.4 Kbits/sec                  
+[  4]   8.00-9.00   sec  8.00 KBytes  65.6 Kbits/sec                  
+[  4]   9.00-10.00  sec  7.00 KBytes  57.3 Kbits/sec                  
+[  4]  10.00-11.00  sec  8.00 KBytes  65.5 Kbits/sec                  
+[  4]  11.00-12.00  sec  7.50 KBytes  61.4 Kbits/sec                  
+[  4]  12.00-13.00  sec  7.00 KBytes  57.3 Kbits/sec                  
+[  4]  13.00-14.00  sec  7.00 KBytes  57.3 Kbits/sec                  
+[  4]  14.00-15.00  sec  8.00 KBytes  65.5 Kbits/sec                  
+[  4]  15.00-16.00  sec  8.00 KBytes  65.5 Kbits/sec                  
+[  4]  16.00-17.00  sec  6.00 KBytes  49.2 Kbits/sec                  
+[  4]  17.00-18.00  sec  7.00 KBytes  57.4 Kbits/sec                  
+[  4]  18.00-19.00  sec  7.50 KBytes  61.4 Kbits/sec                  
+[  4]  19.00-20.00  sec  8.00 KBytes  65.4 Kbits/sec                  
+[  4]  20.00-21.00  sec  6.50 KBytes  53.3 Kbits/sec                  
+[  4]  21.00-22.00  sec  7.50 KBytes  61.4 Kbits/sec                  
+[  4]  22.00-23.00  sec  9.00 KBytes  73.7 Kbits/sec                  
+[  4]  23.00-24.00  sec  8.00 KBytes  65.5 Kbits/sec                  
+[  4]  24.00-25.00  sec  8.50 KBytes  69.7 Kbits/sec                  
+[  4]  25.00-26.00  sec  6.50 KBytes  53.2 Kbits/sec                  
+[  4]  26.00-27.00  sec  7.50 KBytes  61.3 Kbits/sec                  
+[  4]  27.00-28.00  sec  9.00 KBytes  73.9 Kbits/sec                  
+[  4]  28.00-29.00  sec  9.00 KBytes  73.7 Kbits/sec                  
+[  4]  29.00-30.00  sec  9.00 KBytes  73.7 Kbits/sec                  
+- - - - - - - - - - - - - - - - - - - - - - - - -
+[ ID] Interval           Transfer     Bandwidth
+[  4]   0.00-30.00  sec   231 KBytes  63.1 Kbits/sec                  sender
+[  4]   0.00-30.00  sec   230 KBytes  62.9 Kbits/sec                  receiver
+
+iperf Done.
+**************************************
+Teste 2 -> Tamanho Datagrama: 512B Largura de banda: 8.8B
+Comando: ./iperf3.exe -b -l -c 192.168.0.19 -t 30s >>logTeste2.txt
+Connecting to host 192.168.0.19, port 5201
+[  4] local 192.168.0.13 port 60462 connected to 192.168.0.19 port 5201
+[ ID] Interval           Transfer     Bandwidth
+[  4]   0.00-1.00   sec  8.00 KBytes  65.5 Kbits/sec                  
+[  4]   1.00-2.00   sec  7.50 KBytes  61.5 Kbits/sec                  
+[  4]   2.00-3.00   sec  7.00 KBytes  57.3 Kbits/sec                  
+[  4]   3.00-4.00   sec  7.50 KBytes  61.4 Kbits/sec                  
+[  4]   4.00-5.00   sec  8.00 KBytes  65.6 Kbits/sec                  
+[  4]   5.00-6.00   sec  7.00 KBytes  57.4 Kbits/sec                  
+[  4]   6.00-7.00   sec  8.00 KBytes  65.5 Kbits/sec                  
+[  4]   7.00-8.00   sec  7.50 KBytes  61.5 Kbits/sec                  
+[  4]   8.00-9.00   sec  8.50 KBytes  69.6 Kbits/sec                  
+[  4]   9.00-10.00  sec  7.00 KBytes  57.3 Kbits/sec                  
+[  4]  10.00-11.00  sec  7.00 KBytes  57.3 Kbits/sec                  
+[  4]  11.00-12.00  sec  8.00 KBytes  65.5 Kbits/sec                  
+[  4]  12.00-13.00  sec  8.00 KBytes  65.5 Kbits/sec                  
+[  4]  13.00-14.00  sec  8.00 KBytes  65.5 Kbits/sec                  
+[  4]  14.00-15.00  sec  7.50 KBytes  61.4 Kbits/sec                  
+[  4]  15.00-16.00  sec  7.50 KBytes  61.4 Kbits/sec                  
+[  4]  16.00-17.00  sec  7.00 KBytes  57.3 Kbits/sec                  
+[  4]  17.00-18.00  sec  8.00 KBytes  65.5 Kbits/sec                  
+[  4]  18.00-19.00  sec  7.00 KBytes  57.3 Kbits/sec                  
+[  4]  19.00-20.00  sec  8.00 KBytes  65.6 Kbits/sec                  
+[  4]  20.00-21.00  sec  9.00 KBytes  73.7 Kbits/sec                  
+[  4]  21.00-22.00  sec  8.00 KBytes  65.6 Kbits/sec                  
+[  4]  22.00-23.00  sec  7.50 KBytes  61.3 Kbits/sec                  
+[  4]  23.00-24.00  sec  9.00 KBytes  73.7 Kbits/sec                  
+[  4]  24.00-25.00  sec  7.00 KBytes  57.4 Kbits/sec                  
+[  4]  25.00-26.00  sec  8.00 KBytes  65.5 Kbits/sec                  
+[  4]  26.00-27.00  sec  7.50 KBytes  61.5 Kbits/sec                  
+[  4]  27.00-28.00  sec  8.00 KBytes  65.5 Kbits/sec                  
+[  4]  28.00-29.00  sec  8.00 KBytes  65.4 Kbits/sec                  
+[  4]  29.00-30.00  sec  8.50 KBytes  69.7 Kbits/sec                  
+- - - - - - - - - - - - - - - - - - - - - - - - -
+[ ID] Interval           Transfer     Bandwidth
+[  4]   0.00-30.00  sec   232 KBytes  63.5 Kbits/sec                  sender
+[  4]   0.00-30.00  sec   232 KBytes  63.3 Kbits/sec                  receiver
+
+iperf Done.
+**************************************
+Teste 3 -> Tamanho Datagrama: 512B Largura de banda: 8.8B
+Comando: ./iperf3.exe -b -l -c 192.168.0.19 -t 30s >>logTeste2.txt
+Connecting to host 192.168.0.19, port 5201
+[  4] local 192.168.0.13 port 60500 connected to 192.168.0.19 port 5201
+[ ID] Interval           Transfer     Bandwidth
+[  4]   0.00-1.00   sec  9.00 KBytes  73.6 Kbits/sec                  
+[  4]   1.00-2.00   sec  7.50 KBytes  61.5 Kbits/sec                  
+[  4]   2.00-3.00   sec  7.50 KBytes  61.4 Kbits/sec                  
+[  4]   3.00-4.00   sec  7.00 KBytes  57.4 Kbits/sec                  
+[  4]   4.00-5.00   sec  8.00 KBytes  65.5 Kbits/sec                  
+[  4]   5.00-6.00   sec  8.00 KBytes  65.5 Kbits/sec                  
+[  4]   6.00-7.00   sec  8.00 KBytes  65.5 Kbits/sec                  
+[  4]   7.00-8.00   sec  8.50 KBytes  69.6 Kbits/sec                  
+[  4]   8.00-9.00   sec  7.50 KBytes  61.5 Kbits/sec                  
+[  4]   9.00-10.00  sec  8.00 KBytes  65.5 Kbits/sec                  
+[  4]  10.00-11.00  sec  8.00 KBytes  65.6 Kbits/sec                  
+[  4]  11.00-12.00  sec  7.50 KBytes  61.5 Kbits/sec                  
+[  4]  12.00-13.00  sec  7.00 KBytes  57.3 Kbits/sec                  
+[  4]  13.00-14.00  sec  7.50 KBytes  61.5 Kbits/sec                  
+[  4]  14.00-15.00  sec  8.00 KBytes  65.5 Kbits/sec                  
+[  4]  15.00-16.00  sec  6.50 KBytes  53.2 Kbits/sec                  
+[  4]  16.00-17.00  sec  7.00 KBytes  57.3 Kbits/sec                  
+[  4]  17.00-18.00  sec  7.00 KBytes  57.3 Kbits/sec                  
+[  4]  18.00-19.00  sec  7.50 KBytes  61.5 Kbits/sec                  
+[  4]  19.00-20.00  sec  8.00 KBytes  65.5 Kbits/sec                  
+[  4]  20.00-21.00  sec  7.50 KBytes  61.5 Kbits/sec                  
+[  4]  21.00-22.00  sec  7.00 KBytes  57.4 Kbits/sec                  
+[  4]  22.00-23.00  sec  8.00 KBytes  65.5 Kbits/sec                  
+[  4]  23.00-24.00  sec  9.00 KBytes  73.7 Kbits/sec                  
+[  4]  24.00-25.00  sec  7.50 KBytes  61.5 Kbits/sec                  
+[  4]  25.00-26.00  sec  7.00 KBytes  57.3 Kbits/sec                  
+[  4]  26.00-27.00  sec  7.50 KBytes  61.3 Kbits/sec                  
+[  4]  27.00-28.00  sec  8.00 KBytes  65.5 Kbits/sec                  
+[  4]  28.00-29.00  sec  6.50 KBytes  53.3 Kbits/sec                  
+[  4]  29.00-30.00  sec  8.50 KBytes  69.5 Kbits/sec                  
+- - - - - - - - - - - - - - - - - - - - - - - - -
+[ ID] Interval           Transfer     Bandwidth
+[  4]   0.00-30.00  sec   230 KBytes  62.7 Kbits/sec                  sender
+[  4]   0.00-30.00  sec   228 KBytes  62.4 Kbits/sec                  receiver
+
+iperf Done.
+**************************************
+Teste 4 -> Tamanho Datagrama: 512B Largura de banda: 8.8B
+Comando: ./iperf3.exe -b -l -c 192.168.0.19 -t 30s >>logTeste2.txt
+Connecting to host 192.168.0.19, port 5201
+[  4] local 192.168.0.13 port 60539 connected to 192.168.0.19 port 5201
+[ ID] Interval           Transfer     Bandwidth
+[  4]   0.00-1.00   sec  8.50 KBytes  69.6 Kbits/sec                  
+[  4]   1.00-2.00   sec  8.00 KBytes  65.4 Kbits/sec                  
+[  4]   2.00-3.00   sec  9.00 KBytes  73.9 Kbits/sec                  
+[  4]   3.00-4.00   sec  8.00 KBytes  65.5 Kbits/sec                  
+[  4]   4.00-5.00   sec  8.00 KBytes  65.6 Kbits/sec                  
+[  4]   5.00-6.00   sec  7.50 KBytes  61.4 Kbits/sec                  
+[  4]   6.00-7.00   sec  7.50 KBytes  61.4 Kbits/sec                  
+[  4]   7.00-8.00   sec  7.00 KBytes  57.3 Kbits/sec                  
+[  4]   8.00-9.00   sec  8.00 KBytes  65.6 Kbits/sec                  
+[  4]   9.00-10.00  sec  7.50 KBytes  61.5 Kbits/sec                  
+[  4]  10.00-11.00  sec  8.00 KBytes  65.4 Kbits/sec                  
+[  4]  11.00-12.00  sec  7.00 KBytes  57.4 Kbits/sec                  
+[  4]  12.00-13.00  sec  7.50 KBytes  61.4 Kbits/sec                  
+[  4]  13.00-14.00  sec  8.00 KBytes  65.5 Kbits/sec                  
+[  4]  14.00-15.00  sec  9.00 KBytes  73.6 Kbits/sec                  
+[  4]  15.00-16.00  sec  9.00 KBytes  73.8 Kbits/sec                  
+[  4]  16.00-17.00  sec  8.00 KBytes  65.5 Kbits/sec                  
+[  4]  17.00-18.00  sec  7.50 KBytes  61.3 Kbits/sec                  
+[  4]  18.00-19.00  sec  8.50 KBytes  69.8 Kbits/sec                  
+[  4]  19.00-20.00  sec  7.00 KBytes  57.3 Kbits/sec                  
+[  4]  20.00-21.00  sec  7.50 KBytes  61.4 Kbits/sec                  
+[  4]  21.00-22.00  sec  8.00 KBytes  65.5 Kbits/sec                  
+[  4]  22.00-23.00  sec  7.50 KBytes  61.5 Kbits/sec                  
+[  4]  23.00-24.00  sec  7.50 KBytes  61.4 Kbits/sec                  
+[  4]  24.00-25.00  sec  8.50 KBytes  69.6 Kbits/sec                  
+[  4]  25.00-26.00  sec  9.00 KBytes  73.7 Kbits/sec                  
+[  4]  26.00-27.00  sec  7.00 KBytes  57.4 Kbits/sec                  
+[  4]  27.00-28.00  sec  7.00 KBytes  57.3 Kbits/sec                  
+[  4]  28.00-29.00  sec  7.50 KBytes  61.5 Kbits/sec                  
+[  4]  29.00-30.00  sec  8.50 KBytes  69.7 Kbits/sec                  
+- - - - - - - - - - - - - - - - - - - - - - - - -
+[ ID] Interval           Transfer     Bandwidth
+[  4]   0.00-30.00  sec   236 KBytes  64.6 Kbits/sec                  sender
+[  4]   0.00-30.00  sec   236 KBytes  64.4 Kbits/sec                  receiver
+
+iperf Done.
+**************************************
+Teste 5 -> Tamanho Datagrama: 512B Largura de banda: 8.8B
+Comando: ./iperf3.exe -b -l -c 192.168.0.19 -t 30s >>logTeste2.txt
+Connecting to host 192.168.0.19, port 5201
+[  4] local 192.168.0.13 port 60582 connected to 192.168.0.19 port 5201
+[ ID] Interval           Transfer     Bandwidth
+[  4]   0.00-1.00   sec  8.00 KBytes  65.5 Kbits/sec                  
+[  4]   1.00-2.00   sec  8.50 KBytes  69.7 Kbits/sec                  
+[  4]   2.00-3.00   sec  8.00 KBytes  65.5 Kbits/sec                  
+[  4]   3.00-4.00   sec  9.00 KBytes  73.8 Kbits/sec                  
+[  4]   4.00-5.00   sec  6.50 KBytes  53.3 Kbits/sec                  
+[  4]   5.00-6.00   sec  8.00 KBytes  65.5 Kbits/sec                  
+[  4]   6.00-7.00   sec  7.50 KBytes  61.4 Kbits/sec                  
+[  4]   7.00-8.00   sec  7.50 KBytes  61.5 Kbits/sec                  
+[  4]   8.00-9.00   sec  7.00 KBytes  57.3 Kbits/sec                  
+[  4]   9.00-10.00  sec  8.50 KBytes  69.6 Kbits/sec                  
+[  4]  10.00-11.00  sec  8.00 KBytes  65.5 Kbits/sec                  
+[  4]  11.00-12.00  sec  8.50 KBytes  69.6 Kbits/sec                  
+[  4]  12.00-13.00  sec  7.50 KBytes  61.5 Kbits/sec                  
+[  4]  13.00-14.00  sec  7.00 KBytes  57.3 Kbits/sec                  
+[  4]  14.00-15.00  sec  7.00 KBytes  57.3 Kbits/sec                  
+[  4]  15.00-16.00  sec  8.50 KBytes  69.7 Kbits/sec                  
+[  4]  16.00-17.00  sec  6.50 KBytes  53.3 Kbits/sec                  
+[  4]  17.00-18.00  sec  7.00 KBytes  57.3 Kbits/sec                  
+[  4]  18.00-19.00  sec  7.00 KBytes  57.3 Kbits/sec                  
+[  4]  19.00-20.00  sec  8.00 KBytes  65.6 Kbits/sec                  
+[  4]  20.00-21.00  sec  7.00 KBytes  57.4 Kbits/sec                  
+[  4]  21.00-22.00  sec  8.00 KBytes  65.4 Kbits/sec                  
+[  4]  22.00-23.00  sec  7.00 KBytes  57.3 Kbits/sec                  
+[  4]  23.00-24.00  sec  7.50 KBytes  61.5 Kbits/sec                  
+[  4]  24.00-25.00  sec  8.00 KBytes  65.6 Kbits/sec                  
+[  4]  25.00-26.00  sec  6.50 KBytes  53.3 Kbits/sec                  
+[  4]  26.00-27.00  sec  7.50 KBytes  61.4 Kbits/sec                  
+[  4]  27.00-28.00  sec  8.00 KBytes  65.6 Kbits/sec                  
+[  4]  28.00-29.00  sec  7.00 KBytes  57.3 Kbits/sec                  
+[  4]  29.00-30.00  sec  7.50 KBytes  61.4 Kbits/sec                  
+- - - - - - - - - - - - - - - - - - - - - - - - -
+[ ID] Interval           Transfer     Bandwidth
+[  4]   0.00-30.00  sec   228 KBytes  62.1 Kbits/sec                  sender
+[  4]   0.00-30.00  sec   226 KBytes  61.8 Kbits/sec                  receiver
+
+iperf Done.
+\n##############################################
+#### Tamanho Datagrama: 1024B Largura de banda: 8.8B #### 8.8B
+**************************************
+Teste 1 -> Tamanho Datagrama: 1024B Largura de banda: 8.8B
+Comando: ./iperf3.exe -b -l -c 192.168.0.19 -t 30s >>logTeste2.txt
+Connecting to host 192.168.0.19, port 5201
+[  4] local 192.168.0.13 port 49279 connected to 192.168.0.19 port 5201
+[ ID] Interval           Transfer     Bandwidth
+[  4]   0.00-1.00   sec  18.0 KBytes   147 Kbits/sec                  
+[  4]   1.00-2.00   sec  15.0 KBytes   123 Kbits/sec                  
+[  4]   2.00-3.00   sec  13.0 KBytes   106 Kbits/sec                  
+[  4]   3.00-4.00   sec  17.0 KBytes   139 Kbits/sec                  
+[  4]   4.00-5.00   sec  16.0 KBytes   131 Kbits/sec                  
+[  4]   5.00-6.00   sec  17.0 KBytes   139 Kbits/sec                  
+[  4]   6.00-7.00   sec  16.0 KBytes   131 Kbits/sec                  
+[  4]   7.00-8.00   sec  12.0 KBytes  98.3 Kbits/sec                  
+[  4]   8.00-9.00   sec  16.0 KBytes   131 Kbits/sec                  
+[  4]   9.00-10.00  sec  16.0 KBytes   131 Kbits/sec                  
+[  4]  10.00-11.00  sec  16.0 KBytes   131 Kbits/sec                  
+[  4]  11.00-12.00  sec  13.0 KBytes   107 Kbits/sec                  
+[  4]  12.00-13.00  sec  15.0 KBytes   123 Kbits/sec                  
+[  4]  13.00-14.00  sec  14.0 KBytes   115 Kbits/sec                  
+[  4]  14.00-15.00  sec  15.0 KBytes   123 Kbits/sec                  
+[  4]  15.00-16.00  sec  15.0 KBytes   123 Kbits/sec                  
+[  4]  16.00-17.00  sec  16.0 KBytes   131 Kbits/sec                  
+[  4]  17.00-18.00  sec  15.0 KBytes   123 Kbits/sec                  
+[  4]  18.00-19.00  sec  15.0 KBytes   123 Kbits/sec                  
+[  4]  19.00-20.00  sec  16.0 KBytes   131 Kbits/sec                  
+[  4]  20.00-21.00  sec  15.0 KBytes   123 Kbits/sec                  
+[  4]  21.00-22.00  sec  14.0 KBytes   115 Kbits/sec                  
+[  4]  22.00-23.00  sec  13.0 KBytes   107 Kbits/sec                  
+[  4]  23.00-24.00  sec  16.0 KBytes   131 Kbits/sec                  
+[  4]  24.00-25.00  sec  15.0 KBytes   123 Kbits/sec                  
+[  4]  25.00-26.00  sec  13.0 KBytes   107 Kbits/sec                  
+[  4]  26.00-27.00  sec  15.0 KBytes   123 Kbits/sec                  
+[  4]  27.00-28.00  sec  14.0 KBytes   115 Kbits/sec                  
+[  4]  28.00-29.00  sec  15.0 KBytes   123 Kbits/sec                  
+[  4]  29.00-30.00  sec  17.0 KBytes   139 Kbits/sec                  
+- - - - - - - - - - - - - - - - - - - - - - - - -
+[ ID] Interval           Transfer     Bandwidth
+[  4]   0.00-30.00  sec   453 KBytes   124 Kbits/sec                  sender
+[  4]   0.00-30.00  sec   451 KBytes   123 Kbits/sec                  receiver
+
+iperf Done.
+**************************************
+Teste 2 -> Tamanho Datagrama: 1024B Largura de banda: 8.8B
+Comando: ./iperf3.exe -b -l -c 192.168.0.19 -t 30s >>logTeste2.txt
+Connecting to host 192.168.0.19, port 5201
+[  4] local 192.168.0.13 port 49316 connected to 192.168.0.19 port 5201
+[ ID] Interval           Transfer     Bandwidth
+[  4]   0.00-1.00   sec  15.0 KBytes   123 Kbits/sec                  
+[  4]   1.00-2.00   sec  17.0 KBytes   139 Kbits/sec                  
+[  4]   2.00-3.00   sec  16.0 KBytes   131 Kbits/sec                  
+[  4]   3.00-4.00   sec  14.0 KBytes   115 Kbits/sec                  
+[  4]   4.00-5.00   sec  16.0 KBytes   131 Kbits/sec                  
+[  4]   5.00-6.00   sec  16.0 KBytes   131 Kbits/sec                  
+[  4]   6.00-7.00   sec  15.0 KBytes   123 Kbits/sec                  
+[  4]   7.00-8.00   sec  14.0 KBytes   115 Kbits/sec                  
+[  4]   8.00-9.00   sec  16.0 KBytes   131 Kbits/sec                  
+[  4]   9.00-10.00  sec  14.0 KBytes   115 Kbits/sec                  
+[  4]  10.00-11.00  sec  15.0 KBytes   123 Kbits/sec                  
+[  4]  11.00-12.00  sec  16.0 KBytes   131 Kbits/sec                  
+[  4]  12.00-13.00  sec  15.0 KBytes   123 Kbits/sec                  
+[  4]  13.00-14.00  sec  15.0 KBytes   123 Kbits/sec                  
+[  4]  14.00-15.00  sec  14.0 KBytes   115 Kbits/sec                  
+[  4]  15.00-16.00  sec  15.0 KBytes   123 Kbits/sec                  
+[  4]  16.00-17.00  sec  16.0 KBytes   131 Kbits/sec                  
+[  4]  17.00-18.00  sec  15.0 KBytes   123 Kbits/sec                  
+[  4]  18.00-19.00  sec  16.0 KBytes   131 Kbits/sec                  
+[  4]  19.00-20.00  sec  15.0 KBytes   123 Kbits/sec                  
+[  4]  20.00-21.00  sec  16.0 KBytes   131 Kbits/sec                  
+[  4]  21.00-22.00  sec  16.0 KBytes   131 Kbits/sec                  
+[  4]  22.00-23.00  sec  15.0 KBytes   123 Kbits/sec                  
+[  4]  23.00-24.00  sec  14.0 KBytes   115 Kbits/sec                  
+[  4]  24.00-25.00  sec  13.0 KBytes   107 Kbits/sec                  
+[  4]  25.00-26.00  sec  16.0 KBytes   131 Kbits/sec                  
+[  4]  26.00-27.00  sec  14.0 KBytes   115 Kbits/sec                  
+[  4]  27.00-28.00  sec  16.0 KBytes   131 Kbits/sec                  
+[  4]  28.00-29.00  sec  14.0 KBytes   115 Kbits/sec                  
+[  4]  29.00-30.00  sec  16.0 KBytes   131 Kbits/sec                  
+- - - - - - - - - - - - - - - - - - - - - - - - -
+[ ID] Interval           Transfer     Bandwidth
+[  4]   0.00-30.00  sec   455 KBytes   124 Kbits/sec                  sender
+[  4]   0.00-30.00  sec   454 KBytes   124 Kbits/sec                  receiver
+
+iperf Done.
+**************************************
+Teste 3 -> Tamanho Datagrama: 1024B Largura de banda: 8.8B
+Comando: ./iperf3.exe -b -l -c 192.168.0.19 -t 30s >>logTeste2.txt
+Connecting to host 192.168.0.19, port 5201
+[  4] local 192.168.0.13 port 49357 connected to 192.168.0.19 port 5201
+[ ID] Interval           Transfer     Bandwidth
+[  4]   0.00-1.00   sec  17.0 KBytes   139 Kbits/sec                  
+[  4]   1.00-2.00   sec  15.0 KBytes   123 Kbits/sec                  
+[  4]   2.00-3.00   sec  15.0 KBytes   123 Kbits/sec                  
+[  4]   3.00-4.00   sec  16.0 KBytes   131 Kbits/sec                  
+[  4]   4.00-5.00   sec  14.0 KBytes   115 Kbits/sec                  
+[  4]   5.00-6.00   sec  16.0 KBytes   131 Kbits/sec                  
+[  4]   6.00-7.00   sec  15.0 KBytes   123 Kbits/sec                  
+[  4]   7.00-8.00   sec  16.0 KBytes   131 Kbits/sec                  
+[  4]   8.00-9.00   sec  16.0 KBytes   131 Kbits/sec                  
+[  4]   9.00-10.00  sec  15.0 KBytes   123 Kbits/sec                  
+[  4]  10.00-11.00  sec  15.0 KBytes   123 Kbits/sec                  
+[  4]  11.00-12.00  sec  15.0 KBytes   123 Kbits/sec                  
+[  4]  12.00-13.00  sec  15.0 KBytes   123 Kbits/sec                  
+[  4]  13.00-14.00  sec  16.0 KBytes   131 Kbits/sec                  
+[  4]  14.00-15.00  sec  15.0 KBytes   123 Kbits/sec                  
+[  4]  15.00-16.00  sec  16.0 KBytes   131 Kbits/sec                  
+[  4]  16.00-17.00  sec  18.0 KBytes   147 Kbits/sec                  
+[  4]  17.00-18.00  sec  15.0 KBytes   123 Kbits/sec                  
+[  4]  18.00-19.00  sec  14.0 KBytes   115 Kbits/sec                  
+[  4]  19.00-20.00  sec  13.0 KBytes   106 Kbits/sec                  
+[  4]  20.00-21.00  sec  16.0 KBytes   131 Kbits/sec                  
+[  4]  21.00-22.00  sec  16.0 KBytes   131 Kbits/sec                  
+[  4]  22.00-23.00  sec  14.0 KBytes   115 Kbits/sec                  
+[  4]  23.00-24.00  sec  17.0 KBytes   139 Kbits/sec                  
+[  4]  24.00-25.00  sec  15.0 KBytes   123 Kbits/sec                  
+[  4]  25.00-26.00  sec  15.0 KBytes   123 Kbits/sec                  
+[  4]  26.00-27.00  sec  15.0 KBytes   123 Kbits/sec                  
+[  4]  27.00-28.00  sec  15.0 KBytes   123 Kbits/sec                  
+[  4]  28.00-29.00  sec  15.0 KBytes   123 Kbits/sec                  
+[  4]  29.00-30.00  sec  15.0 KBytes   123 Kbits/sec                  
+- - - - - - - - - - - - - - - - - - - - - - - - -
+[ ID] Interval           Transfer     Bandwidth
+[  4]   0.00-30.00  sec   460 KBytes   126 Kbits/sec                  sender
+[  4]   0.00-30.00  sec   459 KBytes   125 Kbits/sec                  receiver
+
+iperf Done.
+**************************************
+Teste 4 -> Tamanho Datagrama: 1024B Largura de banda: 8.8B
+Comando: ./iperf3.exe -b -l -c 192.168.0.19 -t 30s >>logTeste2.txt
+Connecting to host 192.168.0.19, port 5201
+[  4] local 192.168.0.13 port 49399 connected to 192.168.0.19 port 5201
+[ ID] Interval           Transfer     Bandwidth
+[  4]   0.00-1.00   sec  18.0 KBytes   147 Kbits/sec                  
+[  4]   1.00-2.00   sec  14.0 KBytes   115 Kbits/sec                  
+[  4]   2.00-3.00   sec  16.0 KBytes   131 Kbits/sec                  
+[  4]   3.00-4.00   sec  15.0 KBytes   123 Kbits/sec                  
+[  4]   4.00-5.00   sec  16.0 KBytes   131 Kbits/sec                  
+[  4]   5.00-6.00   sec  15.0 KBytes   123 Kbits/sec                  
+[  4]   6.00-7.00   sec  15.0 KBytes   123 Kbits/sec                  
+[  4]   7.00-8.00   sec  16.0 KBytes   131 Kbits/sec                  
+[  4]   8.00-9.00   sec  16.0 KBytes   131 Kbits/sec                  
+[  4]   9.00-10.00  sec  15.0 KBytes   123 Kbits/sec                  
+[  4]  10.00-11.00  sec  15.0 KBytes   123 Kbits/sec                  
+[  4]  11.00-12.00  sec  16.0 KBytes   131 Kbits/sec                  
+[  4]  12.00-13.00  sec  14.0 KBytes   115 Kbits/sec                  
+[  4]  13.00-14.00  sec  15.0 KBytes   123 Kbits/sec                  
+[  4]  14.00-15.00  sec  14.0 KBytes   115 Kbits/sec                  
+[  4]  15.00-16.00  sec  16.0 KBytes   131 Kbits/sec                  
+[  4]  16.00-17.00  sec  16.0 KBytes   131 Kbits/sec                  
+[  4]  17.00-18.00  sec  15.0 KBytes   123 Kbits/sec                  
+[  4]  18.00-19.00  sec  15.0 KBytes   123 Kbits/sec                  
+[  4]  19.00-20.00  sec  16.0 KBytes   131 Kbits/sec                  
+[  4]  20.00-21.00  sec  15.0 KBytes   123 Kbits/sec                  
+[  4]  21.00-22.00  sec  15.0 KBytes   123 Kbits/sec                  
+[  4]  22.00-23.00  sec  14.0 KBytes   115 Kbits/sec                  
+[  4]  23.00-24.00  sec  13.0 KBytes   107 Kbits/sec                  
+[  4]  24.00-25.00  sec  13.0 KBytes   106 Kbits/sec                  
+[  4]  25.00-26.00  sec  16.0 KBytes   131 Kbits/sec                  
+[  4]  26.00-27.00  sec  16.0 KBytes   131 Kbits/sec                  
+[  4]  27.00-28.00  sec  14.0 KBytes   115 Kbits/sec                  
+[  4]  28.00-29.00  sec  16.0 KBytes   131 Kbits/sec                  
+[  4]  29.00-30.00  sec  19.0 KBytes   155 Kbits/sec                  
+- - - - - - - - - - - - - - - - - - - - - - - - -
+[ ID] Interval           Transfer     Bandwidth
+[  4]   0.00-30.00  sec   459 KBytes   125 Kbits/sec                  sender
+[  4]   0.00-30.00  sec   458 KBytes   125 Kbits/sec                  receiver
+
+iperf Done.
+**************************************
+Teste 5 -> Tamanho Datagrama: 1024B Largura de banda: 8.8B
+Comando: ./iperf3.exe -b -l -c 192.168.0.19 -t 30s >>logTeste2.txt
+Connecting to host 192.168.0.19, port 5201
+[  4] local 192.168.0.13 port 49436 connected to 192.168.0.19 port 5201
+[ ID] Interval           Transfer     Bandwidth
+[  4]   0.00-1.00   sec  15.0 KBytes   123 Kbits/sec                  
+[  4]   1.00-2.00   sec  16.0 KBytes   131 Kbits/sec                  
+[  4]   2.00-3.00   sec  15.0 KBytes   123 Kbits/sec                  
+[  4]   3.00-4.00   sec  18.0 KBytes   148 Kbits/sec                  
+[  4]   4.00-5.00   sec  16.0 KBytes   131 Kbits/sec                  
+[  4]   5.00-6.00   sec  16.0 KBytes   131 Kbits/sec                  
+[  4]   6.00-7.00   sec  15.0 KBytes   123 Kbits/sec                  
+[  4]   7.00-8.00   sec  15.0 KBytes   123 Kbits/sec                  
+[  4]   8.00-9.00   sec  17.0 KBytes   139 Kbits/sec                  
+[  4]   9.00-10.00  sec  15.0 KBytes   123 Kbits/sec                  
+[  4]  10.00-11.00  sec  14.0 KBytes   115 Kbits/sec                  
+[  4]  11.00-12.00  sec  15.0 KBytes   123 Kbits/sec                  
+[  4]  12.00-13.00  sec  18.0 KBytes   147 Kbits/sec                  
+[  4]  13.00-14.00  sec  14.0 KBytes   115 Kbits/sec                  
+[  4]  14.00-15.00  sec  16.0 KBytes   131 Kbits/sec                  
+[  4]  15.00-16.00  sec  15.0 KBytes   123 Kbits/sec                  
+[  4]  16.00-17.00  sec  20.0 KBytes   164 Kbits/sec                  
+[  4]  17.00-18.00  sec  18.0 KBytes   148 Kbits/sec                  
+[  4]  18.00-19.00  sec  15.0 KBytes   123 Kbits/sec                  
+[  4]  19.00-20.00  sec  16.0 KBytes   131 Kbits/sec                  
+[  4]  20.00-21.00  sec  16.0 KBytes   131 Kbits/sec                  
+[  4]  21.00-22.00  sec  12.0 KBytes  98.4 Kbits/sec                  
+[  4]  22.00-23.00  sec  15.0 KBytes   123 Kbits/sec                  
+[  4]  23.00-24.00  sec  14.0 KBytes   115 Kbits/sec                  
+[  4]  24.00-25.00  sec  16.0 KBytes   131 Kbits/sec                  
+[  4]  25.00-26.00  sec  16.0 KBytes   131 Kbits/sec                  
+[  4]  26.00-27.00  sec  16.0 KBytes   131 Kbits/sec                  
+[  4]  27.00-28.00  sec  16.0 KBytes   131 Kbits/sec                  
+[  4]  28.00-29.00  sec  16.0 KBytes   131 Kbits/sec                  
+[  4]  29.00-30.00  sec  13.0 KBytes   107 Kbits/sec                  
+- - - - - - - - - - - - - - - - - - - - - - - - -
+[ ID] Interval           Transfer     Bandwidth
+[  4]   0.00-30.00  sec   469 KBytes   128 Kbits/sec                  sender
+[  4]   0.00-30.00  sec   468 KBytes   128 Kbits/sec                  receiver
+
+iperf Done.
+\n##############################################
+#### Tamanho Datagrama: 1280B Largura de banda: 8.8B #### 8.8B
+**************************************
+Teste 1 -> Tamanho Datagrama: 1280B Largura de banda: 8.8B
+Comando: ./iperf3.exe -b -l -c 192.168.0.19 -t 30s >>logTeste2.txt
+Connecting to host 192.168.0.19, port 5201
+[  4] local 192.168.0.13 port 49466 connected to 192.168.0.19 port 5201
+[ ID] Interval           Transfer     Bandwidth
+[  4]   0.00-1.00   sec  20.0 KBytes   164 Kbits/sec                  
+[  4]   1.00-2.00   sec  17.5 KBytes   143 Kbits/sec                  
+[  4]   2.00-3.00   sec  21.2 KBytes   174 Kbits/sec                  
+[  4]   3.00-4.00   sec  21.2 KBytes   174 Kbits/sec                  
+[  4]   4.00-5.00   sec  16.2 KBytes   133 Kbits/sec                  
+[  4]   5.00-6.00   sec  21.2 KBytes   174 Kbits/sec                  
+[  4]   6.00-7.00   sec  20.0 KBytes   164 Kbits/sec                  
+[  4]   7.00-8.00   sec  22.5 KBytes   184 Kbits/sec                  
+[  4]   8.00-9.00   sec  16.2 KBytes   133 Kbits/sec                  
+[  4]   9.00-10.00  sec  18.8 KBytes   154 Kbits/sec                  
+[  4]  10.00-11.00  sec  18.8 KBytes   153 Kbits/sec                  
+[  4]  11.00-12.00  sec  17.5 KBytes   144 Kbits/sec                  
+[  4]  12.00-13.00  sec  21.2 KBytes   174 Kbits/sec                  
+[  4]  13.00-14.00  sec  21.2 KBytes   174 Kbits/sec                  
+[  4]  14.00-15.00  sec  18.8 KBytes   154 Kbits/sec                  
+[  4]  15.00-16.00  sec  20.0 KBytes   164 Kbits/sec                  
+[  4]  16.00-17.00  sec  20.0 KBytes   164 Kbits/sec                  
+[  4]  17.00-18.00  sec  20.0 KBytes   164 Kbits/sec                  
+[  4]  18.00-19.00  sec  21.2 KBytes   174 Kbits/sec                  
+[  4]  19.00-20.00  sec  20.0 KBytes   164 Kbits/sec                  
+[  4]  20.00-21.00  sec  20.0 KBytes   164 Kbits/sec                  
+[  4]  21.00-22.00  sec  18.8 KBytes   154 Kbits/sec                  
+[  4]  22.00-23.00  sec  18.8 KBytes   154 Kbits/sec                  
+[  4]  23.00-24.00  sec  20.0 KBytes   164 Kbits/sec                  
+[  4]  24.00-25.00  sec  18.8 KBytes   154 Kbits/sec                  
+[  4]  25.00-26.00  sec  20.0 KBytes   164 Kbits/sec                  
+[  4]  26.00-27.00  sec  20.0 KBytes   164 Kbits/sec                  
+[  4]  27.00-28.00  sec  20.0 KBytes   164 Kbits/sec                  
+[  4]  28.00-29.00  sec  17.5 KBytes   143 Kbits/sec                  
+[  4]  29.00-30.00  sec  20.0 KBytes   164 Kbits/sec                  
+- - - - - - - - - - - - - - - - - - - - - - - - -
+[ ID] Interval           Transfer     Bandwidth
+[  4]   0.00-30.00  sec   588 KBytes   160 Kbits/sec                  sender
+[  4]   0.00-30.00  sec   585 KBytes   160 Kbits/sec                  receiver
+
+iperf Done.
+**************************************
+Teste 2 -> Tamanho Datagrama: 1280B Largura de banda: 8.8B
+Comando: ./iperf3.exe -b -l -c 192.168.0.19 -t 30s >>logTeste2.txt
+Connecting to host 192.168.0.19, port 5201
+[  4] local 192.168.0.13 port 49510 connected to 192.168.0.19 port 5201
+[ ID] Interval           Transfer     Bandwidth
+[  4]   0.00-1.00   sec  22.5 KBytes   184 Kbits/sec                  
+[  4]   1.00-2.00   sec  21.2 KBytes   174 Kbits/sec                  
+[  4]   2.00-3.00   sec  18.8 KBytes   153 Kbits/sec                  
+[  4]   3.00-4.00   sec  20.0 KBytes   164 Kbits/sec                  
+[  4]   4.00-5.00   sec  17.5 KBytes   143 Kbits/sec                  
+[  4]   5.00-6.00   sec  21.2 KBytes   174 Kbits/sec                  
+[  4]   6.00-7.00   sec  17.5 KBytes   143 Kbits/sec                  
+[  4]   7.00-8.00   sec  17.5 KBytes   144 Kbits/sec                  
+[  4]   8.00-9.00   sec  17.5 KBytes   143 Kbits/sec                  
+[  4]   9.00-10.00  sec  20.0 KBytes   164 Kbits/sec                  
+[  4]  10.00-11.00  sec  17.5 KBytes   143 Kbits/sec                  
+[  4]  11.00-12.00  sec  21.2 KBytes   174 Kbits/sec                  
+[  4]  12.00-13.00  sec  21.2 KBytes   174 Kbits/sec                  
+[  4]  13.00-14.00  sec  21.2 KBytes   174 Kbits/sec                  
+[  4]  14.00-15.00  sec  18.8 KBytes   153 Kbits/sec                  
+[  4]  15.00-16.00  sec  17.5 KBytes   144 Kbits/sec                  
+[  4]  16.00-17.00  sec  20.0 KBytes   164 Kbits/sec                  
+[  4]  17.00-18.00  sec  21.2 KBytes   174 Kbits/sec                  
+[  4]  18.00-19.00  sec  20.0 KBytes   164 Kbits/sec                  
+[  4]  19.00-20.00  sec  20.0 KBytes   164 Kbits/sec                  
+[  4]  20.00-21.00  sec  16.2 KBytes   133 Kbits/sec                  
+[  4]  21.00-22.00  sec  18.8 KBytes   154 Kbits/sec                  
+[  4]  22.00-23.00  sec  18.8 KBytes   153 Kbits/sec                  
+[  4]  23.00-24.00  sec  20.0 KBytes   164 Kbits/sec                  
+[  4]  24.00-25.00  sec  20.0 KBytes   164 Kbits/sec                  
+[  4]  25.00-26.00  sec  15.0 KBytes   123 Kbits/sec                  
+[  4]  26.00-27.00  sec  20.0 KBytes   164 Kbits/sec                  
+[  4]  27.00-28.00  sec  18.8 KBytes   154 Kbits/sec                  
+[  4]  28.00-29.00  sec  18.8 KBytes   154 Kbits/sec                  
+[  4]  29.00-30.00  sec  21.2 KBytes   174 Kbits/sec                  
+- - - - - - - - - - - - - - - - - - - - - - - - -
+[ ID] Interval           Transfer     Bandwidth
+[  4]   0.00-30.00  sec   580 KBytes   158 Kbits/sec                  sender
+[  4]   0.00-30.00  sec   579 KBytes   158 Kbits/sec                  receiver
+
+iperf Done.
+**************************************
+Teste 3 -> Tamanho Datagrama: 1280B Largura de banda: 8.8B
+Comando: ./iperf3.exe -b -l -c 192.168.0.19 -t 30s >>logTeste2.txt
+Connecting to host 192.168.0.19, port 5201
+[  4] local 192.168.0.13 port 49546 connected to 192.168.0.19 port 5201
+[ ID] Interval           Transfer     Bandwidth
+[  4]   0.00-1.00   sec  21.2 KBytes   174 Kbits/sec                  
+[  4]   1.00-2.00   sec  22.5 KBytes   184 Kbits/sec                  
+[  4]   2.00-3.00   sec  18.8 KBytes   154 Kbits/sec                  
+[  4]   3.00-4.00   sec  20.0 KBytes   164 Kbits/sec                  
+[  4]   4.00-5.00   sec  17.5 KBytes   144 Kbits/sec                  
+[  4]   5.00-6.00   sec  21.2 KBytes   174 Kbits/sec                  
+[  4]   6.00-7.00   sec  16.2 KBytes   133 Kbits/sec                  
+[  4]   7.00-8.00   sec  17.5 KBytes   143 Kbits/sec                  
+[  4]   8.00-9.00   sec  18.8 KBytes   154 Kbits/sec                  
+[  4]   9.00-10.00  sec  20.0 KBytes   164 Kbits/sec                  
+[  4]  10.00-11.00  sec  18.8 KBytes   154 Kbits/sec                  
+[  4]  11.00-12.00  sec  21.2 KBytes   174 Kbits/sec                  
+[  4]  12.00-13.00  sec  16.2 KBytes   133 Kbits/sec                  
+[  4]  13.00-14.00  sec  17.5 KBytes   143 Kbits/sec                  
+[  4]  14.00-15.00  sec  18.8 KBytes   154 Kbits/sec                  
+[  4]  15.00-16.00  sec  20.0 KBytes   164 Kbits/sec                  
+[  4]  16.00-17.00  sec  18.8 KBytes   154 Kbits/sec                  
+[  4]  17.00-18.00  sec  20.0 KBytes   164 Kbits/sec                  
+[  4]  18.00-19.00  sec  20.0 KBytes   164 Kbits/sec                  
+[  4]  19.00-20.00  sec  16.2 KBytes   133 Kbits/sec                  
+[  4]  20.00-21.00  sec  21.2 KBytes   174 Kbits/sec                  
+[  4]  21.00-22.00  sec  21.2 KBytes   174 Kbits/sec                  
+[  4]  22.00-23.00  sec  17.5 KBytes   143 Kbits/sec                  
+[  4]  23.00-24.00  sec  21.2 KBytes   174 Kbits/sec                  
+[  4]  24.00-25.00  sec  18.8 KBytes   153 Kbits/sec                  
+[  4]  25.00-26.01  sec  16.2 KBytes   132 Kbits/sec                  
+[  4]  26.01-27.00  sec  17.5 KBytes   144 Kbits/sec                  
+[  4]  27.00-28.00  sec  16.2 KBytes   133 Kbits/sec                  
+[  4]  28.00-29.00  sec  17.5 KBytes   144 Kbits/sec                  
+[  4]  29.00-30.00  sec  18.8 KBytes   154 Kbits/sec                  
+- - - - - - - - - - - - - - - - - - - - - - - - -
+[ ID] Interval           Transfer     Bandwidth
+[  4]   0.00-30.00  sec   568 KBytes   155 Kbits/sec                  sender
+[  4]   0.00-30.00  sec   568 KBytes   155 Kbits/sec                  receiver
+
+iperf Done.
+**************************************
+Teste 4 -> Tamanho Datagrama: 1280B Largura de banda: 8.8B
+Comando: ./iperf3.exe -b -l -c 192.168.0.19 -t 30s >>logTeste2.txt
+Connecting to host 192.168.0.19, port 5201
+[  4] local 192.168.0.13 port 49584 connected to 192.168.0.19 port 5201
+[ ID] Interval           Transfer     Bandwidth
+[  4]   0.00-1.00   sec  22.5 KBytes   184 Kbits/sec                  
+[  4]   1.00-2.00   sec  20.0 KBytes   164 Kbits/sec                  
+[  4]   2.00-3.00   sec  16.2 KBytes   133 Kbits/sec                  
+[  4]   3.00-4.00   sec  21.2 KBytes   174 Kbits/sec                  
+[  4]   4.00-5.00   sec  17.5 KBytes   143 Kbits/sec                  
+[  4]   5.00-6.00   sec  22.5 KBytes   184 Kbits/sec                  
+[  4]   6.00-7.00   sec  18.8 KBytes   154 Kbits/sec                  
+[  4]   7.00-8.00   sec  21.2 KBytes   174 Kbits/sec                  
+[  4]   8.00-9.00   sec  17.5 KBytes   143 Kbits/sec                  
+[  4]   9.00-10.00  sec  18.8 KBytes   154 Kbits/sec                  
+[  4]  10.00-11.00  sec  18.8 KBytes   154 Kbits/sec                  
+[  4]  11.00-12.00  sec  17.5 KBytes   143 Kbits/sec                  
+[  4]  12.00-13.00  sec  20.0 KBytes   164 Kbits/sec                  
+[  4]  13.00-14.00  sec  21.2 KBytes   174 Kbits/sec                  
+[  4]  14.00-15.00  sec  21.2 KBytes   174 Kbits/sec                  
+[  4]  15.00-16.00  sec  18.8 KBytes   154 Kbits/sec                  
+[  4]  16.00-17.00  sec  18.8 KBytes   154 Kbits/sec                  
+[  4]  17.00-18.00  sec  18.8 KBytes   154 Kbits/sec                  
+[  4]  18.00-19.00  sec  21.2 KBytes   174 Kbits/sec                  
+[  4]  19.00-20.00  sec  18.8 KBytes   154 Kbits/sec                  
+[  4]  20.00-21.00  sec  18.8 KBytes   154 Kbits/sec                  
+[  4]  21.00-22.00  sec  21.2 KBytes   174 Kbits/sec                  
+[  4]  22.00-23.00  sec  20.0 KBytes   164 Kbits/sec                  
+[  4]  23.00-24.00  sec  18.8 KBytes   154 Kbits/sec                  
+[  4]  24.00-25.00  sec  20.0 KBytes   164 Kbits/sec                  
+[  4]  25.00-26.00  sec  15.0 KBytes   123 Kbits/sec                  
+[  4]  26.00-27.00  sec  17.5 KBytes   143 Kbits/sec                  
+[  4]  27.00-28.00  sec  18.8 KBytes   154 Kbits/sec                  
+[  4]  28.00-29.00  sec  17.5 KBytes   143 Kbits/sec                  
+[  4]  29.00-30.00  sec  20.0 KBytes   164 Kbits/sec                  
+- - - - - - - - - - - - - - - - - - - - - - - - -
+[ ID] Interval           Transfer     Bandwidth
+[  4]   0.00-30.00  sec   579 KBytes   158 Kbits/sec                  sender
+[  4]   0.00-30.00  sec   579 KBytes   158 Kbits/sec                  receiver
+
+iperf Done.
+**************************************
+Teste 5 -> Tamanho Datagrama: 1280B Largura de banda: 8.8B
+Comando: ./iperf3.exe -b -l -c 192.168.0.19 -t 30s >>logTeste2.txt
+Connecting to host 192.168.0.19, port 5201
+[  4] local 192.168.0.13 port 63987 connected to 192.168.0.19 port 5201
+[ ID] Interval           Transfer     Bandwidth
+[  4]   0.00-1.00   sec  22.5 KBytes   184 Kbits/sec                  
+[  4]   1.00-2.00   sec  18.8 KBytes   154 Kbits/sec                  
+[  4]   2.00-3.00   sec  20.0 KBytes   164 Kbits/sec                  
+[  4]   3.00-4.00   sec  20.0 KBytes   164 Kbits/sec                  
+[  4]   4.00-5.00   sec  22.5 KBytes   184 Kbits/sec                  
+[  4]   5.00-6.00   sec  17.5 KBytes   143 Kbits/sec                  
+[  4]   6.00-7.00   sec  18.8 KBytes   154 Kbits/sec                  
+[  4]   7.00-8.00   sec  17.5 KBytes   143 Kbits/sec                  
+[  4]   8.00-9.00   sec  18.8 KBytes   154 Kbits/sec                  
+[  4]   9.00-10.00  sec  20.0 KBytes   164 Kbits/sec                  
+[  4]  10.00-11.00  sec  17.5 KBytes   143 Kbits/sec                  
+[  4]  11.00-12.00  sec  20.0 KBytes   164 Kbits/sec                  
+[  4]  12.00-13.00  sec  18.8 KBytes   154 Kbits/sec                  
+[  4]  13.00-14.00  sec  18.8 KBytes   154 Kbits/sec                  
+[  4]  14.00-15.00  sec  20.0 KBytes   164 Kbits/sec                  
+[  4]  15.00-16.00  sec  20.0 KBytes   164 Kbits/sec                  
+[  4]  16.00-17.01  sec  16.2 KBytes   132 Kbits/sec                  
+[  4]  17.01-18.00  sec  20.0 KBytes   166 Kbits/sec                  
+[  4]  18.00-19.00  sec  16.2 KBytes   133 Kbits/sec                  
+[  4]  19.00-20.00  sec  18.8 KBytes   154 Kbits/sec                  
+[  4]  20.00-21.00  sec  21.2 KBytes   174 Kbits/sec                  
+[  4]  21.00-22.00  sec  18.8 KBytes   154 Kbits/sec                  
+[  4]  22.00-23.00  sec  16.2 KBytes   133 Kbits/sec                  
+[  4]  23.00-24.00  sec  18.8 KBytes   154 Kbits/sec                  
+[  4]  24.00-25.00  sec  18.8 KBytes   154 Kbits/sec                  
+[  4]  25.00-26.00  sec  18.8 KBytes   154 Kbits/sec                  
+[  4]  26.00-27.00  sec  20.0 KBytes   164 Kbits/sec                  
+[  4]  27.00-28.00  sec  21.2 KBytes   174 Kbits/sec                  
+[  4]  28.00-29.00  sec  16.2 KBytes   133 Kbits/sec                  
+[  4]  29.00-30.00  sec  20.0 KBytes   164 Kbits/sec                  
+- - - - - - - - - - - - - - - - - - - - - - - - -
+[ ID] Interval           Transfer     Bandwidth
+[  4]   0.00-30.00  sec   572 KBytes   156 Kbits/sec                  sender
+[  4]   0.00-30.00  sec   571 KBytes   156 Kbits/sec                  receiver
+
+iperf Done.

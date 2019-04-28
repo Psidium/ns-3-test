@@ -1,0 +1,783 @@
+
+
+##############################################
+#### Tamanho Datagrama: 128B Largura de banda: 10B ####
+**************************************
+
+Teste 1 -> Tamanho Datagrama: 128B Largura de banda: 10B
+Comando: iperf -u -b 8M -l -c 192.168.0.115 -t 30s >>logTeste1.txt
+------------------------------------------------------------
+Client connecting to 192.168.0.115, UDP port 5001
+Sending 128 byte datagrams, IPG target: 122.07 us (kalman adjust)
+UDP buffer size:  208 KByte (default)
+------------------------------------------------------------
+[  3] local 10.0.2.15 port 45729 connected with 192.168.0.115 port 5001
+[ ID] Interval       Transfer     Bandwidth
+[  3]  0.0-30.0 sec  30.0 MBytes  8.39 Mbits/sec
+[  3] Sent 245761 datagrams
+[  3] Server Report:
+[  3]  0.0-30.0 sec  30.0 MBytes  8.39 Mbits/sec   0.000 ms    0/245761 (0%)
+[  3] 0.00-30.00 sec  2 datagrams received out-of-order
+**************************************
+
+Teste 2 -> Tamanho Datagrama: 128B Largura de banda: 10B
+Comando: iperf -u -b 8M -l -c 192.168.0.115 -t 30s >>logTeste1.txt
+------------------------------------------------------------
+Client connecting to 192.168.0.115, UDP port 5001
+Sending 128 byte datagrams, IPG target: 122.07 us (kalman adjust)
+UDP buffer size:  208 KByte (default)
+------------------------------------------------------------
+[  3] local 10.0.2.15 port 39744 connected with 192.168.0.115 port 5001
+[ ID] Interval       Transfer     Bandwidth
+[  3]  0.0-30.0 sec  30.0 MBytes  8.39 Mbits/sec
+[  3] Sent 245761 datagrams
+[  3] Server Report:
+[  3]  0.0-60.0 sec  30.0 MBytes  4.19 Mbits/sec   0.000 ms    0/245761 (0%)
+**************************************
+
+Teste 3 -> Tamanho Datagrama: 128B Largura de banda: 10B
+Comando: iperf -u -b 8M -l -c 192.168.0.115 -t 30s >>logTeste1.txt
+------------------------------------------------------------
+Client connecting to 192.168.0.115, UDP port 5001
+Sending 128 byte datagrams, IPG target: 122.07 us (kalman adjust)
+UDP buffer size:  208 KByte (default)
+------------------------------------------------------------
+[  3] local 10.0.2.15 port 47390 connected with 192.168.0.115 port 5001
+[ ID] Interval       Transfer     Bandwidth
+[  3]  0.0-30.0 sec  30.0 MBytes  8.39 Mbits/sec
+[  3] Sent 245761 datagrams
+[  3] Server Report:
+[  3]  0.0-90.0 sec  30.0 MBytes  2.79 Mbits/sec   0.000 ms    0/245761 (0%)
+**************************************
+
+Teste 4 -> Tamanho Datagrama: 128B Largura de banda: 10B
+Comando: iperf -u -b 8M -l -c 192.168.0.115 -t 30s >>logTeste1.txt
+------------------------------------------------------------
+Client connecting to 192.168.0.115, UDP port 5001
+Sending 128 byte datagrams, IPG target: 122.07 us (kalman adjust)
+UDP buffer size:  208 KByte (default)
+------------------------------------------------------------
+[  3] local 10.0.2.15 port 33914 connected with 192.168.0.115 port 5001
+[ ID] Interval       Transfer     Bandwidth
+[  3]  0.0-30.0 sec  30.0 MBytes  8.39 Mbits/sec
+[  3] Sent 245761 datagrams
+[  3] Server Report:
+[  3]  0.0-120.1 sec  30.0 MBytes  2.10 Mbits/sec   0.000 ms    0/245761 (0%)
+**************************************
+
+Teste 5 -> Tamanho Datagrama: 128B Largura de banda: 10B
+Comando: iperf -u -b 8M -l -c 192.168.0.115 -t 30s >>logTeste1.txt
+------------------------------------------------------------
+Client connecting to 192.168.0.115, UDP port 5001
+Sending 128 byte datagrams, IPG target: 122.07 us (kalman adjust)
+UDP buffer size:  208 KByte (default)
+------------------------------------------------------------
+[  3] local 10.0.2.15 port 51770 connected with 192.168.0.115 port 5001
+[ ID] Interval       Transfer     Bandwidth
+[  3]  0.0-30.0 sec  30.0 MBytes  8.39 Mbits/sec
+[  3] Sent 245761 datagrams
+[  3] Server Report:
+[  3]  0.0-150.1 sec  30.0 MBytes  1.68 Mbits/sec   0.000 ms    0/245761 (0%)
+[  3] 0.00-150.10 sec  1 datagrams received out-of-order
+
+##############################################
+#### Tamanho Datagrama: 256B Largura de banda: 10B ####
+**************************************
+
+Teste 1 -> Tamanho Datagrama: 256B Largura de banda: 10B
+Comando: iperf -u -b 8M -l -c 192.168.0.115 -t 30s >>logTeste1.txt
+------------------------------------------------------------
+Client connecting to 192.168.0.115, UDP port 5001
+Sending 256 byte datagrams, IPG target: 244.14 us (kalman adjust)
+UDP buffer size:  208 KByte (default)
+------------------------------------------------------------
+[  3] local 10.0.2.15 port 55322 connected with 192.168.0.115 port 5001
+[ ID] Interval       Transfer     Bandwidth
+[  3]  0.0-30.0 sec  30.0 MBytes  8.39 Mbits/sec
+[  3] Sent 122881 datagrams
+[  3] Server Report:
+[  3]  0.0-180.1 sec  30.0 MBytes  1.40 Mbits/sec   0.000 ms    0/122881 (0%)
+**************************************
+
+Teste 2 -> Tamanho Datagrama: 256B Largura de banda: 10B
+Comando: iperf -u -b 8M -l -c 192.168.0.115 -t 30s >>logTeste1.txt
+------------------------------------------------------------
+Client connecting to 192.168.0.115, UDP port 5001
+Sending 256 byte datagrams, IPG target: 244.14 us (kalman adjust)
+UDP buffer size:  208 KByte (default)
+------------------------------------------------------------
+[  3] local 10.0.2.15 port 52299 connected with 192.168.0.115 port 5001
+[ ID] Interval       Transfer     Bandwidth
+[  3]  0.0-30.0 sec  30.0 MBytes  8.39 Mbits/sec
+[  3] Sent 122881 datagrams
+[  3] Server Report:
+[  3]  0.0-210.2 sec  30.0 MBytes  1.20 Mbits/sec   0.000 ms    0/122881 (0%)
+**************************************
+
+Teste 3 -> Tamanho Datagrama: 256B Largura de banda: 10B
+Comando: iperf -u -b 8M -l -c 192.168.0.115 -t 30s >>logTeste1.txt
+------------------------------------------------------------
+Client connecting to 192.168.0.115, UDP port 5001
+Sending 256 byte datagrams, IPG target: 244.14 us (kalman adjust)
+UDP buffer size:  208 KByte (default)
+------------------------------------------------------------
+[  3] local 10.0.2.15 port 59592 connected with 192.168.0.115 port 5001
+[ ID] Interval       Transfer     Bandwidth
+[  3]  0.0-30.0 sec  30.0 MBytes  8.39 Mbits/sec
+[  3] Sent 122881 datagrams
+[  3] Server Report:
+[  3]  0.0-240.2 sec  30.0 MBytes  1.05 Mbits/sec   0.000 ms    0/122881 (0%)
+**************************************
+
+Teste 4 -> Tamanho Datagrama: 256B Largura de banda: 10B
+Comando: iperf -u -b 8M -l -c 192.168.0.115 -t 30s >>logTeste1.txt
+------------------------------------------------------------
+Client connecting to 192.168.0.115, UDP port 5001
+Sending 256 byte datagrams, IPG target: 244.14 us (kalman adjust)
+UDP buffer size:  208 KByte (default)
+------------------------------------------------------------
+[  3] local 10.0.2.15 port 49870 connected with 192.168.0.115 port 5001
+[ ID] Interval       Transfer     Bandwidth
+[  3]  0.0-30.0 sec  30.0 MBytes  8.39 Mbits/sec
+[  3] Sent 122881 datagrams
+[  3] Server Report:
+[  3]  0.0-270.2 sec  30.0 MBytes   931 Kbits/sec   0.000 ms    0/122881 (0%)
+**************************************
+
+Teste 5 -> Tamanho Datagrama: 256B Largura de banda: 10B
+Comando: iperf -u -b 8M -l -c 192.168.0.115 -t 30s >>logTeste1.txt
+------------------------------------------------------------
+Client connecting to 192.168.0.115, UDP port 5001
+Sending 256 byte datagrams, IPG target: 244.14 us (kalman adjust)
+UDP buffer size:  208 KByte (default)
+------------------------------------------------------------
+[  3] local 10.0.2.15 port 54066 connected with 192.168.0.115 port 5001
+[ ID] Interval       Transfer     Bandwidth
+[  3]  0.0-30.0 sec  30.0 MBytes  8.39 Mbits/sec
+[  3] Sent 122881 datagrams
+[  3] Server Report:
+[  3]  0.0-300.3 sec  30.0 MBytes   838 Kbits/sec   0.000 ms    0/122881 (0%)
+
+##############################################
+#### Tamanho Datagrama: 512B Largura de banda: 10B ####
+**************************************
+
+Teste 1 -> Tamanho Datagrama: 512B Largura de banda: 10B
+Comando: iperf -u -b 8M -l -c 192.168.0.115 -t 30s >>logTeste1.txt
+------------------------------------------------------------
+Client connecting to 192.168.0.115, UDP port 5001
+Sending 512 byte datagrams, IPG target: 488.28 us (kalman adjust)
+UDP buffer size:  208 KByte (default)
+------------------------------------------------------------
+[  3] local 10.0.2.15 port 39800 connected with 192.168.0.115 port 5001
+[ ID] Interval       Transfer     Bandwidth
+[  3]  0.0-30.0 sec  30.0 MBytes  8.39 Mbits/sec
+[  3] Sent 61441 datagrams
+[  3] Server Report:
+[  3]  0.0-330.3 sec  30.0 MBytes   762 Kbits/sec   0.000 ms    0/61441 (0%)
+**************************************
+
+Teste 2 -> Tamanho Datagrama: 512B Largura de banda: 10B
+Comando: iperf -u -b 8M -l -c 192.168.0.115 -t 30s >>logTeste1.txt
+------------------------------------------------------------
+Client connecting to 192.168.0.115, UDP port 5001
+Sending 512 byte datagrams, IPG target: 488.28 us (kalman adjust)
+UDP buffer size:  208 KByte (default)
+------------------------------------------------------------
+[  3] local 10.0.2.15 port 40858 connected with 192.168.0.115 port 5001
+[ ID] Interval       Transfer     Bandwidth
+[  3]  0.0-30.0 sec  30.0 MBytes  8.39 Mbits/sec
+[  3] Sent 61441 datagrams
+[  3] Server Report:
+[  3]  0.0-360.4 sec  30.0 MBytes   698 Kbits/sec   0.000 ms    0/61441 (0%)
+**************************************
+
+Teste 3 -> Tamanho Datagrama: 512B Largura de banda: 10B
+Comando: iperf -u -b 8M -l -c 192.168.0.115 -t 30s >>logTeste1.txt
+------------------------------------------------------------
+Client connecting to 192.168.0.115, UDP port 5001
+Sending 512 byte datagrams, IPG target: 488.28 us (kalman adjust)
+UDP buffer size:  208 KByte (default)
+------------------------------------------------------------
+[  3] local 10.0.2.15 port 39311 connected with 192.168.0.115 port 5001
+[ ID] Interval       Transfer     Bandwidth
+[  3]  0.0-30.0 sec  30.0 MBytes  8.39 Mbits/sec
+[  3] Sent 61441 datagrams
+[  3] Server Report:
+[  3]  0.0-390.4 sec  30.0 MBytes   645 Kbits/sec   0.000 ms    0/61441 (0%)
+**************************************
+
+Teste 4 -> Tamanho Datagrama: 512B Largura de banda: 10B
+Comando: iperf -u -b 8M -l -c 192.168.0.115 -t 30s >>logTeste1.txt
+------------------------------------------------------------
+Client connecting to 192.168.0.115, UDP port 5001
+Sending 512 byte datagrams, IPG target: 488.28 us (kalman adjust)
+UDP buffer size:  208 KByte (default)
+------------------------------------------------------------
+[  3] local 10.0.2.15 port 51588 connected with 192.168.0.115 port 5001
+[ ID] Interval       Transfer     Bandwidth
+[  3]  0.0-30.0 sec  30.0 MBytes  8.39 Mbits/sec
+[  3] Sent 61441 datagrams
+[  3] Server Report:
+[  3]  0.0-420.4 sec  30.0 MBytes   599 Kbits/sec   0.000 ms    0/61441 (0%)
+**************************************
+
+Teste 5 -> Tamanho Datagrama: 512B Largura de banda: 10B
+Comando: iperf -u -b 8M -l -c 192.168.0.115 -t 30s >>logTeste1.txt
+------------------------------------------------------------
+Client connecting to 192.168.0.115, UDP port 5001
+Sending 512 byte datagrams, IPG target: 488.28 us (kalman adjust)
+UDP buffer size:  208 KByte (default)
+------------------------------------------------------------
+[  3] local 10.0.2.15 port 42303 connected with 192.168.0.115 port 5001
+[ ID] Interval       Transfer     Bandwidth
+[  3]  0.0-30.0 sec  30.0 MBytes  8.39 Mbits/sec
+[  3] Sent 61440 datagrams
+[  3] Server Report:
+[  3]  0.0-450.5 sec  30.0 MBytes   559 Kbits/sec   0.000 ms    0/61440 (0%)
+
+##############################################
+#### Tamanho Datagrama: 1024B Largura de banda: 10B ####
+**************************************
+
+Teste 1 -> Tamanho Datagrama: 1024B Largura de banda: 10B
+Comando: iperf -u -b 8M -l -c 192.168.0.115 -t 30s >>logTeste1.txt
+------------------------------------------------------------
+Client connecting to 192.168.0.115, UDP port 5001
+Sending 1024 byte datagrams, IPG target: 976.56 us (kalman adjust)
+UDP buffer size:  208 KByte (default)
+------------------------------------------------------------
+[  3] local 10.0.2.15 port 39794 connected with 192.168.0.115 port 5001
+[ ID] Interval       Transfer     Bandwidth
+[  3]  0.0-30.0 sec  30.0 MBytes  8.39 Mbits/sec
+[  3] Sent 30718 datagrams
+[  3] Server Report:
+[  3]  0.0-480.5 sec  30.0 MBytes   524 Kbits/sec   0.000 ms    0/30718 (0%)
+**************************************
+
+Teste 2 -> Tamanho Datagrama: 1024B Largura de banda: 10B
+Comando: iperf -u -b 8M -l -c 192.168.0.115 -t 30s >>logTeste1.txt
+------------------------------------------------------------
+Client connecting to 192.168.0.115, UDP port 5001
+Sending 1024 byte datagrams, IPG target: 976.56 us (kalman adjust)
+UDP buffer size:  208 KByte (default)
+------------------------------------------------------------
+[  3] local 10.0.2.15 port 53127 connected with 192.168.0.115 port 5001
+[ ID] Interval       Transfer     Bandwidth
+[  3]  0.0-30.0 sec  30.0 MBytes  8.39 Mbits/sec
+[  3] Sent 30721 datagrams
+[  3] Server Report:
+[  3]  0.0-510.5 sec  30.0 MBytes   493 Kbits/sec   0.000 ms    0/30721 (0%)
+**************************************
+
+Teste 3 -> Tamanho Datagrama: 1024B Largura de banda: 10B
+Comando: iperf -u -b 8M -l -c 192.168.0.115 -t 30s >>logTeste1.txt
+------------------------------------------------------------
+Client connecting to 192.168.0.115, UDP port 5001
+Sending 1024 byte datagrams, IPG target: 976.56 us (kalman adjust)
+UDP buffer size:  208 KByte (default)
+------------------------------------------------------------
+[  3] local 10.0.2.15 port 51640 connected with 192.168.0.115 port 5001
+[ ID] Interval       Transfer     Bandwidth
+[  3]  0.0-30.0 sec  30.0 MBytes  8.39 Mbits/sec
+[  3] Sent 30721 datagrams
+[  3] Server Report:
+[  3]  0.0-540.6 sec  30.0 MBytes   466 Kbits/sec   0.000 ms    0/30721 (0%)
+**************************************
+
+Teste 4 -> Tamanho Datagrama: 1024B Largura de banda: 10B
+Comando: iperf -u -b 8M -l -c 192.168.0.115 -t 30s >>logTeste1.txt
+------------------------------------------------------------
+Client connecting to 192.168.0.115, UDP port 5001
+Sending 1024 byte datagrams, IPG target: 976.56 us (kalman adjust)
+UDP buffer size:  208 KByte (default)
+------------------------------------------------------------
+[  3] local 10.0.2.15 port 49984 connected with 192.168.0.115 port 5001
+[ ID] Interval       Transfer     Bandwidth
+[  3]  0.0-30.0 sec  30.0 MBytes  8.39 Mbits/sec
+[  3] Sent 30721 datagrams
+[  3] Server Report:
+[  3]  0.0-570.6 sec  30.0 MBytes   441 Kbits/sec   0.000 ms    0/30721 (0%)
+**************************************
+
+Teste 5 -> Tamanho Datagrama: 1024B Largura de banda: 10B
+Comando: iperf -u -b 8M -l -c 192.168.0.115 -t 30s >>logTeste1.txt
+------------------------------------------------------------
+Client connecting to 192.168.0.115, UDP port 5001
+Sending 1024 byte datagrams, IPG target: 976.56 us (kalman adjust)
+UDP buffer size:  208 KByte (default)
+------------------------------------------------------------
+[  3] local 10.0.2.15 port 39056 connected with 192.168.0.115 port 5001
+[ ID] Interval       Transfer     Bandwidth
+[  3]  0.0-30.0 sec  30.0 MBytes  8.39 Mbits/sec
+[  3] Sent 30721 datagrams
+[  3] Server Report:
+[  3]  0.0-600.6 sec  30.0 MBytes   419 Kbits/sec   0.000 ms    0/30721 (0%)
+
+##############################################
+#### Tamanho Datagrama: 1280B Largura de banda: 10B ####
+**************************************
+
+Teste 1 -> Tamanho Datagrama: 1280B Largura de banda: 10B
+Comando: iperf -u -b 8M -l -c 192.168.0.115 -t 30s >>logTeste1.txt
+------------------------------------------------------------
+Client connecting to 192.168.0.115, UDP port 5001
+Sending 1280 byte datagrams, IPG target: 1220.70 us (kalman adjust)
+UDP buffer size:  208 KByte (default)
+------------------------------------------------------------
+[  3] local 10.0.2.15 port 33223 connected with 192.168.0.115 port 5001
+[ ID] Interval       Transfer     Bandwidth
+[  3]  0.0-30.0 sec  30.0 MBytes  8.39 Mbits/sec
+[  3] Sent 24577 datagrams
+[  3] Server Report:
+[  3]  0.0-630.7 sec  30.0 MBytes   399 Kbits/sec   0.000 ms    0/24577 (0%)
+**************************************
+
+Teste 2 -> Tamanho Datagrama: 1280B Largura de banda: 10B
+Comando: iperf -u -b 8M -l -c 192.168.0.115 -t 30s >>logTeste1.txt
+------------------------------------------------------------
+Client connecting to 192.168.0.115, UDP port 5001
+Sending 1280 byte datagrams, IPG target: 1220.70 us (kalman adjust)
+UDP buffer size:  208 KByte (default)
+------------------------------------------------------------
+[  3] local 10.0.2.15 port 54068 connected with 192.168.0.115 port 5001
+[ ID] Interval       Transfer     Bandwidth
+[  3]  0.0-30.0 sec  30.0 MBytes  8.39 Mbits/sec
+[  3] Sent 24577 datagrams
+[  3] Server Report:
+[  3]  0.0-660.7 sec  30.0 MBytes   381 Kbits/sec   0.000 ms    0/24577 (0%)
+**************************************
+
+Teste 3 -> Tamanho Datagrama: 1280B Largura de banda: 10B
+Comando: iperf -u -b 8M -l -c 192.168.0.115 -t 30s >>logTeste1.txt
+------------------------------------------------------------
+Client connecting to 192.168.0.115, UDP port 5001
+Sending 1280 byte datagrams, IPG target: 1220.70 us (kalman adjust)
+UDP buffer size:  208 KByte (default)
+------------------------------------------------------------
+[  3] local 10.0.2.15 port 44873 connected with 192.168.0.115 port 5001
+[ ID] Interval       Transfer     Bandwidth
+[  3]  0.0-30.0 sec  30.0 MBytes  8.39 Mbits/sec
+[  3] Sent 24577 datagrams
+[  3] Server Report:
+[  3]  0.0-690.8 sec  30.0 MBytes   364 Kbits/sec   0.000 ms    0/24577 (0%)
+**************************************
+
+Teste 4 -> Tamanho Datagrama: 1280B Largura de banda: 10B
+Comando: iperf -u -b 8M -l -c 192.168.0.115 -t 30s >>logTeste1.txt
+------------------------------------------------------------
+Client connecting to 192.168.0.115, UDP port 5001
+Sending 1280 byte datagrams, IPG target: 1220.70 us (kalman adjust)
+UDP buffer size:  208 KByte (default)
+------------------------------------------------------------
+[  3] local 10.0.2.15 port 44676 connected with 192.168.0.115 port 5001
+[ ID] Interval       Transfer     Bandwidth
+[  3]  0.0-30.0 sec  30.0 MBytes  8.39 Mbits/sec
+[  3] Sent 24577 datagrams
+[  3] Server Report:
+[  3]  0.0-720.8 sec  30.0 MBytes   349 Kbits/sec   0.000 ms    0/24577 (0%)
+**************************************
+
+Teste 5 -> Tamanho Datagrama: 1280B Largura de banda: 10B
+Comando: iperf -u -b 8M -l -c 192.168.0.115 -t 30s >>logTeste1.txt
+------------------------------------------------------------
+Client connecting to 192.168.0.115, UDP port 5001
+Sending 1280 byte datagrams, IPG target: 1220.70 us (kalman adjust)
+UDP buffer size:  208 KByte (default)
+------------------------------------------------------------
+[  3] local 10.0.2.15 port 45237 connected with 192.168.0.115 port 5001
+[ ID] Interval       Transfer     Bandwidth
+[  3]  0.0-30.0 sec  30.0 MBytes  8.39 Mbits/sec
+[  3] Sent 24577 datagrams
+[  3] Server Report:
+[  3]  0.0-750.8 sec  30.0 MBytes   335 Kbits/sec   0.000 ms    0/24577 (0%)
+
+##############################################
+#### Tamanho Datagrama: 128B Largura de banda: 8B ####
+**************************************
+
+Teste 1 -> Tamanho Datagrama: 128B Largura de banda: 8B
+Comando: iperf -u -b 8M -l -c 192.168.0.115 -t 30s >>logTeste1.txt
+------------------------------------------------------------
+Client connecting to 192.168.0.115, UDP port 5001
+Sending 128 byte datagrams, IPG target: 122.07 us (kalman adjust)
+UDP buffer size:  208 KByte (default)
+------------------------------------------------------------
+[  3] local 10.0.2.15 port 55730 connected with 192.168.0.115 port 5001
+[ ID] Interval       Transfer     Bandwidth
+[  3]  0.0-30.0 sec  30.0 MBytes  8.39 Mbits/sec
+[  3] Sent 245761 datagrams
+[  3] Server Report:
+[  3]  0.0-780.9 sec  30.0 MBytes   322 Kbits/sec   0.000 ms    0/245761 (0%)
+**************************************
+
+Teste 2 -> Tamanho Datagrama: 128B Largura de banda: 8B
+Comando: iperf -u -b 8M -l -c 192.168.0.115 -t 30s >>logTeste1.txt
+------------------------------------------------------------
+Client connecting to 192.168.0.115, UDP port 5001
+Sending 128 byte datagrams, IPG target: 122.07 us (kalman adjust)
+UDP buffer size:  208 KByte (default)
+------------------------------------------------------------
+[  3] local 10.0.2.15 port 41990 connected with 192.168.0.115 port 5001
+[ ID] Interval       Transfer     Bandwidth
+[  3]  0.0-30.0 sec  30.0 MBytes  8.39 Mbits/sec
+[  3] Sent 245761 datagrams
+[  3] Server Report:
+[  3]  0.0-810.9 sec  30.0 MBytes   310 Kbits/sec   0.000 ms    0/245761 (0%)
+**************************************
+
+Teste 3 -> Tamanho Datagrama: 128B Largura de banda: 8B
+Comando: iperf -u -b 8M -l -c 192.168.0.115 -t 30s >>logTeste1.txt
+------------------------------------------------------------
+Client connecting to 192.168.0.115, UDP port 5001
+Sending 128 byte datagrams, IPG target: 122.07 us (kalman adjust)
+UDP buffer size:  208 KByte (default)
+------------------------------------------------------------
+[  3] local 10.0.2.15 port 42270 connected with 192.168.0.115 port 5001
+[ ID] Interval       Transfer     Bandwidth
+[  3]  0.0-30.0 sec  30.0 MBytes  8.39 Mbits/sec
+[  3] Sent 245761 datagrams
+[  3] Server Report:
+[  3]  0.0-841.0 sec  30.0 MBytes   299 Kbits/sec   0.000 ms    0/245761 (0%)
+**************************************
+
+Teste 4 -> Tamanho Datagrama: 128B Largura de banda: 8B
+Comando: iperf -u -b 8M -l -c 192.168.0.115 -t 30s >>logTeste1.txt
+------------------------------------------------------------
+Client connecting to 192.168.0.115, UDP port 5001
+Sending 128 byte datagrams, IPG target: 122.07 us (kalman adjust)
+UDP buffer size:  208 KByte (default)
+------------------------------------------------------------
+[  3] local 10.0.2.15 port 40229 connected with 192.168.0.115 port 5001
+[ ID] Interval       Transfer     Bandwidth
+[  3]  0.0-30.0 sec  30.0 MBytes  8.39 Mbits/sec
+[  3] Sent 245761 datagrams
+[  3] Server Report:
+[  3]  0.0-871.0 sec  30.0 MBytes   289 Kbits/sec   0.000 ms    0/245761 (0%)
+**************************************
+
+Teste 5 -> Tamanho Datagrama: 128B Largura de banda: 8B
+Comando: iperf -u -b 8M -l -c 192.168.0.115 -t 30s >>logTeste1.txt
+------------------------------------------------------------
+Client connecting to 192.168.0.115, UDP port 5001
+Sending 128 byte datagrams, IPG target: 122.07 us (kalman adjust)
+UDP buffer size:  208 KByte (default)
+------------------------------------------------------------
+[  3] local 10.0.2.15 port 55782 connected with 192.168.0.115 port 5001
+[ ID] Interval       Transfer     Bandwidth
+[  3]  0.0-30.0 sec  30.0 MBytes  8.39 Mbits/sec
+[  3] Sent 245761 datagrams
+[  3] Server Report:
+[  3]  0.0-901.0 sec  30.0 MBytes   279 Kbits/sec   0.000 ms    0/245761 (0%)
+
+##############################################
+#### Tamanho Datagrama: 256B Largura de banda: 8B ####
+**************************************
+
+Teste 1 -> Tamanho Datagrama: 256B Largura de banda: 8B
+Comando: iperf -u -b 8M -l -c 192.168.0.115 -t 30s >>logTeste1.txt
+------------------------------------------------------------
+Client connecting to 192.168.0.115, UDP port 5001
+Sending 256 byte datagrams, IPG target: 244.14 us (kalman adjust)
+UDP buffer size:  208 KByte (default)
+------------------------------------------------------------
+[  3] local 10.0.2.15 port 53411 connected with 192.168.0.115 port 5001
+[ ID] Interval       Transfer     Bandwidth
+[  3]  0.0-30.0 sec  30.0 MBytes  8.39 Mbits/sec
+[  3] Sent 122881 datagrams
+[  3] Server Report:
+[  3]  0.0-931.0 sec  30.0 MBytes   270 Kbits/sec   0.000 ms    0/122881 (0%)
+**************************************
+
+Teste 2 -> Tamanho Datagrama: 256B Largura de banda: 8B
+Comando: iperf -u -b 8M -l -c 192.168.0.115 -t 30s >>logTeste1.txt
+------------------------------------------------------------
+Client connecting to 192.168.0.115, UDP port 5001
+Sending 256 byte datagrams, IPG target: 244.14 us (kalman adjust)
+UDP buffer size:  208 KByte (default)
+------------------------------------------------------------
+[  3] local 10.0.2.15 port 58674 connected with 192.168.0.115 port 5001
+[ ID] Interval       Transfer     Bandwidth
+[  3]  0.0-30.0 sec  30.0 MBytes  8.39 Mbits/sec
+[  3] Sent 122881 datagrams
+[  3] Server Report:
+[  3]  0.0-961.1 sec  30.0 MBytes   262 Kbits/sec   0.000 ms    0/122881 (0%)
+**************************************
+
+Teste 3 -> Tamanho Datagrama: 256B Largura de banda: 8B
+Comando: iperf -u -b 8M -l -c 192.168.0.115 -t 30s >>logTeste1.txt
+------------------------------------------------------------
+Client connecting to 192.168.0.115, UDP port 5001
+Sending 256 byte datagrams, IPG target: 244.14 us (kalman adjust)
+UDP buffer size:  208 KByte (default)
+------------------------------------------------------------
+[  3] local 10.0.2.15 port 38496 connected with 192.168.0.115 port 5001
+[ ID] Interval       Transfer     Bandwidth
+[  3]  0.0-30.0 sec  30.0 MBytes  8.39 Mbits/sec
+[  3] Sent 122881 datagrams
+[  3] Server Report:
+[  3]  0.0-991.1 sec  30.0 MBytes   254 Kbits/sec   0.000 ms    0/122881 (0%)
+**************************************
+
+Teste 4 -> Tamanho Datagrama: 256B Largura de banda: 8B
+Comando: iperf -u -b 8M -l -c 192.168.0.115 -t 30s >>logTeste1.txt
+------------------------------------------------------------
+Client connecting to 192.168.0.115, UDP port 5001
+Sending 256 byte datagrams, IPG target: 244.14 us (kalman adjust)
+UDP buffer size:  208 KByte (default)
+------------------------------------------------------------
+[  3] local 10.0.2.15 port 46747 connected with 192.168.0.115 port 5001
+[ ID] Interval       Transfer     Bandwidth
+[  3]  0.0-30.0 sec  30.0 MBytes  8.39 Mbits/sec
+[  3] Sent 122881 datagrams
+[  3] Server Report:
+[  3]  0.0-1021.1 sec  30.0 MBytes   246 Kbits/sec   0.000 ms    0/122881 (0%)
+**************************************
+
+Teste 5 -> Tamanho Datagrama: 256B Largura de banda: 8B
+Comando: iperf -u -b 8M -l -c 192.168.0.115 -t 30s >>logTeste1.txt
+------------------------------------------------------------
+Client connecting to 192.168.0.115, UDP port 5001
+Sending 256 byte datagrams, IPG target: 244.14 us (kalman adjust)
+UDP buffer size:  208 KByte (default)
+------------------------------------------------------------
+[  3] local 10.0.2.15 port 54866 connected with 192.168.0.115 port 5001
+[ ID] Interval       Transfer     Bandwidth
+[  3]  0.0-30.0 sec  30.0 MBytes  8.39 Mbits/sec
+[  3] Sent 122881 datagrams
+[  3] Server Report:
+[  3]  0.0-1051.2 sec  30.0 MBytes   239 Kbits/sec   0.000 ms    0/122881 (0%)
+
+##############################################
+#### Tamanho Datagrama: 512B Largura de banda: 8B ####
+**************************************
+
+Teste 1 -> Tamanho Datagrama: 512B Largura de banda: 8B
+Comando: iperf -u -b 8M -l -c 192.168.0.115 -t 30s >>logTeste1.txt
+------------------------------------------------------------
+Client connecting to 192.168.0.115, UDP port 5001
+Sending 512 byte datagrams, IPG target: 488.28 us (kalman adjust)
+UDP buffer size:  208 KByte (default)
+------------------------------------------------------------
+[  3] local 10.0.2.15 port 59188 connected with 192.168.0.115 port 5001
+[ ID] Interval       Transfer     Bandwidth
+[  3]  0.0-30.0 sec  30.0 MBytes  8.39 Mbits/sec
+[  3] Sent 61441 datagrams
+[  3] Server Report:
+[  3]  0.0-1081.2 sec  30.0 MBytes   233 Kbits/sec   0.000 ms    0/61441 (0%)
+**************************************
+
+Teste 2 -> Tamanho Datagrama: 512B Largura de banda: 8B
+Comando: iperf -u -b 8M -l -c 192.168.0.115 -t 30s >>logTeste1.txt
+------------------------------------------------------------
+Client connecting to 192.168.0.115, UDP port 5001
+Sending 512 byte datagrams, IPG target: 488.28 us (kalman adjust)
+UDP buffer size:  208 KByte (default)
+------------------------------------------------------------
+[  3] local 10.0.2.15 port 41339 connected with 192.168.0.115 port 5001
+[ ID] Interval       Transfer     Bandwidth
+[  3]  0.0-30.0 sec  30.0 MBytes  8.39 Mbits/sec
+[  3] Sent 61441 datagrams
+[  3] Server Report:
+[  3]  0.0-1111.2 sec  30.0 MBytes   226 Kbits/sec   0.000 ms    0/61441 (0%)
+**************************************
+
+Teste 3 -> Tamanho Datagrama: 512B Largura de banda: 8B
+Comando: iperf -u -b 8M -l -c 192.168.0.115 -t 30s >>logTeste1.txt
+------------------------------------------------------------
+Client connecting to 192.168.0.115, UDP port 5001
+Sending 512 byte datagrams, IPG target: 488.28 us (kalman adjust)
+UDP buffer size:  208 KByte (default)
+------------------------------------------------------------
+[  3] local 10.0.2.15 port 40699 connected with 192.168.0.115 port 5001
+[ ID] Interval       Transfer     Bandwidth
+[  3]  0.0-30.0 sec  30.0 MBytes  8.39 Mbits/sec
+[  3] Sent 61441 datagrams
+[  3] Server Report:
+[  3]  0.0-1141.3 sec  30.0 MBytes   221 Kbits/sec   0.000 ms    0/61441 (0%)
+**************************************
+
+Teste 4 -> Tamanho Datagrama: 512B Largura de banda: 8B
+Comando: iperf -u -b 8M -l -c 192.168.0.115 -t 30s >>logTeste1.txt
+------------------------------------------------------------
+Client connecting to 192.168.0.115, UDP port 5001
+Sending 512 byte datagrams, IPG target: 488.28 us (kalman adjust)
+UDP buffer size:  208 KByte (default)
+------------------------------------------------------------
+[  3] local 10.0.2.15 port 49087 connected with 192.168.0.115 port 5001
+[ ID] Interval       Transfer     Bandwidth
+[  3]  0.0-30.0 sec  30.0 MBytes  8.39 Mbits/sec
+[  3] Sent 61441 datagrams
+[  3] Server Report:
+[  3]  0.0-1171.3 sec  30.0 MBytes   215 Kbits/sec   0.000 ms    0/61441 (0%)
+**************************************
+
+Teste 5 -> Tamanho Datagrama: 512B Largura de banda: 8B
+Comando: iperf -u -b 8M -l -c 192.168.0.115 -t 30s >>logTeste1.txt
+------------------------------------------------------------
+Client connecting to 192.168.0.115, UDP port 5001
+Sending 512 byte datagrams, IPG target: 488.28 us (kalman adjust)
+UDP buffer size:  208 KByte (default)
+------------------------------------------------------------
+[  3] local 10.0.2.15 port 51357 connected with 192.168.0.115 port 5001
+[ ID] Interval       Transfer     Bandwidth
+[  3]  0.0-30.0 sec  30.0 MBytes  8.39 Mbits/sec
+[  3] Sent 61441 datagrams
+[  3] Server Report:
+[  3]  0.0-1201.3 sec  30.0 MBytes   209 Kbits/sec   0.000 ms    0/61441 (0%)
+
+##############################################
+#### Tamanho Datagrama: 1024B Largura de banda: 8B ####
+**************************************
+
+Teste 1 -> Tamanho Datagrama: 1024B Largura de banda: 8B
+Comando: iperf -u -b 8M -l -c 192.168.0.115 -t 30s >>logTeste1.txt
+------------------------------------------------------------
+Client connecting to 192.168.0.115, UDP port 5001
+Sending 1024 byte datagrams, IPG target: 976.56 us (kalman adjust)
+UDP buffer size:  208 KByte (default)
+------------------------------------------------------------
+[  3] local 10.0.2.15 port 42882 connected with 192.168.0.115 port 5001
+[ ID] Interval       Transfer     Bandwidth
+[  3]  0.0-30.0 sec  30.0 MBytes  8.39 Mbits/sec
+[  3] Sent 30721 datagrams
+[  3] Server Report:
+[  3]  0.0-1231.4 sec  30.0 MBytes   204 Kbits/sec   0.000 ms    0/30721 (0%)
+**************************************
+
+Teste 2 -> Tamanho Datagrama: 1024B Largura de banda: 8B
+Comando: iperf -u -b 8M -l -c 192.168.0.115 -t 30s >>logTeste1.txt
+------------------------------------------------------------
+Client connecting to 192.168.0.115, UDP port 5001
+Sending 1024 byte datagrams, IPG target: 976.56 us (kalman adjust)
+UDP buffer size:  208 KByte (default)
+------------------------------------------------------------
+[  3] local 10.0.2.15 port 53582 connected with 192.168.0.115 port 5001
+[ ID] Interval       Transfer     Bandwidth
+[  3]  0.0-30.0 sec  30.0 MBytes  8.39 Mbits/sec
+[  3] Sent 30721 datagrams
+[  3] Server Report:
+[  3]  0.0-1261.4 sec  30.0 MBytes   200 Kbits/sec   0.000 ms    0/30721 (0%)
+**************************************
+
+Teste 3 -> Tamanho Datagrama: 1024B Largura de banda: 8B
+Comando: iperf -u -b 8M -l -c 192.168.0.115 -t 30s >>logTeste1.txt
+------------------------------------------------------------
+Client connecting to 192.168.0.115, UDP port 5001
+Sending 1024 byte datagrams, IPG target: 976.56 us (kalman adjust)
+UDP buffer size:  208 KByte (default)
+------------------------------------------------------------
+[  3] local 10.0.2.15 port 59567 connected with 192.168.0.115 port 5001
+[ ID] Interval       Transfer     Bandwidth
+[  3]  0.0-30.0 sec  30.0 MBytes  8.39 Mbits/sec
+[  3] Sent 30721 datagrams
+[  3] Server Report:
+[  3]  0.0-1291.4 sec  30.0 MBytes   195 Kbits/sec   0.000 ms    0/30721 (0%)
+**************************************
+
+Teste 4 -> Tamanho Datagrama: 1024B Largura de banda: 8B
+Comando: iperf -u -b 8M -l -c 192.168.0.115 -t 30s >>logTeste1.txt
+------------------------------------------------------------
+Client connecting to 192.168.0.115, UDP port 5001
+Sending 1024 byte datagrams, IPG target: 976.56 us (kalman adjust)
+UDP buffer size:  208 KByte (default)
+------------------------------------------------------------
+[  3] local 10.0.2.15 port 47964 connected with 192.168.0.115 port 5001
+[ ID] Interval       Transfer     Bandwidth
+[  3]  0.0-30.0 sec  30.0 MBytes  8.39 Mbits/sec
+[  3] Sent 30721 datagrams
+[  3] Server Report:
+[  3]  0.0-1321.5 sec  30.0 MBytes   190 Kbits/sec   0.000 ms    0/30721 (0%)
+**************************************
+
+Teste 5 -> Tamanho Datagrama: 1024B Largura de banda: 8B
+Comando: iperf -u -b 8M -l -c 192.168.0.115 -t 30s >>logTeste1.txt
+------------------------------------------------------------
+Client connecting to 192.168.0.115, UDP port 5001
+Sending 1024 byte datagrams, IPG target: 976.56 us (kalman adjust)
+UDP buffer size:  208 KByte (default)
+------------------------------------------------------------
+[  3] local 10.0.2.15 port 47262 connected with 192.168.0.115 port 5001
+[ ID] Interval       Transfer     Bandwidth
+[  3]  0.0-30.0 sec  30.0 MBytes  8.39 Mbits/sec
+[  3] Sent 30721 datagrams
+[  3] Server Report:
+[  3]  0.0-1351.5 sec  30.0 MBytes   186 Kbits/sec   0.000 ms    0/30721 (0%)
+
+##############################################
+#### Tamanho Datagrama: 1280B Largura de banda: 8B ####
+**************************************
+
+Teste 1 -> Tamanho Datagrama: 1280B Largura de banda: 8B
+Comando: iperf -u -b 8M -l -c 192.168.0.115 -t 30s >>logTeste1.txt
+------------------------------------------------------------
+Client connecting to 192.168.0.115, UDP port 5001
+Sending 1280 byte datagrams, IPG target: 1220.70 us (kalman adjust)
+UDP buffer size:  208 KByte (default)
+------------------------------------------------------------
+[  3] local 10.0.2.15 port 55202 connected with 192.168.0.115 port 5001
+[ ID] Interval       Transfer     Bandwidth
+[  3]  0.0-30.0 sec  30.0 MBytes  8.39 Mbits/sec
+[  3] Sent 24577 datagrams
+[  3] Server Report:
+[  3]  0.0-1381.6 sec  30.0 MBytes   182 Kbits/sec   0.000 ms    0/24577 (0%)
+**************************************
+
+Teste 2 -> Tamanho Datagrama: 1280B Largura de banda: 8B
+Comando: iperf -u -b 8M -l -c 192.168.0.115 -t 30s >>logTeste1.txt
+------------------------------------------------------------
+Client connecting to 192.168.0.115, UDP port 5001
+Sending 1280 byte datagrams, IPG target: 1220.70 us (kalman adjust)
+UDP buffer size:  208 KByte (default)
+------------------------------------------------------------
+[  3] local 10.0.2.15 port 55338 connected with 192.168.0.115 port 5001
+[ ID] Interval       Transfer     Bandwidth
+[  3]  0.0-30.0 sec  30.0 MBytes  8.39 Mbits/sec
+[  3] Sent 24577 datagrams
+[  3] Server Report:
+[  3]  0.0-1411.6 sec  30.0 MBytes   178 Kbits/sec   0.000 ms    0/24577 (0%)
+**************************************
+
+Teste 3 -> Tamanho Datagrama: 1280B Largura de banda: 8B
+Comando: iperf -u -b 8M -l -c 192.168.0.115 -t 30s >>logTeste1.txt
+------------------------------------------------------------
+Client connecting to 192.168.0.115, UDP port 5001
+Sending 1280 byte datagrams, IPG target: 1220.70 us (kalman adjust)
+UDP buffer size:  208 KByte (default)
+------------------------------------------------------------
+[  3] local 10.0.2.15 port 35801 connected with 192.168.0.115 port 5001
+[ ID] Interval       Transfer     Bandwidth
+[  3]  0.0-30.0 sec  30.0 MBytes  8.39 Mbits/sec
+[  3] Sent 24577 datagrams
+[  3] Server Report:
+[  3]  0.0-1441.6 sec  30.0 MBytes   175 Kbits/sec   0.000 ms    0/24577 (0%)
+**************************************
+
+Teste 4 -> Tamanho Datagrama: 1280B Largura de banda: 8B
+Comando: iperf -u -b 8M -l -c 192.168.0.115 -t 30s >>logTeste1.txt
+------------------------------------------------------------
+Client connecting to 192.168.0.115, UDP port 5001
+Sending 1280 byte datagrams, IPG target: 1220.70 us (kalman adjust)
+UDP buffer size:  208 KByte (default)
+------------------------------------------------------------
+[  3] local 10.0.2.15 port 34163 connected with 192.168.0.115 port 5001
+[ ID] Interval       Transfer     Bandwidth
+[  3]  0.0-30.0 sec  30.0 MBytes  8.39 Mbits/sec
+[  3] Sent 24577 datagrams
+[  3] Server Report:
+[  3]  0.0-1471.7 sec  30.0 MBytes   171 Kbits/sec   0.000 ms    0/24577 (0%)
+**************************************
+
+Teste 5 -> Tamanho Datagrama: 1280B Largura de banda: 8B
+Comando: iperf -u -b 8M -l -c 192.168.0.115 -t 30s >>logTeste1.txt
+------------------------------------------------------------
+Client connecting to 192.168.0.115, UDP port 5001
+Sending 1280 byte datagrams, IPG target: 1220.70 us (kalman adjust)
+UDP buffer size:  208 KByte (default)
+------------------------------------------------------------
+[  3] local 10.0.2.15 port 34296 connected with 192.168.0.115 port 5001
+[ ID] Interval       Transfer     Bandwidth
+[  3]  0.0-30.0 sec  30.0 MBytes  8.39 Mbits/sec
+[  3] Sent 24577 datagrams
+[  3] Server Report:
+[  3]  0.0-1501.7 sec  30.0 MBytes   168 Kbits/sec   0.000 ms    0/24577 (0%)
